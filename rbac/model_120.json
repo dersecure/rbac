@@ -1,0 +1,192 @@
+{
+    "group": {
+        "desc": "Inverter Controls Nameplate Ratings ",
+        "label": "Nameplate",
+        "name": "nameplate",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Type of DER device. Default value is 4 to indicate PV device.",
+                "name": "DERTyp",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous power output capability of the inverter.",
+                "name": "WRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "WRtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous Volt-Ampere capability of the inverter.",
+                "name": "VARtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "VARtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous VAR capability of the inverter in quadrant 1.",
+                "name": "VArRtgQ1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous VAR capability of the inverter in quadrant 2.",
+                "name": "VArRtgQ2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous VAR capability of the inverter in quadrant 3.",
+                "name": "VArRtgQ3",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Continuous VAR capability of the inverter in quadrant 4.",
+                "name": "VArRtgQ4",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "VArRtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum RMS AC current level capability of the inverter.",
+                "name": "ARtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "ARtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Minimum power factor capability of the inverter in quadrant 1.",
+                "name": "PFRtgQ1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Minimum power factor capability of the inverter in quadrant 2.",
+                "name": "PFRtgQ2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Minimum power factor capability of the inverter in quadrant 3.",
+                "name": "PFRtgQ3",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Minimum power factor capability of the inverter in quadrant 4.",
+                "name": "PFRtgQ4",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "PFRtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Nominal energy rating of storage device.",
+                "name": "WHRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "WHRtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "The usable capacity of the battery.  Maximum charge minus minimum charge from a technology capability perspective (Amp-hour capacity rating).",
+                "name": "AhrRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for amp-hour rating.",
+                "name": "AhrRtg_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum rate of energy transfer into the storage device.",
+                "name": "MaxChaRte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "MaxChaRte_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum rate of energy transfer out of the storage device.",
+                "name": "MaxDisChaRte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor",
+                "name": "MaxDisChaRte_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Pad register.",
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Ref 3: 8.14.3.2, Ref 4: 17"
+    },
+    "id": 120
+}

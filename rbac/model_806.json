@@ -1,0 +1,53 @@
+{
+    "group": {
+        "groups": [
+            {
+                "count": 0,
+                "name": "battery_string",
+                "points": [
+                    {
+                        "name": "BatStTBD",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Flow Battery Model",
+        "name": "flow_battery",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "name": "BatTBD",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 806
+}

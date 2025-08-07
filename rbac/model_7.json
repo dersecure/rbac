@@ -1,0 +1,104 @@
+{
+    "group": {
+        "desc": "Include a digital signature over the response",
+        "groups": [
+            {
+                "count": 0,
+                "name": "repeating",
+                "points": [
+                    {
+                        "desc": "Digital Signature",
+                        "name": "DS",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Secure Write Response Model (DRAFT 1)",
+        "name": "model_7",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Sequence number from the request",
+                "name": "RqSeq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Status of last write operation",
+                "name": "Sts",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Timestamp value is the number of seconds since January 1, 2000",
+                "name": "Ts",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Millisecond counter 0-999",
+                "name": "Ms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Sequence number of response",
+                "name": "Seq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask alarm code",
+                "name": "Alm",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Rsrvd",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Algorithm used to compute the digital signature",
+                "name": "Alg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of registers comprising the digital signature.",
+                "name": "N",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Used in conjunction with a Secure Write Request"
+    },
+    "id": 7
+}

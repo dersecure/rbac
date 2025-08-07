@@ -1,0 +1,77 @@
+{
+    "group": {
+        "desc": "Include to support a wired ethernet port",
+        "label": "Ethernet Link Layer",
+        "name": "model_11",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface speed in Mb/s",
+                "name": "Spd",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask values Interface flags.",
+                "name": "CfgSt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value. State information for this interface",
+                "name": "St",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IEEE MAC address of this interface",
+                "name": "MAC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name (8 chars)",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Control flags",
+                "name": "Ctl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Forced interface speed in Mb/s when AUTO is disabled",
+                "name": "FrcSpd",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 11
+}

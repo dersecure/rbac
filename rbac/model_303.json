@@ -1,0 +1,50 @@
+{
+    "group": {
+        "desc": "Include to support variable number of  back of module temperature measurements",
+        "groups": [
+            {
+                "count": 0,
+                "name": "temp",
+                "points": [
+                    {
+                        "desc": "Back of module temperature measurement",
+                        "name": "TmpBOM",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Back of Module Temperature Model",
+        "name": "bom_temp",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 303
+}

@@ -1,0 +1,362 @@
+{
+    "group": {
+        "desc": "HVRT extended curve",
+        "groups": [
+            {
+                "count": 0,
+                "name": "curve",
+                "points": [
+                    {
+                        "desc": "Number of active points in array.",
+                        "name": "ActPt",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 1 duration.",
+                        "name": "Tms1",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 1 voltage.",
+                        "name": "V1",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 2 duration.",
+                        "name": "Tms2",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 2 voltage.",
+                        "name": "V2",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 3 duration.",
+                        "name": "Tms3",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 3 voltage.",
+                        "name": "V3",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 4 duration.",
+                        "name": "Tms4",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 4 voltage.",
+                        "name": "V4",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 5 duration.",
+                        "name": "Tms5",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 5 voltage.",
+                        "name": "V5",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 6 duration.",
+                        "name": "Tms6",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 6 voltage.",
+                        "name": "V6",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 7 duration.",
+                        "name": "Tms7",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 7 voltage.",
+                        "name": "V7",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 8 duration.",
+                        "name": "Tms8",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 8 voltage.",
+                        "name": "V8",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 9 duration.",
+                        "name": "Tms9",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 9 voltage.",
+                        "name": "V9",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 10 duration.",
+                        "name": "Tms10",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 10 voltage.",
+                        "name": "V10",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 11 duration.",
+                        "name": "Tms11",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 11 voltage.",
+                        "name": "V11",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 12 duration.",
+                        "name": "Tms12",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 12 voltage.",
+                        "name": "V12",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 13 duration.",
+                        "name": "Tms13",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 13 voltage.",
+                        "name": "V13",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 14 duration.",
+                        "name": "Tms14",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 14 voltage.",
+                        "name": "V14",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 15 duration.",
+                        "name": "Tms15",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 15 voltage.",
+                        "name": "V15",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 16 duration.",
+                        "name": "Tms16",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 16 voltage.",
+                        "name": "V16",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 17 duration.",
+                        "name": "Tms17",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 17 voltage.",
+                        "name": "V17",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 18 duration.",
+                        "name": "Tms18",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 18 voltage.",
+                        "name": "V18",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 19 duration.",
+                        "name": "Tms19",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 19 voltage.",
+                        "name": "V19",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 20 duration.",
+                        "name": "Tms20",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 20 voltage.",
+                        "name": "V20",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Optional description for curve.",
+                        "name": "CrvNam",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Enumerated value indicates if curve is read-only or can be modified.",
+                        "name": "ReadOnly",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "HVRTX",
+        "name": "hvrtx",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Index of active curve. 0=no active curve.",
+                "name": "ActCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "LVRT control mode. Enable active curve.  Bitfield value.",
+                "name": "ModEna",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Time window for LVRT change.",
+                "name": "WinTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Timeout period for LVRT curve selection.",
+                "name": "RvrtTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Ramp time for moving from current mode to new mode.",
+                "name": "RmpTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curves supported (recommend 4).",
+                "name": "NCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curve points supported (maximum of 20).",
+                "name": "NPt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for duration.",
+                "name": "Tms_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for percent VRef.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "CrvType",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Ref 4: 11"
+    },
+    "id": 140
+}

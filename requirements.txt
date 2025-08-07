@@ -1,0 +1,3 @@
+# Core dependencies for RBAC SunSpec processing
+natsort
+pytest

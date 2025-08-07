@@ -1,0 +1,65 @@
+{
+    "group": {
+        "desc": "DER Control",
+        "label": "DERCtl",
+        "name": "DERCtl",
+        "points": [
+            {
+                "desc": "DER control model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER control model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER control mode. Enumeration.",
+                "name": "LocRemCtl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Value is incremented every second by the DER with periodic resets to zero.",
+                "name": "DERHb",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Value is incremented every second by the controller with periodic resets to zero.",
+                "name": "ControllerHb",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Used to reset any latched alarms. 1 = Reset.",
+                "name": "AlarmReset",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Commands to PCS. Enumerated value.",
+                "name": "OpCtl",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 715
+}

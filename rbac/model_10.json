@@ -1,0 +1,58 @@
+{
+    "group": {
+        "desc": "To be included first for a complete interface description",
+        "label": "Communication Interface Header",
+        "name": "model_10",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Overall interface status",
+                "name": "St",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Overall interface control (TBD)",
+                "name": "Ctl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Type of physical media",
+                "name": "Typ",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 10
+}

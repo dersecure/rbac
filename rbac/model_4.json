@@ -1,0 +1,355 @@
+{
+    "group": {
+        "desc": "Compute a digital signature over a specified set of data registers",
+        "groups": [
+            {
+                "count": 0,
+                "name": "repeating",
+                "points": [
+                    {
+                        "desc": "Digital Signature",
+                        "name": "DS",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Secure Dataset Read Response",
+        "name": "model_4",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Sequence number from the request",
+                "name": "RqSeq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Status of last read operation",
+                "name": "Sts",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of values from the request",
+                "name": "X",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Copy of value from register Off1.",
+                "name": "Val1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val3",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val4",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val5",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val6",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val7",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val8",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val9",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val10",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val11",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val12",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val13",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val14",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val15",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val16",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val17",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val18",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val19",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val20",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val21",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val22",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val23",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val24",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val25",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val26",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val27",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val28",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val29",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val30",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val31",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val32",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val33",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val34",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val35",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val36",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val37",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val38",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val39",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val40",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val41",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val42",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val43",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val44",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val45",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val46",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val47",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val48",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val49",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Val50",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Timestamp value is the number of seconds since January 1, 2000",
+                "name": "Ts",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Millisecond counter 0-999",
+                "name": "Ms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Sequence number of response",
+                "name": "Seq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask alarm code",
+                "name": "Alm",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Algorithm used to compute the digital signature",
+                "name": "Alg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of registers comprising the digital signature.",
+                "name": "N",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 4
+}

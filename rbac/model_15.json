@@ -1,0 +1,112 @@
+{
+    "group": {
+        "desc": "Interface counters",
+        "label": "Interface Counters Model",
+        "name": "model_15",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Write a \"1\" to clear all counters",
+                "name": "Clr",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of bytes received",
+                "name": "InCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of Unicast packets received",
+                "name": "InUcCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of non-Unicast packets received",
+                "name": "InNUcCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of inbound packets received on the interface but discarded",
+                "name": "InDscCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of inbound packets that contain errors (excluding discards)",
+                "name": "InErrCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of inbound packets with unknown protocol",
+                "name": "InUnkCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total number of bytes transmitted on this interface",
+                "name": "OutCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of Unicast packets transmitted",
+                "name": "OutUcCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of Non-Unicast packets transmitted",
+                "name": "OutNUcCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of Discarded output packets",
+                "name": "OutDscCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of outbound error packets",
+                "name": "OutErrCnt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 15
+}

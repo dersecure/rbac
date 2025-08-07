@@ -1,0 +1,329 @@
+{
+    "group": {
+        "desc": "DER capacity model.",
+        "label": "DER Capacity",
+        "name": "DERCapacity",
+        "points": [
+            {
+                "desc": "DER capacity model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER capacity model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power rating at unity power factor in watts.",
+                "name": "WMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Active power rating at specified over-excited power factor in watts.",
+                "name": "WOvrExtRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Specified over-excited power factor.",
+                "name": "WOvrExtRtgPF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Active power rating at specified under-excited power factor in watts.",
+                "name": "WUndExtRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Specified under-excited power factor.",
+                "name": "WUndExtRtgPF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power rating in voltamperes.",
+                "name": "VAMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum injected reactive power rating in vars.",
+                "name": "VarMaxInjRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum absorbed reactive power rating in vars.",
+                "name": "VarMaxAbsRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power charge rate in watts.",
+                "name": "WChaRteMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power discharge rate in watts.",
+                "name": "WDisChaRteMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power charge rate in voltamperes.",
+                "name": "VAChaRteMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power discharge rate in voltamperes.",
+                "name": "VADisChaRteMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC voltage nominal rating.",
+                "name": "VNomRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC voltage maximum rating.",
+                "name": "VMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC voltage minimum rating.",
+                "name": "VMinRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC current maximum rating in amps.",
+                "name": "AMaxRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Unused. Please use WOvrExtRtgPF.",
+                "name": "PFOvrExtRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Unused. Please use WUndExtRtgPF.",
+                "name": "PFUndExtRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reactive susceptance that remains connected to the Area EPS in the cease to energize and trip state.",
+                "name": "ReactSusceptRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Normal operating performance category as specified in IEEE 1547-2018.",
+                "name": "NorOpCatRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Abnormal operating performance category as specified in IEEE 1547-2018.",
+                "name": "AbnOpCatRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Supported control mode functions.",
+                "name": "CtrlModes",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Intentional island categories.",
+                "name": "IntIslandCatRtg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power setting used to adjust maximum active power setting.",
+                "name": "WMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Active power setting at specified over-excited power factor in watts.",
+                "name": "WMaxOvrExt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Specified over-excited power factor.",
+                "name": "WOvrExtPF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Active power setting at specified under-excited power factor in watts.",
+                "name": "WMaxUndExt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Specified under-excited power factor.",
+                "name": "WUndExtPF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power setting used to adjust maximum apparent power rating.",
+                "name": "VAMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum injected reactive power setting used to adjust maximum injected reactive power rating.",
+                "name": "VarMaxInj",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum absorbed reactive power setting used to adjust maximum absorbed reactive power rating.",
+                "name": "VarMaxAbs",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power charge rate setting used to adjust maximum active power charge rate rating.",
+                "name": "WChaRteMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum active power discharge rate setting used to adjust maximum active power discharge rate rating.",
+                "name": "WDisChaRteMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power charge rate setting used to adjust maximum apparent power charge rate rating.",
+                "name": "VAChaRteMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum apparent power discharge rate setting used to adjust maximum apparent power discharge rate rating.",
+                "name": "VADisChaRteMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Nominal AC voltage setting.",
+                "name": "VNom",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC voltage maximum setting used to adjust AC voltage maximum rating.",
+                "name": "VMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC voltage minimum setting used to adjust AC voltage minimum rating.",
+                "name": "VMin",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Maximum AC current setting used to adjust maximum AC current rating.",
+                "name": "AMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Unused. Please use WOvrExtPF.",
+                "name": "PFOvrExt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Unused. Please use WUndExtPF.",
+                "name": "PFUndExt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Intentional island categories.",
+                "name": "IntIslandCat",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Active power scale factor.",
+                "name": "W_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Power factor scale factor.",
+                "name": "PF_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Apparent power scale factor.",
+                "name": "VA_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reactive power scale factor.",
+                "name": "Var_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Voltage scale factor.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Current scale factor.",
+                "name": "A_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Susceptance scale factor.",
+                "name": "S_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 702
+}

@@ -1,0 +1,100 @@
+{
+    "group": {
+        "desc": "Include this model for a simple IPv4 network stack",
+        "label": "Simple IP Network",
+        "name": "model_16",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name.  (8 chars)",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Force IPv4 configuration method",
+                "name": "Cfg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value Configure use of services",
+                "name": "Ctl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IP address",
+                "name": "Addr",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Netmask",
+                "name": "Msk",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Gateway IP address",
+                "name": "Gw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "32 bit IP address of DNS server",
+                "name": "DNS1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "32 bit IP address of DNS server",
+                "name": "DNS2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IEEE MAC address of this interface",
+                "name": "MAC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  Link control flags",
+                "name": "LnkCtl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 16
+}

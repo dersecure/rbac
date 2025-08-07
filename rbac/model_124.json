@@ -1,0 +1,179 @@
+{
+    "group": {
+        "desc": "Basic Storage Controls ",
+        "label": "Storage",
+        "name": "storage_basic",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Setpoint for maximum charge.",
+                "name": "WChaMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Setpoint for maximum charging rate. Default is MaxChaRte.",
+                "name": "WChaGra",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Setpoint for maximum discharge rate. Default is MaxDisChaRte.",
+                "name": "WDisChaGra",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Activate hold/discharge/charge storage control mode. Bitfield value.",
+                "name": "StorCtl_Mod",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Setpoint for maximum charging VA.",
+                "name": "VAChaMax",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Setpoint for minimum reserve for storage as a percentage of the nominal maximum storage.",
+                "name": "MinRsvPct",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Currently available energy as a percent of the capacity rating.",
+                "name": "ChaState",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "State of charge (ChaState) minus storage reserve (MinRsvPct) times capacity rating (AhrRtg).",
+                "name": "StorAval",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Internal battery voltage.",
+                "name": "InBatV",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Charge status of storage device. Enumerated value.",
+                "name": "ChaSt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Percent of max discharge rate.",
+                "name": "OutWRte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Percent of max charging rate.",
+                "name": "InWRte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Time window for charge/discharge rate change.",
+                "name": "InOutWRte_WinTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Timeout period for charge/discharge rate.",
+                "name": "InOutWRte_RvrtTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Ramp time for moving from current setpoint to new setpoint.",
+                "name": "InOutWRte_RmpTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "ChaGriSet",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for maximum charge.",
+                "name": "WChaMax_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for maximum charge and discharge rate.",
+                "name": "WChaDisChaGra_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for maximum charging VA.",
+                "name": "VAChaMax_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for minimum reserve percentage.",
+                "name": "MinRsvPct_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for available energy percent.",
+                "name": "ChaState_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for state of charge.",
+                "name": "StorAval_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for battery voltage.",
+                "name": "InBatV_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for percent charge/discharge rate.",
+                "name": "InOutWRte_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Ref 3: 8.7.4.2"
+    },
+    "id": 124
+}

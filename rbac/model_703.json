@@ -1,0 +1,101 @@
+{
+    "group": {
+        "desc": "Enter service model.",
+        "label": "Enter Service",
+        "name": "DEREnterService",
+        "points": [
+            {
+                "desc": "Enter service model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Permit enter service.",
+                "name": "ES",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service voltage high threshold as percent of normal voltage.",
+                "name": "ESVHi",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service voltage low threshold as percent of normal voltage.",
+                "name": "ESVLo",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service frequency high threshold.",
+                "name": "ESHzHi",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service frequency low threshold.",
+                "name": "ESHzLo",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service delay time in seconds.",
+                "name": "ESDlyTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service random delay in seconds.",
+                "name": "ESRndTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service ramp time in seconds.",
+                "name": "ESRmpTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enter service delay time remaining in seconds.",
+                "name": "ESDlyRemTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Voltage percentage scale factor.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Frequency scale factor.",
+                "name": "Hz_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 703
+}

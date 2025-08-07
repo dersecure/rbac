@@ -1,0 +1,83 @@
+{
+    "group": {
+        "desc": "Include this block to allow for a proxy server",
+        "label": "Proxy Server",
+        "name": "model_14",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name (8 chars)",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  Proxy configuration capabilities",
+                "name": "Cap",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Set proxy address type",
+                "name": "Cfg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerate value.  Proxy server type",
+                "name": "Typ",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv4 or IPv6 proxy hostname or dotted address (40 chars)",
+                "name": "Addr",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Proxy port number",
+                "name": "Port",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Proxy user name",
+                "name": "User",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Proxy password",
+                "name": "Pw",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 14
+}

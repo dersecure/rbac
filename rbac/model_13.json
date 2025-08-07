@@ -1,0 +1,130 @@
+{
+    "group": {
+        "desc": "Include to support an IPv6 protocol stack on this interface",
+        "label": "IPv6",
+        "name": "model_13",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Configuration status",
+                "name": "CfgSt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  A configuration change is pending",
+                "name": "ChgSt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value. Identify capable sources of configuration",
+                "name": "Cap",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Configuration method used.",
+                "name": "Cfg",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  Configure use of services",
+                "name": "Ctl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric address as a dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "Addr",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Classless Inter-Domain Routing Number",
+                "name": "CIDR",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric address as a dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "Gw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric DNS address as a dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "DNS1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric DNS address as a dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "DNS2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric NTP address as a name or dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "NTP1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "IPv6 numeric NTP address as a name or dotted string xxxx.xxxx.xxxx.xxxx",
+                "name": "NTP2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Domain name (24 chars max)",
+                "name": "DomNam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Host name (24 chars max)",
+                "name": "HostNam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 13
+}

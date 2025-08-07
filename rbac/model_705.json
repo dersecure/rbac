@@ -1,0 +1,195 @@
+{
+    "group": {
+        "desc": "DER Volt-Var model.",
+        "groups": [
+            {
+                "comments": [
+                    "Stored Curve Sets - Number of curve sets contained in NCrv - The first set is read-only and indicates the current settings."
+                ],
+                "count": "NCrv",
+                "desc": "Stored curve sets.",
+                "groups": [
+                    {
+                        "comments": [
+                            "Stored Curve Sets - Curve points for each stored curve - Number of curve points contained in NPt"
+                        ],
+                        "count": "NPt",
+                        "desc": "Stored curve points.",
+                        "label": "Stored Curve Points",
+                        "name": "Pt",
+                        "points": [
+                            {
+                                "desc": "Curve voltage point as percentage.",
+                                "name": "V",
+                                "read_roles": [],
+                                "write_roles": []
+                            },
+                            {
+                                "desc": "Curve reactive power point as set in DeptRef point.",
+                                "name": "Var",
+                                "read_roles": [],
+                                "write_roles": []
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                "label": "Stored Curves",
+                "name": "Crv",
+                "points": [
+                    {
+                        "desc": "Number of active points.",
+                        "name": "ActPt",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Curve dependent reference.",
+                        "name": "DeptRef",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Power priority.",
+                        "name": "Pri",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Vref adjustment as percentage of nominal voltage.",
+                        "name": "VRef",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Autonomous vref value as a percentage of nominal voltage.",
+                        "name": "VRefAuto",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Enable autonomous vref.",
+                        "name": "VRefAutoEna",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Autonomous vref time constant.",
+                        "name": "VRefAutoTms",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Open loop response time.",
+                        "name": "RspTms",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Curve read-write access.",
+                        "name": "ReadOnly",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "DER Volt-Var",
+        "name": "DERVoltVar",
+        "points": [
+            {
+                "desc": "DER Volt-Var model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER Volt-Var model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Volt-Var control enable.",
+                "name": "Ena",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Index of curve points to adopt. First curve index is 1.",
+                "name": "AdptCrvReq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Result of last adopt curve operation.",
+                "name": "AdptCrvRslt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curve points supported.",
+                "name": "NPt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of stored curves supported.",
+                "name": "NCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reversion time in seconds.  0 = No reversion time.",
+                "name": "RvrtTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reversion time remaining in seconds.",
+                "name": "RvrtRem",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Default curve after reversion timeout.",
+                "name": "RvrtCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for curve voltage points.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for curve var points.",
+                "name": "DeptRef_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Open loop response time scale factor.",
+                "name": "RspTms_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 705
+}

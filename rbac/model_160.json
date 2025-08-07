@@ -1,0 +1,134 @@
+{
+    "group": {
+        "groups": [
+            {
+                "count": 0,
+                "name": "module",
+                "points": [
+                    {
+                        "name": "ID",
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "IDStr",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCA",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCV",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCW",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCWH",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "Tms",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "Tmp",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCSt",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "name": "DCEvt",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Multiple MPPT Inverter Extension Model",
+        "name": "mppt",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "name": "DCA_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "DCV_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "DCW_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "DCWH_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Evt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "N",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TmsPer",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 160
+}

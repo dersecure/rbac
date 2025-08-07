@@ -1,0 +1,77 @@
+{
+    "group": {
+        "desc": "All SunSpec compliant devices must include this as the first model",
+        "label": "Common",
+        "name": "common",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Well known value registered with SunSpec for compliance",
+                "name": "Mn",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Manufacturer specific value (32 chars)",
+                "name": "Md",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Manufacturer specific value (16 chars)",
+                "name": "Opt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Manufacturer specific value (16 chars)",
+                "name": "Vr",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Manufacturer specific value (32 chars)",
+                "name": "SN",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Modbus device address",
+                "name": "DA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Force even alignment",
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 1
+}

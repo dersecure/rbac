@@ -1,0 +1,83 @@
+{
+    "group": {
+        "desc": "Include this model for serial interface configuration support",
+        "label": "Serial Interface",
+        "name": "model_17",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name (8 chars)",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface baud rate in bits per second",
+                "name": "Rte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of data bits per character",
+                "name": "Bits",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  Parity setting",
+                "name": "Pty",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Duplex mode",
+                "name": "Dup",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Flow Control Method",
+                "name": "Flw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Interface type",
+                "name": "Typ",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value. Serial protocol selection",
+                "name": "Pcol",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 17
+}

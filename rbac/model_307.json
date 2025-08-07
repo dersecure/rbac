@@ -1,0 +1,92 @@
+{
+    "group": {
+        "desc": "Base Meteorological Model",
+        "label": "Base Met",
+        "name": "base_met",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "name": "TmpAmb",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "RH",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pres",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "WndSpd",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "WndDir",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Rain",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Snw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "\u00a0Precipitation Type (WMO 4680 SYNOP code reference)",
+                "name": "PPT",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "ElecFld",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "SurWet",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "SoilWet",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "This model supersedes model 301"
+    },
+    "id": 307
+}

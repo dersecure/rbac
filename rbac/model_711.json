@@ -1,0 +1,151 @@
+{
+    "group": {
+        "desc": "DER Frequency Droop model.",
+        "groups": [
+            {
+                "comments": [
+                    "Stored control sets - Number of control sets contained in NCtl - The first set is read-only and indicates the current settings."
+                ],
+                "count": "NCtl",
+                "desc": "Stored control sets.",
+                "label": "Stored Controls",
+                "name": "Ctl",
+                "points": [
+                    {
+                        "desc": "The deadband value for over-frequency conditions in Hz.",
+                        "name": "DbOf",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The deadband value for under-frequency conditions in Hz.",
+                        "name": "DbUf",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Frequency droop per-unit frequency change for over-frequency conditions corresponding to 1 per-unit power output change.",
+                        "name": "KOf",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Frequency droop per-unit frequency change for under-frequency conditions corresponding to 1 per-unit power output change.",
+                        "name": "KUf",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The open-loop response time in seconds.",
+                        "name": "RspTms",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The minimum active power output due to DER prime mover constraints, in percent of the DER active power rating. The valid range is -100 to 100. This setting applies only to the frequency droop control.",
+                        "name": "PMin",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Control read-write access.",
+                        "name": "ReadOnly",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "DER Frequency Droop",
+        "name": "DERFreqDroop",
+        "points": [
+            {
+                "desc": "DER Frequency Droop model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER Frequency Droop model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER Frequency-Watt (Frequency-Droop) control enable.",
+                "name": "Ena",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Set active control. 0 = No active control.",
+                "name": "AdptCtlReq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Result of last set active control operation.",
+                "name": "AdptCtlRslt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of stored controls supported.",
+                "name": "NCtl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reversion time in seconds.  0 = No reversion time.",
+                "name": "RvrtTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reversion time remaining in seconds.",
+                "name": "RvrtRem",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Default control after reversion timeout.",
+                "name": "RvrtCtl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Deadband scale factor.",
+                "name": "Db_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Frequency change scale factor.",
+                "name": "K_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Open loop response time scale factor.",
+                "name": "RspTms_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 711
+}

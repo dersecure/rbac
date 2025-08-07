@@ -1,0 +1,386 @@
+{
+    "group": {
+        "desc": "Static Volt-VAR Arrays ",
+        "groups": [
+            {
+                "count": 0,
+                "name": "curve",
+                "points": [
+                    {
+                        "desc": "Number of active points in array.",
+                        "name": "ActPt",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Meaning of dependent variable: 1=%WMax 2=%VArMax 3=%VArAval.",
+                        "name": "DeptRef",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 1 Volts.",
+                        "name": "V1",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 1 VARs.",
+                        "name": "VAr1",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 2 Volts.",
+                        "name": "V2",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 2 VARs.",
+                        "name": "VAr2",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 3 Volts.",
+                        "name": "V3",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 3 VARs.",
+                        "name": "VAr3",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 4 Volts.",
+                        "name": "V4",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 4 VARs.",
+                        "name": "VAr4",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 5 Volts.",
+                        "name": "V5",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 5 VARs.",
+                        "name": "VAr5",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 6 Volts.",
+                        "name": "V6",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 6 VARs.",
+                        "name": "VAr6",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 7 Volts.",
+                        "name": "V7",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 7 VARs.",
+                        "name": "VAr7",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 8 Volts.",
+                        "name": "V8",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 8 VARs.",
+                        "name": "VAr8",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 9 Volts.",
+                        "name": "V9",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 9 VARs.",
+                        "name": "VAr9",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 10 Volts.",
+                        "name": "V10",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 10 VARs.",
+                        "name": "VAr10",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 11 Volts.",
+                        "name": "V11",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 11 VARs.",
+                        "name": "VAr11",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 12 Volts.",
+                        "name": "V12",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 12 VARs.",
+                        "name": "VAr12",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 13 Volts.",
+                        "name": "V13",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 13 VARs.",
+                        "name": "VAr13",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 14 Volts.",
+                        "name": "V14",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 14 VARs.",
+                        "name": "VAr14",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 15 Volts.",
+                        "name": "V15",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 15 VARs.",
+                        "name": "VAr15",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 16 Volts.",
+                        "name": "V16",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 16 VARs.",
+                        "name": "VAr16",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 17 Volts.",
+                        "name": "V17",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 17 VARs.",
+                        "name": "VAr17",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 18 Volts.",
+                        "name": "V18",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 18 VARs.",
+                        "name": "VAr18",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 19 Volts.",
+                        "name": "V19",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 19 VARs.",
+                        "name": "VAr19",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 20 Volts.",
+                        "name": "V20",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Point 20 VARs.",
+                        "name": "VAr20",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Optional description for curve. (Max 16 chars)",
+                        "name": "CrvNam",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The time of the PT1 in seconds (time to accomplish a change of 95%).",
+                        "name": "RmpTms",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The maximum rate at which the VAR value may be reduced in response to changes in the voltage value. %refVal is %WMax %VArMax or %VArAval depending on value of DeptRef.",
+                        "name": "RmpDecTmm",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "The maximum rate at which the VAR value may be increased in response to changes in the voltage value. %refVal is %WMax %VArMax or %VArAval depending on value of DeptRef.",
+                        "name": "RmpIncTmm",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Boolean flag indicates if curve is read-only or can be modified.",
+                        "name": "ReadOnly",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Static Volt-VAR",
+        "name": "volt_var",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Index of active curve. 0=no active curve.",
+                "name": "ActCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Is Volt-VAR control active.",
+                "name": "ModEna",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Time window for volt-VAR change.",
+                "name": "WinTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Timeout period for volt-VAR curve selection.",
+                "name": "RvrtTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "The time of the PT1 in seconds (time to accomplish a change of 95%).",
+                "name": "RmpTms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curves supported (recommend 4).",
+                "name": "NCrv",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curve points supported (maximum of 20).",
+                "name": "NPt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for percent VRef.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "scale factor for dependent variable.",
+                "name": "DeptRef_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "RmpIncDec_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Ref 3: 8.8.1.2"
+    },
+    "id": 126
+}

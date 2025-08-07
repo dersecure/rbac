@@ -1,0 +1,213 @@
+{
+    "group": {
+        "desc": "DER high voltage trip model.",
+        "groups": [
+            {
+                "comments": [
+                    "Stored curve sets - Number of curve sets contained in NCrvSet - The first set is read-only and indicates the current settings."
+                ],
+                "count": "NCrvSet",
+                "desc": "Stored curve sets.",
+                "groups": [
+                    {
+                        "comments": [
+                            "Stored curve set containing a Must Trip, May Trip, and Momentary Cessation Curve - Number of curve points contained in NPt"
+                        ],
+                        "desc": "Stored must trip curve.",
+                        "groups": [
+                            {
+                                "count": "NPt",
+                                "desc": "Must trip curve points.",
+                                "label": "Must Trip Curve Points",
+                                "name": "Pt",
+                                "points": [
+                                    {
+                                        "desc": "Curve voltage point as percentage.",
+                                        "name": "V",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    },
+                                    {
+                                        "desc": "Curve time point in seconds.",
+                                        "name": "Tms",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "label": "Must Trip Curve",
+                        "name": "MustTrip",
+                        "points": [
+                            {
+                                "desc": "Number of active points in must trip curve.",
+                                "name": "ActPt",
+                                "read_roles": [],
+                                "write_roles": []
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "desc": "Stored may trip curve.",
+                        "groups": [
+                            {
+                                "count": "NPt",
+                                "desc": "May trip curve points.",
+                                "label": "May Trip Curve Points",
+                                "name": "Pt",
+                                "points": [
+                                    {
+                                        "desc": "Curve voltage point as percentage.",
+                                        "name": "V",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    },
+                                    {
+                                        "desc": "Curve time point in seconds.",
+                                        "name": "Tms",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "label": "May Trip Curve",
+                        "name": "MayTrip",
+                        "points": [
+                            {
+                                "desc": "Number of active points in may trip curve.",
+                                "name": "ActPt",
+                                "read_roles": [],
+                                "write_roles": []
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "desc": "Stored momentary cessation curve.",
+                        "groups": [
+                            {
+                                "count": "NPt",
+                                "desc": "Momentary cessation curve points.",
+                                "label": "Mom Cessation Curve Points",
+                                "name": "Pt",
+                                "points": [
+                                    {
+                                        "desc": "Curve voltage point as percentage.",
+                                        "name": "V",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    },
+                                    {
+                                        "desc": "Curve time point in seconds.",
+                                        "name": "Tms",
+                                        "read_roles": [],
+                                        "write_roles": []
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "label": "Momentary Cessation Curve",
+                        "name": "MomCess",
+                        "points": [
+                            {
+                                "desc": "Number of active points in the momentary cessation curve.",
+                                "name": "ActPt",
+                                "read_roles": [],
+                                "write_roles": []
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                "label": "Stored Curves",
+                "name": "Crv",
+                "points": [
+                    {
+                        "desc": "Curve read-write access.",
+                        "name": "ReadOnly",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "DER Trip HV",
+        "name": "DERTripHV",
+        "points": [
+            {
+                "desc": "DER high voltage trip model ID.",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER high voltage trip model length.",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "DER high voltage trip control enable.",
+                "name": "Ena",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Index of curve points to adopt. First curve index is 1.",
+                "name": "AdptCrvReq",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Result of last adopt curve operation.",
+                "name": "AdptCrvRslt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of curve points supported.",
+                "name": "NPt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of stored curves supported.",
+                "name": "NCrvSet",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for curve voltage points.",
+                "name": "V_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for curve time points.",
+                "name": "Tms_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 708
+}

@@ -1,0 +1,65 @@
+{
+    "group": {
+        "desc": "Include this model to support a cellular interface link",
+        "label": "Cellular Link",
+        "name": "model_18",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "International Mobile Equipment Identifier for the interface",
+                "name": "IMEI",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Access Point Name for the interface",
+                "name": "APN",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phone number for the interface",
+                "name": "Num",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Personal Identification Number for the interface",
+                "name": "Pin",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 18
+}

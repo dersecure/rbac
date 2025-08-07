@@ -1,0 +1,371 @@
+{
+    "group": {
+        "label": "split single phase (ABN) meter",
+        "name": "ac_meter_abn_float",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Total AC Current",
+                "name": "A",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase A Current",
+                "name": "AphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase B Current",
+                "name": "AphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase C Current",
+                "name": "AphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Line to Neutral AC Voltage (average of active phases)",
+                "name": "PhV",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage AN",
+                "name": "PhVphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage BN",
+                "name": "PhVphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage CN",
+                "name": "PhVphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Line to Line AC Voltage (average of active phases)",
+                "name": "PPV",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage AB",
+                "name": "PPVphAB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage BC",
+                "name": "PPVphBC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Phase Voltage CA",
+                "name": "PPVphCA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Frequency",
+                "name": "Hz",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Real Power",
+                "name": "W",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "WphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "WphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "WphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC Apparent Power",
+                "name": "VA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VAphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VAphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VAphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Reactive Power",
+                "name": "VAR",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VARphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VARphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "VARphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Power Factor",
+                "name": "PF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "PFphA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "PFphB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "PFphC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Real Energy Exported",
+                "name": "TotWhExp",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhExpPhA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhExpPhB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhExpPhC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Real Energy Imported",
+                "name": "TotWhImp",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhImpPhA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhImpPhB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotWhImpPhC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Apparent Energy Exported",
+                "name": "TotVAhExp",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhExpPhA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhExpPhB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhExpPhC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Apparent Energy Imported",
+                "name": "TotVAhImp",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhImpPhA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhImpPhB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVAhImpPhC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Reactive Energy Imported Quadrant 1",
+                "name": "TotVArhImpQ1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ1phA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ1phB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ1phC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Reactive Power Imported Quadrant 2",
+                "name": "TotVArhImpQ2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ2phA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ2phB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhImpQ2phC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Reactive Power Exported Quadrant 3",
+                "name": "TotVArhExpQ3",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ3phA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ3phB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ3phC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Total Reactive Power Exported Quadrant 4",
+                "name": "TotVArhExpQ4",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ4phA",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ4phB",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "TotVArhExpQ4phC",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Meter Event Flags",
+                "name": "Evt",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Float"
+    },
+    "id": 212
+}

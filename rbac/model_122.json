@@ -1,0 +1,156 @@
+{
+    "group": {
+        "desc": "Inverter Controls Extended Measurements and Status ",
+        "label": "Measurements_Status",
+        "name": "status",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "PV inverter present/available status. Enumerated value.",
+                "name": "PVConn",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Storage inverter present/available status. Enumerated value.",
+                "name": "StorConn",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "ECP connection status: disconnected=0  connected=1.",
+                "name": "ECPConn",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime active (real) energy output.",
+                "name": "ActWh",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime apparent energy output.",
+                "name": "ActVAh",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime reactive energy output in quadrant 1.",
+                "name": "ActVArhQ1",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime reactive energy output in quadrant 2.",
+                "name": "ActVArhQ2",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime negative energy output  in quadrant 3.",
+                "name": "ActVArhQ3",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "AC lifetime reactive energy output  in quadrant 4.",
+                "name": "ActVArhQ4",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Amount of VARs available without impacting watts output.",
+                "name": "VArAval",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for available VARs.",
+                "name": "VArAval_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Amount of Watts available.",
+                "name": "WAval",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for available Watts.",
+                "name": "WAval_SF",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bit Mask indicating setpoint limit(s) reached.",
+                "name": "StSetLimMsk",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bit Mask indicating which inverter controls are currently active.",
+                "name": "StActCtl",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Source of time synchronization.",
+                "name": "TmSrc",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Seconds since 01-01-2000 00:00 UTC",
+                "name": "Tms",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bit Mask indicating active ride-through status.",
+                "name": "RtSt",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Isolation resistance.",
+                "name": "Ris",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Scale factor for isolation resistance.",
+                "name": "Ris_SF",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group",
+        "detail": "Ref 3: 8.14.3.2, Ref 4: 17"
+    },
+    "id": 122
+}

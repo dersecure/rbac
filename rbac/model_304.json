@@ -1,0 +1,62 @@
+{
+    "group": {
+        "desc": "Include to support orientation measurements",
+        "groups": [
+            {
+                "count": 0,
+                "name": "incl",
+                "points": [
+                    {
+                        "desc": "X-Axis inclination",
+                        "name": "Inclx",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Y-Axis inclination",
+                        "name": "Incly",
+                        "read_roles": [],
+                        "write_roles": []
+                    },
+                    {
+                        "desc": "Z-Axis inclination",
+                        "name": "Inclz",
+                        "read_roles": [],
+                        "write_roles": []
+                    }
+                ],
+                "type": "group"
+            }
+        ],
+        "label": "Inclinometer Model",
+        "name": "inclinometer",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 304
+}

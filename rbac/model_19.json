@@ -1,0 +1,94 @@
+{
+    "group": {
+        "desc": "Include this model to configure a Point-to-Point Protocol link",
+        "label": "PPP Link",
+        "name": "model_19",
+        "points": [
+            {
+                "desc": "Model identifier",
+                "name": "ID",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Model length",
+                "name": "L",
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface name",
+                "name": "Nam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Interface baud rate in bits per second",
+                "name": "Rte",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Number of data bits per character",
+                "name": "Bits",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Bitmask value.  Parity setting",
+                "name": "Pty",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Duplex mode",
+                "name": "Dup",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Flow Control Method",
+                "name": "Flw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Enumerated value.  Authentication method",
+                "name": "Auth",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Username for authentication",
+                "name": "UsrNam",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "desc": "Password for authentication",
+                "name": "Pw",
+                "read_roles": [],
+                "write_roles": []
+            },
+            {
+                "name": "Pad",
+                "read_roles": [],
+                "write_roles": []
+            }
+        ],
+        "type": "group"
+    },
+    "id": 19
+}
