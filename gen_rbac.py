@@ -134,14 +134,19 @@ def generate_roles_to_rights():
     """
     with open("roles_to_rights.md", "w") as f:
         f.write("# Roles to Rights Mapping\n\n")
-        f.write(
-            "| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |\n"
-        )
-        f.write(
-            "|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|\n"
-        )
+        # Write the main index table header
+        f.write("| Model | RBAC Reference |\n")
+        f.write("|-------|----------------|\n")
 
-        for json_file in natsort.natsorted(glob.glob("rbac/*.json")):
+        # Generate individual model markdown files and index entries
+        for json_file in sorted(
+            glob.glob("rbac/*.json"),
+            key=lambda x: (
+                int(re.search(r"(\d+)", os.path.basename(x)).group(1))
+                if re.search(r"(\d+)", os.path.basename(x))
+                else 0
+            ),
+        ):
             model_name = os.path.basename(json_file).replace(".json", "")
             model_id = int(re.search(r"(\d+)", model_name).group(1)) if re.search(r"(\d+)", model_name) else None
             with open(json_file, "r") as mf:
@@ -152,54 +157,77 @@ def generate_roles_to_rights():
                 print(f"No points found in model {model_name}. Skipping.")
                 continue
 
-            # Aggregate roles for the whole model
-            read_roles = set()
-            write_roles = set()
-            for pt_name, pt in point_roles.items():
-                read_roles.update(pt.get("read", []))
-                write_roles.update(pt.get("write", []))
-
-                role_values = {role: "" for role in ROLES}
-                for role in ROLES:
-                    if role in read_roles:
-                        role_values[role] += "R"
-                    if role in write_roles:
-                        role_values[role] += "W"
-
-                f.write(
-                    f"| {model_id} | {pt_name} | "
-                    f"{role_values.get('DEROwnerSunSpec', '')} | "
-                    f"{role_values.get('DERInstallerSunSpec', '')} | "
-                    f"{role_values.get('DERVendorSunSpec', '')} | "
-                    f"{role_values.get('ServiceProviderSunSpec', '')} | "
-                    f"{role_values.get('GridOperatorSunSpec', '')} |\n"
+            # Place ID and L at the top of the points list; sort other points by the depth in the group hierarchy
+            special_points = {k: v for k, v in point_roles.items() if k.endswith(".ID") or k.endswith(".L")}
+            other_points = dict(
+                sorted(
+                    ((k, v) for k, v in point_roles.items() if not (k.endswith(".ID") or k.endswith(".L"))),
+                    key=lambda item: item[0].count("."),
                 )
+            )
+            point_roles = {**special_points, **other_points}
+            if not point_roles:
+                print(f"No relevant points found in model {model_name}. Skipping.")
+                continue
+
+            # Write entry in the index table
+            model_md_filename = f"model_{model_id}_rbac.md"
+            f.write(f"| {model_id} | [RBAC Roles-to-Rights Model {model_id} Table](/doc/{model_md_filename}) |\n")
+
+            # Write the individual model markdown file
+            with open(os.path.join("doc", model_md_filename), "w") as model_md:
+                model_md.write(f"# RBAC Reference for Model {model_id}\n\n")
+                model_md.write(
+                    "| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |\n"
+                )
+                model_md.write(
+                    "|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|\n"
+                )
+
+                for pt_name, pt in point_roles.items():
+                    read_roles = set(pt.get("read", []))
+                    write_roles = set(pt.get("write", []))
+                    role_values = {role: "" for role in ROLES}
+                    for role in ROLES:
+                        if role in read_roles:
+                            role_values[role] += "R"
+                        if role in write_roles:
+                            role_values[role] += "W"
+                    model_md.write(
+                        f"| {model_id} | {pt_name} | "
+                        f"{role_values.get('DEROwnerSunSpec', '')} | "
+                        f"{role_values.get('DERInstallerSunSpec', '')} | "
+                        f"{role_values.get('DERVendorSunSpec', '')} | "
+                        f"{role_values.get('ServiceProviderSunSpec', '')} | "
+                        f"{role_values.get('GridOperatorSunSpec', '')} |\n"
+                    )
 
 
 def find_roles(obj):
-    def collect_point_roles(obj, parent_name="", result=None):
+    def collect_point_roles(obj, parent_path=None, result=None):
         if result is None:
             result = {}
+        if parent_path is None:
+            parent_path = []
         if isinstance(obj, dict):
+            # If this dict is a group with a name, add it to the path
+            group_name = obj.get("name") if obj.get("type") == "group" and "name" in obj else None
+            if group_name:
+                parent_path = parent_path + [group_name]
             for k, v in obj.items():
                 if k == "points" and isinstance(v, list):
                     for pt in v:
                         pt_name = pt.get("name") if isinstance(pt, dict) else None
-                        fq_name = f"{parent_name}.{pt_name}" if parent_name and pt_name else pt_name or parent_name
                         if pt_name:
+                            fq_name = ".".join(parent_path + [pt_name])
                             read_roles = pt.get("read_roles", []) if isinstance(pt, dict) else []
                             write_roles = pt.get("write_roles", []) if isinstance(pt, dict) else []
                             result[fq_name] = {"read": list(read_roles), "write": list(write_roles)}
                 elif isinstance(v, (dict, list)):
-                    new_parent = parent_name
-                    if k == "group" and isinstance(v, dict) and "name" in v:
-                        new_parent = f"{parent_name}.{v['name']}" if parent_name else v['name']
-                    elif k not in ("points",):
-                        new_parent = parent_name
-                    collect_point_roles(v, new_parent, result)
+                    collect_point_roles(v, parent_path, result)
         elif isinstance(obj, list):
             for item in obj:
-                collect_point_roles(item, parent_name, result)
+                collect_point_roles(item, parent_path, result)
         return result
 
     return collect_point_roles(obj)
