@@ -24,14 +24,26 @@
                                     {
                                         "desc": "Curve voltage point as percentage.",
                                         "name": "V",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     }
                                 ],
                                 "type": "group"
@@ -43,8 +55,14 @@
                             {
                                 "desc": "Number of active points in must trip curve.",
                                 "name": "ActPt",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ]
                             }
                         ],
                         "type": "group"
@@ -61,14 +79,26 @@
                                     {
                                         "desc": "Curve voltage point as percentage.",
                                         "name": "V",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     }
                                 ],
                                 "type": "group"
@@ -80,8 +110,14 @@
                             {
                                 "desc": "Number of active points in may trip curve.",
                                 "name": "ActPt",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ]
                             }
                         ],
                         "type": "group"
@@ -98,14 +134,26 @@
                                     {
                                         "desc": "Curve voltage point as percentage.",
                                         "name": "V",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
-                                        "read_roles": [],
-                                        "write_roles": []
+                                        "read_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ],
+                                        "write_roles": [
+                                            "DERInstallerSunSpec",
+                                            "GridOperatorSunSpec"
+                                        ]
                                     }
                                 ],
                                 "type": "group"
@@ -117,8 +165,14 @@
                             {
                                 "desc": "Number of active points in the momentary cessation curve.",
                                 "name": "ActPt",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec"
+                                ]
                             }
                         ],
                         "type": "group"
@@ -130,7 +184,10 @@
                     {
                         "desc": "Curve read-write access.",
                         "name": "ReadOnly",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],
@@ -167,43 +224,70 @@
             {
                 "desc": "DER low voltage trip control enable.",
                 "name": "Ena",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Index of curve points to adopt. First curve index is 1.",
                 "name": "AdptCrvReq",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Result of last adopt curve operation.",
                 "name": "AdptCrvRslt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of curve points supported.",
                 "name": "NPt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of stored curves supported.",
                 "name": "NCrvSet",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for curve voltage points.",
                 "name": "V_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for curve time points.",
                 "name": "Tms_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

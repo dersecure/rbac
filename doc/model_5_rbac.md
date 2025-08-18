@@ -1,94 +1,94 @@
-# RBAC Reference for Model 5
+# RBAC Reference for Model 5 (Secure Write Request)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 5 | model_5.ID | R | R | R | R | R |
 | 5 | model_5.L | R | R | R | R | R |
-| 5 | model_5.X |  |  |  |  |  |
-| 5 | model_5.Off1 |  |  |  |  |  |
-| 5 | model_5.Val1 |  |  |  |  |  |
-| 5 | model_5.Off2 |  |  |  |  |  |
-| 5 | model_5.Val2 |  |  |  |  |  |
-| 5 | model_5.Off3 |  |  |  |  |  |
-| 5 | model_5.Val3 |  |  |  |  |  |
-| 5 | model_5.Off4 |  |  |  |  |  |
-| 5 | model_5.Val4 |  |  |  |  |  |
-| 5 | model_5.Off5 |  |  |  |  |  |
-| 5 | model_5.Val5 |  |  |  |  |  |
-| 5 | model_5.Off6 |  |  |  |  |  |
-| 5 | model_5.Val6 |  |  |  |  |  |
-| 5 | model_5.Off7 |  |  |  |  |  |
-| 5 | model_5.Val7 |  |  |  |  |  |
-| 5 | model_5.Off8 |  |  |  |  |  |
-| 5 | model_5.Val8 |  |  |  |  |  |
-| 5 | model_5.Off9 |  |  |  |  |  |
-| 5 | model_5.Val9 |  |  |  |  |  |
-| 5 | model_5.Off10 |  |  |  |  |  |
-| 5 | model_5.Val10 |  |  |  |  |  |
-| 5 | model_5.Off11 |  |  |  |  |  |
-| 5 | model_5.Val11 |  |  |  |  |  |
-| 5 | model_5.Off12 |  |  |  |  |  |
-| 5 | model_5.Val12 |  |  |  |  |  |
-| 5 | model_5.Off13 |  |  |  |  |  |
-| 5 | model_5.Val13 |  |  |  |  |  |
-| 5 | model_5.Off14 |  |  |  |  |  |
-| 5 | model_5.Val14 |  |  |  |  |  |
-| 5 | model_5.Off15 |  |  |  |  |  |
-| 5 | model_5.Val15 |  |  |  |  |  |
-| 5 | model_5.Off16 |  |  |  |  |  |
-| 5 | model_5.Val16 |  |  |  |  |  |
-| 5 | model_5.Off17 |  |  |  |  |  |
-| 5 | model_5.Val17 |  |  |  |  |  |
-| 5 | model_5.Off18 |  |  |  |  |  |
-| 5 | model_5.Val18 |  |  |  |  |  |
-| 5 | model_5.Off19 |  |  |  |  |  |
-| 5 | model_5.Val19 |  |  |  |  |  |
-| 5 | model_5.Off20 |  |  |  |  |  |
-| 5 | model_5.Val20 |  |  |  |  |  |
-| 5 | model_5.Off21 |  |  |  |  |  |
-| 5 | model_5.Val21 |  |  |  |  |  |
-| 5 | model_5.Off22 |  |  |  |  |  |
-| 5 | model_5.Val22 |  |  |  |  |  |
-| 5 | model_5.Off23 |  |  |  |  |  |
-| 5 | model_5.Val23 |  |  |  |  |  |
-| 5 | model_5.Off24 |  |  |  |  |  |
-| 5 | model_5.Val24 |  |  |  |  |  |
-| 5 | model_5.Off25 |  |  |  |  |  |
-| 5 | model_5.Val25 |  |  |  |  |  |
-| 5 | model_5.Off26 |  |  |  |  |  |
-| 5 | model_5.Val26 |  |  |  |  |  |
-| 5 | model_5.Off27 |  |  |  |  |  |
-| 5 | model_5.Val27 |  |  |  |  |  |
-| 5 | model_5.Off28 |  |  |  |  |  |
-| 5 | model_5.Val28 |  |  |  |  |  |
-| 5 | model_5.Off29 |  |  |  |  |  |
-| 5 | model_5.Val29 |  |  |  |  |  |
-| 5 | model_5.Off30 |  |  |  |  |  |
-| 5 | model_5.Val30 |  |  |  |  |  |
-| 5 | model_5.Off31 |  |  |  |  |  |
-| 5 | model_5.Val31 |  |  |  |  |  |
-| 5 | model_5.Off32 |  |  |  |  |  |
-| 5 | model_5.Val32 |  |  |  |  |  |
-| 5 | model_5.Off33 |  |  |  |  |  |
-| 5 | model_5.Val33 |  |  |  |  |  |
-| 5 | model_5.Off34 |  |  |  |  |  |
-| 5 | model_5.Val34 |  |  |  |  |  |
-| 5 | model_5.Off35 |  |  |  |  |  |
-| 5 | model_5.Val35 |  |  |  |  |  |
-| 5 | model_5.Off36 |  |  |  |  |  |
-| 5 | model_5.Val36 |  |  |  |  |  |
-| 5 | model_5.Off37 |  |  |  |  |  |
-| 5 | model_5.Val37 |  |  |  |  |  |
-| 5 | model_5.Off38 |  |  |  |  |  |
-| 5 | model_5.Val38 |  |  |  |  |  |
-| 5 | model_5.Off39 |  |  |  |  |  |
-| 5 | model_5.Val39 |  |  |  |  |  |
-| 5 | model_5.Off40 |  |  |  |  |  |
-| 5 | model_5.Val40 |  |  |  |  |  |
-| 5 | model_5.Ts |  |  |  |  |  |
-| 5 | model_5.Ms |  |  |  |  |  |
-| 5 | model_5.Seq |  |  |  |  |  |
-| 5 | model_5.Role |  |  |  |  |  |
-| 5 | model_5.Alg |  |  |  |  |  |
-| 5 | model_5.N |  |  |  |  |  |
-| 5 | model_5.repeating.DS |  |  |  |  |  |
+| 5 | model_5.X | RW | RW | RW | RW | RW |
+| 5 | model_5.Off1 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val1 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off2 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val2 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off3 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val3 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off4 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val4 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off5 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val5 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off6 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val6 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off7 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val7 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off8 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val8 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off9 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val9 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off10 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val10 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off11 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val11 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off12 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val12 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off13 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val13 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off14 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val14 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off15 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val15 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off16 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val16 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off17 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val17 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off18 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val18 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off19 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val19 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off20 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val20 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off21 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val21 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off22 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val22 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off23 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val23 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off24 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val24 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off25 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val25 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off26 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val26 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off27 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val27 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off28 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val28 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off29 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val29 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off30 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val30 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off31 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val31 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off32 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val32 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off33 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val33 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off34 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val34 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off35 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val35 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off36 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val36 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off37 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val37 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off38 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val38 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off39 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val39 | RW | RW | RW | RW | RW |
+| 5 | model_5.Off40 | RW | RW | RW | RW | RW |
+| 5 | model_5.Val40 | RW | RW | RW | RW | RW |
+| 5 | model_5.Ts | RW | RW | RW | RW | RW |
+| 5 | model_5.Ms | RW | RW | RW | RW | RW |
+| 5 | model_5.Seq | RW | RW | RW | RW | RW |
+| 5 | model_5.Role | RW | RW | RW | RW | RW |
+| 5 | model_5.Alg | RW | RW | RW | RW | RW |
+| 5 | model_5.N | RW | RW | RW | RW | RW |
+| 5 | model_5.repeating.DS | RW | RW | RW | RW | RW |

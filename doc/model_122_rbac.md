@@ -1,26 +1,26 @@
-# RBAC Reference for Model 122
+# RBAC Reference for Model 122 (Measurements_Status)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 122 | status.ID | R | R | R | R | R |
 | 122 | status.L | R | R | R | R | R |
-| 122 | status.PVConn |  |  |  |  |  |
-| 122 | status.StorConn |  |  |  |  |  |
-| 122 | status.ECPConn |  |  |  |  |  |
-| 122 | status.ActWh |  |  |  |  |  |
-| 122 | status.ActVAh |  |  |  |  |  |
-| 122 | status.ActVArhQ1 |  |  |  |  |  |
-| 122 | status.ActVArhQ2 |  |  |  |  |  |
-| 122 | status.ActVArhQ3 |  |  |  |  |  |
-| 122 | status.ActVArhQ4 |  |  |  |  |  |
-| 122 | status.VArAval |  |  |  |  |  |
-| 122 | status.VArAval_SF |  |  |  |  |  |
-| 122 | status.WAval |  |  |  |  |  |
-| 122 | status.WAval_SF |  |  |  |  |  |
-| 122 | status.StSetLimMsk |  |  |  |  |  |
-| 122 | status.StActCtl |  |  |  |  |  |
-| 122 | status.TmSrc |  |  |  |  |  |
-| 122 | status.Tms |  |  |  |  |  |
-| 122 | status.RtSt |  |  |  |  |  |
-| 122 | status.Ris |  |  |  |  |  |
-| 122 | status.Ris_SF |  |  |  |  |  |
+| 122 | status.PVConn | R | R | R | R | R |
+| 122 | status.StorConn | R | R | R | R | R |
+| 122 | status.ECPConn | R | R | R | R | R |
+| 122 | status.ActWh | R | R | R | R | R |
+| 122 | status.ActVAh | R | R | R | R | R |
+| 122 | status.ActVArhQ1 | R | R | R | R | R |
+| 122 | status.ActVArhQ2 | R | R | R | R | R |
+| 122 | status.ActVArhQ3 | R | R | R | R | R |
+| 122 | status.ActVArhQ4 | R | R | R | R | R |
+| 122 | status.VArAval | R | R | R | R | R |
+| 122 | status.VArAval_SF | R | R | R | R | R |
+| 122 | status.WAval | R | R | R | R | R |
+| 122 | status.WAval_SF | R | R | R | R | R |
+| 122 | status.StSetLimMsk | R | R | R | R | R |
+| 122 | status.StActCtl | R | R | R | R | R |
+| 122 | status.TmSrc | R | R | R | R | R |
+| 122 | status.Tms | R | R | R | R | R |
+| 122 | status.RtSt | R | R | R | R | R |
+| 122 | status.Ris | R | R | R | R | R |
+| 122 | status.Ris_SF | R | R | R | R | R |

@@ -1,11 +1,11 @@
-# RBAC Reference for Model 715
+# RBAC Reference for Model 715 (DERCtl)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 715 | DERCtl.ID | R | R | R | R | R |
 | 715 | DERCtl.L | R | R | R | R | R |
-| 715 | DERCtl.LocRemCtl |  |  |  |  |  |
-| 715 | DERCtl.DERHb |  |  |  |  |  |
-| 715 | DERCtl.ControllerHb |  |  |  |  |  |
-| 715 | DERCtl.AlarmReset |  |  |  |  |  |
-| 715 | DERCtl.OpCtl |  |  |  |  |  |
+| 715 | DERCtl.LocRemCtl | R | R | R | R | R |
+| 715 | DERCtl.DERHb | R | R | R | R | R |
+| 715 | DERCtl.ControllerHb | RW | RW | RW | RW | RW |
+| 715 | DERCtl.AlarmReset | RW | RW | RW | RW | RW |
+| 715 | DERCtl.OpCtl | RW | RW | RW | RW | RW |

@@ -21,14 +21,32 @@
                             {
                                 "desc": "Curve voltage point as percentage.",
                                 "name": "V",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "DERVendorSunSpec",
+                                    "ServiceProviderSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec",
+                                    "ServiceProviderSunSpec"
+                                ]
                             },
                             {
                                 "desc": "Curve reactive power point as set in DeptRef point.",
                                 "name": "Var",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "DERVendorSunSpec",
+                                    "ServiceProviderSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec",
+                                    "ServiceProviderSunSpec"
+                                ]
                             }
                         ],
                         "type": "group"
@@ -40,55 +58,128 @@
                     {
                         "desc": "Number of active points.",
                         "name": "ActPt",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Curve dependent reference.",
                         "name": "DeptRef",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Power priority.",
                         "name": "Pri",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Vref adjustment as percentage of nominal voltage.",
                         "name": "VRef",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Autonomous vref value as a percentage of nominal voltage.",
                         "name": "VRefAuto",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     },
                     {
                         "desc": "Enable autonomous vref.",
                         "name": "VRefAutoEna",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Autonomous vref time constant.",
                         "name": "VRefAutoTms",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Open loop response time.",
                         "name": "RspTms",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Curve read-write access.",
                         "name": "ReadOnly",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],
@@ -125,67 +216,138 @@
             {
                 "desc": "Volt-Var control enable.",
                 "name": "Ena",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Index of curve points to adopt. First curve index is 1.",
                 "name": "AdptCrvReq",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Result of last adopt curve operation.",
                 "name": "AdptCrvRslt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of curve points supported.",
                 "name": "NPt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of stored curves supported.",
                 "name": "NCrv",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Reversion time in seconds.  0 = No reversion time.",
                 "name": "RvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion time remaining in seconds.",
                 "name": "RvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Default curve after reversion timeout.",
                 "name": "RvrtCrv",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Scale factor for curve voltage points.",
                 "name": "V_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for curve var points.",
                 "name": "DeptRef_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Open loop response time scale factor.",
                 "name": "RspTms_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

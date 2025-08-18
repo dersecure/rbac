@@ -31,43 +31,78 @@
             {
                 "desc": "Energy rating of the DER storage.",
                 "name": "WHRtg",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Energy available of the DER storage (WHAvail = WHRtg * SoC * SoH)",
                 "name": "WHAvail",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "State of charge of the DER storage.",
                 "name": "SoC",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "State of health of the DER storage.",
                 "name": "SoH",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Storage status.",
                 "name": "Sta",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for energy capacity.",
                 "name": "WH_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for percentage.",
                 "name": "Pct_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

@@ -1,4 +1,4 @@
-# RBAC Reference for Model 112
+# RBAC Reference for Model 112 (Inverter (Split Phase) FLOAT)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

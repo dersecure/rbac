@@ -1,4 +1,4 @@
-# RBAC Reference for Model 113
+# RBAC Reference for Model 113 (Inverter (Three Phase) FLOAT)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

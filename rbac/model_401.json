@@ -11,31 +11,61 @@
                     {
                         "desc": "Uniquely identifies this input set",
                         "name": "InID",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     },
                     {
                         "desc": "String Input Event Flags",
                         "name": "InEvt",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     },
                     {
                         "desc": "String Input Vendor Event Flags",
                         "name": "InEvtVnd",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     },
                     {
                         "desc": "String Input Current",
                         "name": "InDCA",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     },
                     {
                         "desc": "String Input Amp-Hours",
                         "name": "InDCAhr",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],
@@ -70,67 +100,133 @@
             {
                 "desc": "Current scale factor",
                 "name": "DCA_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Amp-hour scale factor",
                 "name": "DCAhr_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Voltage scale factor",
                 "name": "DCV_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Maximum DC Current Rating",
                 "name": "DCAMax",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of Inputs",
                 "name": "N",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Bitmask value.  Events",
                 "name": "Evt",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Bitmask value.  Vendor defined events",
                 "name": "EvtVnd",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Total measured current",
                 "name": "DCA",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Total metered Amp-hours",
                 "name": "DCAhr",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Output Voltage",
                 "name": "DCV",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Internal operating temperature",
                 "name": "Tmp",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

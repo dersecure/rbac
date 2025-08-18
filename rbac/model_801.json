@@ -31,7 +31,13 @@
             {
                 "desc": "This model has been deprecated.",
                 "name": "DEPRECATED",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

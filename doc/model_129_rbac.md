@@ -1,59 +1,59 @@
-# RBAC Reference for Model 129
+# RBAC Reference for Model 129 (LVRTD)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 129 | lvrt.ID | R | R | R | R | R |
 | 129 | lvrt.L | R | R | R | R | R |
-| 129 | lvrt.ActCrv |  |  |  |  |  |
-| 129 | lvrt.ModEna |  |  |  |  |  |
-| 129 | lvrt.WinTms |  |  |  |  |  |
-| 129 | lvrt.RvrtTms |  |  |  |  |  |
-| 129 | lvrt.RmpTms |  |  |  |  |  |
-| 129 | lvrt.NCrv |  |  |  |  |  |
-| 129 | lvrt.NPt |  |  |  |  |  |
-| 129 | lvrt.Tms_SF |  |  |  |  |  |
-| 129 | lvrt.V_SF |  |  |  |  |  |
-| 129 | lvrt.Pad |  |  |  |  |  |
-| 129 | lvrt.curve.ActPt |  |  |  |  |  |
-| 129 | lvrt.curve.Tms1 |  |  |  |  |  |
-| 129 | lvrt.curve.V1 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms2 |  |  |  |  |  |
-| 129 | lvrt.curve.V2 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms3 |  |  |  |  |  |
-| 129 | lvrt.curve.V3 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms4 |  |  |  |  |  |
-| 129 | lvrt.curve.V4 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms5 |  |  |  |  |  |
-| 129 | lvrt.curve.V5 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms6 |  |  |  |  |  |
-| 129 | lvrt.curve.V6 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms7 |  |  |  |  |  |
-| 129 | lvrt.curve.V7 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms8 |  |  |  |  |  |
-| 129 | lvrt.curve.V8 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms9 |  |  |  |  |  |
-| 129 | lvrt.curve.V9 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms10 |  |  |  |  |  |
-| 129 | lvrt.curve.V10 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms11 |  |  |  |  |  |
-| 129 | lvrt.curve.V11 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms12 |  |  |  |  |  |
-| 129 | lvrt.curve.V12 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms13 |  |  |  |  |  |
-| 129 | lvrt.curve.V13 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms14 |  |  |  |  |  |
-| 129 | lvrt.curve.V14 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms15 |  |  |  |  |  |
-| 129 | lvrt.curve.V15 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms16 |  |  |  |  |  |
-| 129 | lvrt.curve.V16 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms17 |  |  |  |  |  |
-| 129 | lvrt.curve.V17 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms18 |  |  |  |  |  |
-| 129 | lvrt.curve.V18 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms19 |  |  |  |  |  |
-| 129 | lvrt.curve.V19 |  |  |  |  |  |
-| 129 | lvrt.curve.Tms20 |  |  |  |  |  |
-| 129 | lvrt.curve.V20 |  |  |  |  |  |
-| 129 | lvrt.curve.CrvNam |  |  |  |  |  |
-| 129 | lvrt.curve.ReadOnly |  |  |  |  |  |
+| 129 | lvrt.ActCrv | RW | RW | RW | RW | RW |
+| 129 | lvrt.ModEna | RW | RW | RW | RW | RW |
+| 129 | lvrt.WinTms | RW | RW | RW | RW | RW |
+| 129 | lvrt.RvrtTms | RW | RW | RW | RW | RW |
+| 129 | lvrt.RmpTms | RW | RW | RW | RW | RW |
+| 129 | lvrt.NCrv | R | R | R | R | R |
+| 129 | lvrt.NPt | R | R | R | R | R |
+| 129 | lvrt.Tms_SF | R | R | R | R | R |
+| 129 | lvrt.V_SF | R | R | R | R | R |
+| 129 | lvrt.Pad | R | R | R | R | R |
+| 129 | lvrt.curve.ActPt | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms1 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V1 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms2 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V2 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms3 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V3 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms4 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V4 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms5 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V5 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms6 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V6 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms7 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V7 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms8 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V8 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms9 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V9 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms10 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V10 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms11 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V11 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms12 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V12 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms13 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V13 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms14 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V14 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms15 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V15 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms16 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V16 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms17 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V17 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms18 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V18 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms19 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V19 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.Tms20 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.V20 | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.CrvNam | RW | RW | RW | RW | RW |
+| 129 | lvrt.curve.ReadOnly | R | R | R | R | R |

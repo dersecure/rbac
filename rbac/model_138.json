@@ -9,259 +9,769 @@
                     {
                         "desc": "Number of active points in array.",
                         "name": "ActPt",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 must remain connected duration.",
                         "name": "Tms1",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 must remain connected voltage.",
                         "name": "V1",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 must remain connected duration.",
                         "name": "Tms2",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 must remain connected voltage.",
                         "name": "V2",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 must remain connected duration.",
                         "name": "Tms3",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 must remain connected voltage.",
                         "name": "V3",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 must remain connected duration.",
                         "name": "Tms4",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 must remain connected voltage.",
                         "name": "V4",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 must remain connected duration.",
                         "name": "Tms5",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 must remain connected voltage.",
                         "name": "V5",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 must remain connected duration.",
                         "name": "Tms6",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 must remain connected voltage.",
                         "name": "V6",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 must remain connected duration.",
                         "name": "Tms7",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 must remain connected voltage.",
                         "name": "V7",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 must remain connected duration.",
                         "name": "Tms8",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 must remain connected voltage.",
                         "name": "V8",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 must remain connected duration.",
                         "name": "Tms9",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 must remain connected voltage.",
                         "name": "V9",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 must remain connected duration.",
                         "name": "Tms10",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 must remain connected voltage.",
                         "name": "V10",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 must remain connected duration.",
                         "name": "Tms11",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 must remain connected voltage.",
                         "name": "V11",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 must remain connected duration.",
                         "name": "Tms12",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 must remain connected voltage.",
                         "name": "V12",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 must remain connected duration.",
                         "name": "Tms13",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 must remain connected voltage.",
                         "name": "V13",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 must remain connected duration.",
                         "name": "Tms14",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 must remain connected voltage.",
                         "name": "V14",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 must remain connected duration.",
                         "name": "Tms15",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 must remain connected voltage.",
                         "name": "V15",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 must remain connected duration.",
                         "name": "Tms16",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 must remain connected voltage.",
                         "name": "V16",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 must remain connected duration.",
                         "name": "Tms17",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 must remain connected voltage.",
                         "name": "V17",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 must remain connected duration.",
                         "name": "Tms18",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 must remain connected voltage.",
                         "name": "V18",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 must remain connected duration.",
                         "name": "Tms19",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 must remain connected voltage.",
                         "name": "V19",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 must remain connected duration.",
                         "name": "Tms20",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 must remain connected voltage.",
                         "name": "V20",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Optional description for curve.",
                         "name": "CrvNam",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ]
                     },
                     {
                         "desc": "Enumerated value indicates if curve is read-only or can be modified.",
                         "name": "ReadOnly",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],
@@ -298,60 +808,150 @@
             {
                 "desc": "Index of active curve. 0=no active curve.",
                 "name": "ActCrv",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "HVRT control mode. Enable active curve.  Bitfield value.",
                 "name": "ModEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Time window for HVRT change.",
                 "name": "WinTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Timeout period for HVRT curve selection.",
                 "name": "RvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Ramp time for moving from current mode to new mode.",
                 "name": "RmpTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ]
             },
             {
                 "desc": "Number of curves supported (recommend 4).",
                 "name": "NCrv",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of curve points supported (maximum of 20).",
                 "name": "NPt",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for duration.",
                 "name": "Tms_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for percent VRef.",
                 "name": "V_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "name": "Pad",
-                "read_roles": [],
+                "read_roles": [
+                    "DEROwnerSunSpec",
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

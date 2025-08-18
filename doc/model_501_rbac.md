@@ -1,23 +1,23 @@
-# RBAC Reference for Model 501
+# RBAC Reference for Model 501 (Solar Module)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 501 | solar_module_float.ID | R | R | R | R | R |
 | 501 | solar_module_float.L | R | R | R | R | R |
-| 501 | solar_module_float.Stat |  |  |  |  |  |
-| 501 | solar_module_float.StatVend |  |  |  |  |  |
-| 501 | solar_module_float.Evt |  |  |  |  |  |
-| 501 | solar_module_float.EvtVend |  |  |  |  |  |
-| 501 | solar_module_float.Ctl |  |  |  |  |  |
-| 501 | solar_module_float.CtlVend |  |  |  |  |  |
-| 501 | solar_module_float.CtlVal |  |  |  |  |  |
-| 501 | solar_module_float.Tms |  |  |  |  |  |
-| 501 | solar_module_float.OutA |  |  |  |  |  |
-| 501 | solar_module_float.OutV |  |  |  |  |  |
-| 501 | solar_module_float.OutWh |  |  |  |  |  |
-| 501 | solar_module_float.OutW |  |  |  |  |  |
-| 501 | solar_module_float.Tmp |  |  |  |  |  |
-| 501 | solar_module_float.InA |  |  |  |  |  |
-| 501 | solar_module_float.InV |  |  |  |  |  |
-| 501 | solar_module_float.InWh |  |  |  |  |  |
-| 501 | solar_module_float.InW |  |  |  |  |  |
+| 501 | solar_module_float.Stat | R | R | R | R | R |
+| 501 | solar_module_float.StatVend | R | R | R | R | R |
+| 501 | solar_module_float.Evt | R | R | R | R | R |
+| 501 | solar_module_float.EvtVend | R | R | R | R | R |
+| 501 | solar_module_float.Ctl | RW | RW | RW | RW | RW |
+| 501 | solar_module_float.CtlVend | RW | RW | RW | RW | RW |
+| 501 | solar_module_float.CtlVal | RW | RW | RW | RW | RW |
+| 501 | solar_module_float.Tms | R | R | R | R | R |
+| 501 | solar_module_float.OutA | R | R | R | R | R |
+| 501 | solar_module_float.OutV | R | R | R | R | R |
+| 501 | solar_module_float.OutWh | R | R | R | R | R |
+| 501 | solar_module_float.OutW | R | R | R | R | R |
+| 501 | solar_module_float.Tmp | R | R | R | R | R |
+| 501 | solar_module_float.InA | R | R | R | R | R |
+| 501 | solar_module_float.InV | R | R | R | R | R |
+| 501 | solar_module_float.InWh | R | R | R | R | R |
+| 501 | solar_module_float.InW | R | R | R | R | R |

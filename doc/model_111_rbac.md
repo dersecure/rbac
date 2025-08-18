@@ -1,4 +1,4 @@
-# RBAC Reference for Model 111
+# RBAC Reference for Model 111 (Inverter (Single Phase) FLOAT)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

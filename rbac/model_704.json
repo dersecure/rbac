@@ -13,14 +13,32 @@
                     {
                         "desc": "Power factor setpoint when injecting active power.",
                         "name": "PF",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Power factor excitation setpoint when injecting active power.",
                         "name": "Ext",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     }
                 ],
                 "type": "sync"
@@ -33,14 +51,32 @@
                     {
                         "desc": "Reversion power factor setpoint when injecting active power.",
                         "name": "PF",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Reversion power factor excitation setpoint when injecting active power.",
                         "name": "Ext",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     }
                 ],
                 "type": "sync"
@@ -53,14 +89,32 @@
                     {
                         "desc": "Power factor setpoint when absorbing active power.",
                         "name": "PF",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Power factor excitation setpoint when absorbing active power.",
                         "name": "Ext",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     }
                 ],
                 "type": "sync"
@@ -73,14 +127,32 @@
                     {
                         "desc": "Reversion power factor setpoint when absorbing active power.",
                         "name": "PF",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Reversion power factor excitation setpoint when absorbing active power.",
                         "name": "Ext",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     }
                 ],
                 "type": "sync"
@@ -116,259 +188,602 @@
             {
                 "desc": "Power factor enable when injecting active power.",
                 "name": "PFWInjEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion timer when injecting active power enable.",
                 "name": "PFWInjEnaRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion timer when injecting active power.",
                 "name": "PFWInjRvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion time remaining when injecting active power.",
                 "name": "PFWInjRvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Power factor enable when absorbing active power.",
                 "name": "PFWAbsEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion timer when absorbing active power enable.",
                 "name": "PFWAbsEnaRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion timer when absorbing active power.",
                 "name": "PFWAbsRvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor reversion time remaining when absorbing active power.",
                 "name": "PFWAbsRvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Limit maximum active power percent enable.",
                 "name": "WMaxLimPctEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Limit maximum active power percent value.",
                 "name": "WMaxLimPct",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion limit maximum active power percent value.",
                 "name": "WMaxLimPctRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion limit maximum active power percent value enable.",
                 "name": "WMaxLimPctEnaRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Limit maximum active power percent reversion time.",
                 "name": "WMaxLimPctRvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Limit maximum active power percent reversion time remaining.",
                 "name": "WMaxLimPctRvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Set active power enable.",
                 "name": "WSetEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set active power mode.",
                 "name": "WSetMod",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Active power setting value in watts.",
                 "name": "WSet",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion active power setting value in watts.",
                 "name": "WSetRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Active power setting value as percent.",
                 "name": "WSetPct",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion active power setting value as percent.",
                 "name": "WSetPctRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion active power function enable.",
                 "name": "WSetEnaRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set active power reversion time.",
                 "name": "WSetRvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set active power reversion time remaining.",
                 "name": "WSetRvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Set reactive power enable.",
                 "name": "VarSetEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set reactive power mode.",
                 "name": "VarSetMod",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reactive power priority.",
                 "name": "VarSetPri",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reactive power setting value in vars.",
                 "name": "VarSet",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion reactive power setting value in vars.",
                 "name": "VarSetRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reactive power setting value as percent.",
                 "name": "VarSetPct",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion reactive power setting value as percent.",
                 "name": "VarSetPctRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion reactive power function enable.",
                 "name": "VarSetEnaRvrt",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set reactive power reversion time.",
                 "name": "VarSetRvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set reactive power reversion time remaining.",
                 "name": "VarSetRvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Ramp rate for increases in active power during normal generation.",
                 "name": "WRmp",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Ramp rate reference unit for increases in active power or current during normal generation.",
                 "name": "WRmpRef",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Ramp rate based on max reactive power per second.",
                 "name": "VarRmp",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Anti-islanding enable.",
                 "name": "AntiIslEna",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Power factor scale factor.",
                 "name": "PF_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Limit maximum power scale factor.",
                 "name": "WMaxLimPct_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Active power scale factor.",
                 "name": "WSet_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Active power pct scale factor.",
                 "name": "WSetPct_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Reactive power scale factor.",
                 "name": "VarSet_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Reactive power pct scale factor.",
                 "name": "VarSetPct_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

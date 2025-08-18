@@ -1,96 +1,96 @@
-# RBAC Reference for Model 6
+# RBAC Reference for Model 6 (Secure Write Sequential Request)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 6 | model_6.ID | R | R | R | R | R |
 | 6 | model_6.L | R | R | R | R | R |
-| 6 | model_6.X |  |  |  |  |  |
-| 6 | model_6.Off |  |  |  |  |  |
-| 6 | model_6.Val1 |  |  |  |  |  |
-| 6 | model_6.Val2 |  |  |  |  |  |
-| 6 | model_6.Val3 |  |  |  |  |  |
-| 6 | model_6.Val4 |  |  |  |  |  |
-| 6 | model_6.Val5 |  |  |  |  |  |
-| 6 | model_6.Val6 |  |  |  |  |  |
-| 6 | model_6.Val7 |  |  |  |  |  |
-| 6 | model_6.Val8 |  |  |  |  |  |
-| 6 | model_6.Val9 |  |  |  |  |  |
-| 6 | model_6.Val10 |  |  |  |  |  |
-| 6 | model_6.Val11 |  |  |  |  |  |
-| 6 | model_6.Val12 |  |  |  |  |  |
-| 6 | model_6.Val13 |  |  |  |  |  |
-| 6 | model_6.Val14 |  |  |  |  |  |
-| 6 | model_6.Val15 |  |  |  |  |  |
-| 6 | model_6.Val16 |  |  |  |  |  |
-| 6 | model_6.Val17 |  |  |  |  |  |
-| 6 | model_6.Val18 |  |  |  |  |  |
-| 6 | model_6.Val19 |  |  |  |  |  |
-| 6 | model_6.Val20 |  |  |  |  |  |
-| 6 | model_6.Val21 |  |  |  |  |  |
-| 6 | model_6.Val22 |  |  |  |  |  |
-| 6 | model_6.Val23 |  |  |  |  |  |
-| 6 | model_6.Val24 |  |  |  |  |  |
-| 6 | model_6.Val25 |  |  |  |  |  |
-| 6 | model_6.Val26 |  |  |  |  |  |
-| 6 | model_6.Val27 |  |  |  |  |  |
-| 6 | model_6.Val28 |  |  |  |  |  |
-| 6 | model_6.Val29 |  |  |  |  |  |
-| 6 | model_6.Val30 |  |  |  |  |  |
-| 6 | model_6.Val31 |  |  |  |  |  |
-| 6 | model_6.Val32 |  |  |  |  |  |
-| 6 | model_6.Val33 |  |  |  |  |  |
-| 6 | model_6.Val34 |  |  |  |  |  |
-| 6 | model_6.Val35 |  |  |  |  |  |
-| 6 | model_6.Val36 |  |  |  |  |  |
-| 6 | model_6.Val37 |  |  |  |  |  |
-| 6 | model_6.Val38 |  |  |  |  |  |
-| 6 | model_6.Val39 |  |  |  |  |  |
-| 6 | model_6.Val40 |  |  |  |  |  |
-| 6 | model_6.Val41 |  |  |  |  |  |
-| 6 | model_6.Val42 |  |  |  |  |  |
-| 6 | model_6.Val43 |  |  |  |  |  |
-| 6 | model_6.Val44 |  |  |  |  |  |
-| 6 | model_6.Val45 |  |  |  |  |  |
-| 6 | model_6.Val46 |  |  |  |  |  |
-| 6 | model_6.Val47 |  |  |  |  |  |
-| 6 | model_6.Val48 |  |  |  |  |  |
-| 6 | model_6.Val49 |  |  |  |  |  |
-| 6 | model_6.Val50 |  |  |  |  |  |
-| 6 | model_6.Val51 |  |  |  |  |  |
-| 6 | model_6.Val52 |  |  |  |  |  |
-| 6 | model_6.Val53 |  |  |  |  |  |
-| 6 | model_6.Val54 |  |  |  |  |  |
-| 6 | model_6.Val55 |  |  |  |  |  |
-| 6 | model_6.Val56 |  |  |  |  |  |
-| 6 | model_6.Val57 |  |  |  |  |  |
-| 6 | model_6.Val58 |  |  |  |  |  |
-| 6 | model_6.Val59 |  |  |  |  |  |
-| 6 | model_6.Val60 |  |  |  |  |  |
-| 6 | model_6.Val61 |  |  |  |  |  |
-| 6 | model_6.Val62 |  |  |  |  |  |
-| 6 | model_6.Val63 |  |  |  |  |  |
-| 6 | model_6.Val64 |  |  |  |  |  |
-| 6 | model_6.Val65 |  |  |  |  |  |
-| 6 | model_6.Val66 |  |  |  |  |  |
-| 6 | model_6.Val67 |  |  |  |  |  |
-| 6 | model_6.Val68 |  |  |  |  |  |
-| 6 | model_6.Val69 |  |  |  |  |  |
-| 6 | model_6.Val70 |  |  |  |  |  |
-| 6 | model_6.Val71 |  |  |  |  |  |
-| 6 | model_6.Val72 |  |  |  |  |  |
-| 6 | model_6.Val73 |  |  |  |  |  |
-| 6 | model_6.Val74 |  |  |  |  |  |
-| 6 | model_6.Val75 |  |  |  |  |  |
-| 6 | model_6.Val76 |  |  |  |  |  |
-| 6 | model_6.Val77 |  |  |  |  |  |
-| 6 | model_6.Val78 |  |  |  |  |  |
-| 6 | model_6.Val79 |  |  |  |  |  |
-| 6 | model_6.Val80 |  |  |  |  |  |
-| 6 | model_6.Ts |  |  |  |  |  |
-| 6 | model_6.Ms |  |  |  |  |  |
-| 6 | model_6.Seq |  |  |  |  |  |
-| 6 | model_6.Role |  |  |  |  |  |
-| 6 | model_6.Rsrvd |  |  |  |  |  |
-| 6 | model_6.Alg |  |  |  |  |  |
-| 6 | model_6.N |  |  |  |  |  |
-| 6 | model_6.repeating.DS |  |  |  |  |  |
+| 6 | model_6.X | RW | RW | RW | RW | RW |
+| 6 | model_6.Off | RW | RW | RW | RW | RW |
+| 6 | model_6.Val1 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val2 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val3 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val4 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val5 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val6 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val7 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val8 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val9 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val10 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val11 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val12 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val13 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val14 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val15 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val16 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val17 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val18 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val19 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val20 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val21 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val22 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val23 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val24 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val25 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val26 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val27 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val28 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val29 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val30 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val31 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val32 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val33 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val34 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val35 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val36 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val37 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val38 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val39 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val40 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val41 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val42 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val43 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val44 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val45 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val46 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val47 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val48 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val49 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val50 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val51 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val52 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val53 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val54 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val55 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val56 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val57 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val58 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val59 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val60 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val61 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val62 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val63 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val64 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val65 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val66 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val67 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val68 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val69 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val70 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val71 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val72 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val73 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val74 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val75 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val76 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val77 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val78 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val79 | RW | RW | RW | RW | RW |
+| 6 | model_6.Val80 | RW | RW | RW | RW | RW |
+| 6 | model_6.Ts | RW | RW | RW | RW | RW |
+| 6 | model_6.Ms | RW | RW | RW | RW | RW |
+| 6 | model_6.Seq | RW | RW | RW | RW | RW |
+| 6 | model_6.Role | RW | RW | RW | RW | RW |
+| 6 | model_6.Rsrvd | RW | RW | RW | RW | RW |
+| 6 | model_6.Alg | RW | RW | RW | RW | RW |
+| 6 | model_6.N | RW | RW | RW | RW | RW |
+| 6 | model_6.repeating.DS | RW | RW | RW | RW | RW |

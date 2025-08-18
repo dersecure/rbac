@@ -9,7 +9,13 @@
                     {
                         "desc": "Back of module temperature measurement",
                         "name": "TmpBOM",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DEROwnerSunSpec",
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],

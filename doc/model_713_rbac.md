@@ -1,13 +1,13 @@
-# RBAC Reference for Model 713
+# RBAC Reference for Model 713 (DER Storage Capacity)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 713 | DERStorageCapacity.ID | R | R | R | R | R |
 | 713 | DERStorageCapacity.L | R | R | R | R | R |
-| 713 | DERStorageCapacity.WHRtg |  |  |  |  |  |
-| 713 | DERStorageCapacity.WHAvail |  |  |  |  |  |
-| 713 | DERStorageCapacity.SoC |  |  |  |  |  |
-| 713 | DERStorageCapacity.SoH |  |  |  |  |  |
-| 713 | DERStorageCapacity.Sta |  |  |  |  |  |
-| 713 | DERStorageCapacity.WH_SF |  |  |  |  |  |
-| 713 | DERStorageCapacity.Pct_SF |  |  |  |  |  |
+| 713 | DERStorageCapacity.WHRtg |  | R | R | R | R |
+| 713 | DERStorageCapacity.WHAvail |  | R | R | R | R |
+| 713 | DERStorageCapacity.SoC |  | R | R | R | R |
+| 713 | DERStorageCapacity.SoH |  | R | R | R | R |
+| 713 | DERStorageCapacity.Sta |  | R | R | R | R |
+| 713 | DERStorageCapacity.WH_SF |  | R | R | R | R |
+| 713 | DERStorageCapacity.Pct_SF |  | R | R | R | R |

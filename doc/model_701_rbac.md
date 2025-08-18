@@ -1,4 +1,4 @@
-# RBAC Reference for Model 701
+# RBAC Reference for Model 701 (DER AC Measurement)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

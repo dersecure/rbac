@@ -1,32 +1,32 @@
-# RBAC Reference for Model 402
+# RBAC Reference for Model 402 (String Combiner (Advanced))
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 402 | string_combiner_advanced.ID | R | R | R | R | R |
 | 402 | string_combiner_advanced.L | R | R | R | R | R |
-| 402 | string_combiner_advanced.DCA_SF |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCAhr_SF |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCV_SF |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCW_SF |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCWh_SF |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCAMax |  |  |  |  |  |
-| 402 | string_combiner_advanced.N |  |  |  |  |  |
-| 402 | string_combiner_advanced.Evt |  |  |  |  |  |
-| 402 | string_combiner_advanced.EvtVnd |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCA |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCAhr |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCV |  |  |  |  |  |
-| 402 | string_combiner_advanced.Tmp |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCW |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCPR |  |  |  |  |  |
-| 402 | string_combiner_advanced.DCWh |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InID |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InEvt |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.EvtVnd |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCA |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCAhr |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCV |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCW |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCWh |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InDCPR |  |  |  |  |  |
-| 402 | string_combiner_advanced.string.InN |  |  |  |  |  |
+| 402 | string_combiner_advanced.DCA_SF | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCAhr_SF | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCV_SF | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCW_SF | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCWh_SF | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCAMax | R | R | R | R | R |
+| 402 | string_combiner_advanced.N | R | R | R | R | R |
+| 402 | string_combiner_advanced.Evt | R | R | R | R | R |
+| 402 | string_combiner_advanced.EvtVnd | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCA | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCAhr | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCV | R | R | R | R | R |
+| 402 | string_combiner_advanced.Tmp | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCW | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCPR | R | R | R | R | R |
+| 402 | string_combiner_advanced.DCWh | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InID | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InEvt | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.EvtVnd | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCA | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCAhr | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCV | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCW | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCWh | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InDCPR | R | R | R | R | R |
+| 402 | string_combiner_advanced.string.InN | R | R | R | R | R |

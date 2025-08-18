@@ -21,14 +21,32 @@
                             {
                                 "desc": "Curve active power point as percentage.",
                                 "name": "W",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "DERVendorSunSpec",
+                                    "ServiceProviderSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec",
+                                    "ServiceProviderSunSpec"
+                                ]
                             },
                             {
                                 "desc": "Curve reactive power point as set in DeptRef point.",
                                 "name": "Var",
-                                "read_roles": [],
-                                "write_roles": []
+                                "read_roles": [
+                                    "DERInstallerSunSpec",
+                                    "DERVendorSunSpec",
+                                    "ServiceProviderSunSpec",
+                                    "GridOperatorSunSpec"
+                                ],
+                                "write_roles": [
+                                    "DERInstallerSunSpec",
+                                    "GridOperatorSunSpec",
+                                    "ServiceProviderSunSpec"
+                                ]
                             }
                         ],
                         "type": "group"
@@ -40,25 +58,57 @@
                     {
                         "desc": "Number of active points.",
                         "name": "ActPt",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Curve dependent reference.",
                         "name": "DeptRef",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Power priority.",
                         "name": "Pri",
-                        "read_roles": [],
-                        "write_roles": []
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
+                        "write_roles": [
+                            "DERInstallerSunSpec",
+                            "GridOperatorSunSpec",
+                            "ServiceProviderSunSpec"
+                        ]
                     },
                     {
                         "desc": "Curve read-write access.",
                         "name": "ReadOnly",
-                        "read_roles": [],
+                        "read_roles": [
+                            "DERInstallerSunSpec",
+                            "DERVendorSunSpec",
+                            "ServiceProviderSunSpec",
+                            "GridOperatorSunSpec"
+                        ],
                         "write_roles": []
                     }
                 ],
@@ -95,61 +145,127 @@
             {
                 "desc": "DER Watt-Var control enable.",
                 "name": "Ena",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Set active curve. 0 = No active curve.",
                 "name": "AdptCrvReq",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Result of last set active curve operation.",
                 "name": "AdptCrvRslt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of curve points supported.",
                 "name": "NPt",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Number of stored curves supported.",
                 "name": "NCrv",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Reversion time in seconds.  0 = No reversion time.",
                 "name": "RvrtTms",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Reversion time remaining in seconds.",
                 "name": "RvrtRem",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Default curve after reversion timeout.",
                 "name": "RvrtCrv",
-                "read_roles": [],
-                "write_roles": []
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
+                "write_roles": [
+                    "DERInstallerSunSpec",
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
+                ]
             },
             {
                 "desc": "Scale factor for curve active power points.",
                 "name": "W_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             },
             {
                 "desc": "Scale factor for curve var points.",
                 "name": "DeptRef_SF",
-                "read_roles": [],
+                "read_roles": [
+                    "DERInstallerSunSpec",
+                    "DERVendorSunSpec",
+                    "ServiceProviderSunSpec",
+                    "GridOperatorSunSpec"
+                ],
                 "write_roles": []
             }
         ],

@@ -1,17 +1,17 @@
-# RBAC Reference for Model 307
+# RBAC Reference for Model 307 (Base Met)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 307 | base_met.ID | R | R | R | R | R |
 | 307 | base_met.L | R | R | R | R | R |
-| 307 | base_met.TmpAmb |  |  |  |  |  |
-| 307 | base_met.RH |  |  |  |  |  |
-| 307 | base_met.Pres |  |  |  |  |  |
-| 307 | base_met.WndSpd |  |  |  |  |  |
-| 307 | base_met.WndDir |  |  |  |  |  |
-| 307 | base_met.Rain |  |  |  |  |  |
-| 307 | base_met.Snw |  |  |  |  |  |
-| 307 | base_met.PPT |  |  |  |  |  |
-| 307 | base_met.ElecFld |  |  |  |  |  |
-| 307 | base_met.SurWet |  |  |  |  |  |
-| 307 | base_met.SoilWet |  |  |  |  |  |
+| 307 | base_met.TmpAmb | R | R | R | R | R |
+| 307 | base_met.RH | R | R | R | R | R |
+| 307 | base_met.Pres | R | R | R | R | R |
+| 307 | base_met.WndSpd | R | R | R | R | R |
+| 307 | base_met.WndDir | R | R | R | R | R |
+| 307 | base_met.Rain | R | R | R | R | R |
+| 307 | base_met.Snw | R | R | R | R | R |
+| 307 | base_met.PPT | R | R | R | R | R |
+| 307 | base_met.ElecFld | R | R | R | R | R |
+| 307 | base_met.SurWet | R | R | R | R | R |
+| 307 | base_met.SoilWet | R | R | R | R | R |

@@ -1,56 +1,56 @@
-# RBAC Reference for Model 807
+# RBAC Reference for Model 807 (Flow Battery String Model)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 807 | flow_battery_string.ID | R | R | R | R | R |
 | 807 | flow_battery_string.L | R | R | R | R | R |
-| 807 | flow_battery_string.Idx |  |  |  |  |  |
-| 807 | flow_battery_string.NMod |  |  |  |  |  |
-| 807 | flow_battery_string.NModCon |  |  |  |  |  |
-| 807 | flow_battery_string.ModVMax |  |  |  |  |  |
-| 807 | flow_battery_string.ModVMaxMod |  |  |  |  |  |
-| 807 | flow_battery_string.ModVMin |  |  |  |  |  |
-| 807 | flow_battery_string.ModVMinMod |  |  |  |  |  |
-| 807 | flow_battery_string.ModVAvg |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMax |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMaxMod |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMaxStk |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMin |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMinMod |  |  |  |  |  |
-| 807 | flow_battery_string.CellVMinStk |  |  |  |  |  |
-| 807 | flow_battery_string.CellVAvg |  |  |  |  |  |
-| 807 | flow_battery_string.TmpMax |  |  |  |  |  |
-| 807 | flow_battery_string.TmpMaxMod |  |  |  |  |  |
-| 807 | flow_battery_string.TmpMin |  |  |  |  |  |
-| 807 | flow_battery_string.TmpMinMod |  |  |  |  |  |
-| 807 | flow_battery_string.TmpAvg |  |  |  |  |  |
-| 807 | flow_battery_string.Evt1 |  |  |  |  |  |
-| 807 | flow_battery_string.Evt2 |  |  |  |  |  |
-| 807 | flow_battery_string.EvtVnd1 |  |  |  |  |  |
-| 807 | flow_battery_string.EvtVnd2 |  |  |  |  |  |
-| 807 | flow_battery_string.ModV_SF |  |  |  |  |  |
-| 807 | flow_battery_string.CellV_SF |  |  |  |  |  |
-| 807 | flow_battery_string.Tmp_SF |  |  |  |  |  |
-| 807 | flow_battery_string.SoC_SF |  |  |  |  |  |
-| 807 | flow_battery_string.OCV_SF |  |  |  |  |  |
-| 807 | flow_battery_string.Pad1 |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModIdx |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModNStk |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModSt |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModSoC |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModOCV |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModV |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCellVMax |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCellVMaxCell |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCellVMin |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCellVMinCell |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCellVAvg |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModAnoTmp |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModCatTmp |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModConSt |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModEvt1 |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModEvt2 |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModConFail |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModSetEna |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModSetCon |  |  |  |  |  |
-| 807 | flow_battery_string.module.ModDisRsn |  |  |  |  |  |
+| 807 | flow_battery_string.Idx | R | R | R | R | R |
+| 807 | flow_battery_string.NMod | R | R | R | R | R |
+| 807 | flow_battery_string.NModCon | R | R | R | R | R |
+| 807 | flow_battery_string.ModVMax | R | R | R | R | R |
+| 807 | flow_battery_string.ModVMaxMod | R | R | R | R | R |
+| 807 | flow_battery_string.ModVMin | R | R | R | R | R |
+| 807 | flow_battery_string.ModVMinMod | R | R | R | R | R |
+| 807 | flow_battery_string.ModVAvg | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMax | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMaxMod | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMaxStk | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMin | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMinMod | R | R | R | R | R |
+| 807 | flow_battery_string.CellVMinStk | R | R | R | R | R |
+| 807 | flow_battery_string.CellVAvg | R | R | R | R | R |
+| 807 | flow_battery_string.TmpMax | R | R | R | R | R |
+| 807 | flow_battery_string.TmpMaxMod | R | R | R | R | R |
+| 807 | flow_battery_string.TmpMin | R | R | R | R | R |
+| 807 | flow_battery_string.TmpMinMod | R | R | R | R | R |
+| 807 | flow_battery_string.TmpAvg | R | R | R | R | R |
+| 807 | flow_battery_string.Evt1 | R | R | R | R | R |
+| 807 | flow_battery_string.Evt2 | R | R | R | R | R |
+| 807 | flow_battery_string.EvtVnd1 | R | R | R | R | R |
+| 807 | flow_battery_string.EvtVnd2 | R | R | R | R | R |
+| 807 | flow_battery_string.ModV_SF | R | R | R | R | R |
+| 807 | flow_battery_string.CellV_SF | R | R | R | R | R |
+| 807 | flow_battery_string.Tmp_SF | R | R | R | R | R |
+| 807 | flow_battery_string.SoC_SF | R | R | R | R | R |
+| 807 | flow_battery_string.OCV_SF | R | R | R | R | R |
+| 807 | flow_battery_string.Pad1 | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModIdx | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModNStk | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModSt | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModSoC | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModOCV | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModV | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCellVMax | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCellVMaxCell | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCellVMin | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCellVMinCell | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCellVAvg | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModAnoTmp | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModCatTmp | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModConSt | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModEvt1 | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModEvt2 | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModConFail | R | R | R | R | R |
+| 807 | flow_battery_string.module.ModSetEna | RW | RW | RW | RW | RW |
+| 807 | flow_battery_string.module.ModSetCon | RW | RW | RW | RW | RW |
+| 807 | flow_battery_string.module.ModDisRsn | R | R | R | R | R |

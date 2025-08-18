@@ -1,4 +1,4 @@
-# RBAC Reference for Model 101
+# RBAC Reference for Model 101 (Inverter (Single Phase))
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

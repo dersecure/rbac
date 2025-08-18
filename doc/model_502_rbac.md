@@ -1,27 +1,27 @@
-# RBAC Reference for Model 502
+# RBAC Reference for Model 502 (Solar Module)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 502 | solar_module.ID | R | R | R | R | R |
 | 502 | solar_module.L | R | R | R | R | R |
-| 502 | solar_module.A_SF |  |  |  |  |  |
-| 502 | solar_module.V_SF |  |  |  |  |  |
-| 502 | solar_module.W_SF |  |  |  |  |  |
-| 502 | solar_module.Wh_SF |  |  |  |  |  |
-| 502 | solar_module.Stat |  |  |  |  |  |
-| 502 | solar_module.StatVend |  |  |  |  |  |
-| 502 | solar_module.Evt |  |  |  |  |  |
-| 502 | solar_module.EvtVend |  |  |  |  |  |
-| 502 | solar_module.Ctl |  |  |  |  |  |
-| 502 | solar_module.CtlVend |  |  |  |  |  |
-| 502 | solar_module.CtlVal |  |  |  |  |  |
-| 502 | solar_module.Tms |  |  |  |  |  |
-| 502 | solar_module.OutA |  |  |  |  |  |
-| 502 | solar_module.OutV |  |  |  |  |  |
-| 502 | solar_module.OutWh |  |  |  |  |  |
-| 502 | solar_module.OutPw |  |  |  |  |  |
-| 502 | solar_module.Tmp |  |  |  |  |  |
-| 502 | solar_module.InA |  |  |  |  |  |
-| 502 | solar_module.InV |  |  |  |  |  |
-| 502 | solar_module.InWh |  |  |  |  |  |
-| 502 | solar_module.InW |  |  |  |  |  |
+| 502 | solar_module.A_SF | R | R | R | R | R |
+| 502 | solar_module.V_SF | R | R | R | R | R |
+| 502 | solar_module.W_SF | R | R | R | R | R |
+| 502 | solar_module.Wh_SF | R | R | R | R | R |
+| 502 | solar_module.Stat | R | R | R | R | R |
+| 502 | solar_module.StatVend | R | R | R | R | R |
+| 502 | solar_module.Evt | R | R | R | R | R |
+| 502 | solar_module.EvtVend | R | R | R | R | R |
+| 502 | solar_module.Ctl | RW | RW | RW | RW | RW |
+| 502 | solar_module.CtlVend | RW | RW | RW | RW | RW |
+| 502 | solar_module.CtlVal | RW | RW | RW | RW | RW |
+| 502 | solar_module.Tms | R | R | R | R | R |
+| 502 | solar_module.OutA | R | R | R | R | R |
+| 502 | solar_module.OutV | R | R | R | R | R |
+| 502 | solar_module.OutWh | R | R | R | R | R |
+| 502 | solar_module.OutPw | R | R | R | R | R |
+| 502 | solar_module.Tmp | R | R | R | R | R |
+| 502 | solar_module.InA | R | R | R | R | R |
+| 502 | solar_module.InV | R | R | R | R | R |
+| 502 | solar_module.InWh | R | R | R | R | R |
+| 502 | solar_module.InW | R | R | R | R | R |

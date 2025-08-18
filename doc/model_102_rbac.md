@@ -1,4 +1,4 @@
-# RBAC Reference for Model 102
+# RBAC Reference for Model 102 (Inverter (Split-Phase))
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

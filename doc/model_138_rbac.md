@@ -1,59 +1,59 @@
-# RBAC Reference for Model 138
+# RBAC Reference for Model 138 (HVRTC)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 138 | hvrtc.ID | R | R | R | R | R |
 | 138 | hvrtc.L | R | R | R | R | R |
-| 138 | hvrtc.ActCrv |  |  |  |  |  |
-| 138 | hvrtc.ModEna |  |  |  |  |  |
-| 138 | hvrtc.WinTms |  |  |  |  |  |
-| 138 | hvrtc.RvrtTms |  |  |  |  |  |
-| 138 | hvrtc.RmpTms |  |  |  |  |  |
-| 138 | hvrtc.NCrv |  |  |  |  |  |
-| 138 | hvrtc.NPt |  |  |  |  |  |
-| 138 | hvrtc.Tms_SF |  |  |  |  |  |
-| 138 | hvrtc.V_SF |  |  |  |  |  |
-| 138 | hvrtc.Pad |  |  |  |  |  |
-| 138 | hvrtc.curve.ActPt |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms1 |  |  |  |  |  |
-| 138 | hvrtc.curve.V1 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms2 |  |  |  |  |  |
-| 138 | hvrtc.curve.V2 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms3 |  |  |  |  |  |
-| 138 | hvrtc.curve.V3 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms4 |  |  |  |  |  |
-| 138 | hvrtc.curve.V4 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms5 |  |  |  |  |  |
-| 138 | hvrtc.curve.V5 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms6 |  |  |  |  |  |
-| 138 | hvrtc.curve.V6 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms7 |  |  |  |  |  |
-| 138 | hvrtc.curve.V7 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms8 |  |  |  |  |  |
-| 138 | hvrtc.curve.V8 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms9 |  |  |  |  |  |
-| 138 | hvrtc.curve.V9 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms10 |  |  |  |  |  |
-| 138 | hvrtc.curve.V10 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms11 |  |  |  |  |  |
-| 138 | hvrtc.curve.V11 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms12 |  |  |  |  |  |
-| 138 | hvrtc.curve.V12 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms13 |  |  |  |  |  |
-| 138 | hvrtc.curve.V13 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms14 |  |  |  |  |  |
-| 138 | hvrtc.curve.V14 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms15 |  |  |  |  |  |
-| 138 | hvrtc.curve.V15 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms16 |  |  |  |  |  |
-| 138 | hvrtc.curve.V16 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms17 |  |  |  |  |  |
-| 138 | hvrtc.curve.V17 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms18 |  |  |  |  |  |
-| 138 | hvrtc.curve.V18 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms19 |  |  |  |  |  |
-| 138 | hvrtc.curve.V19 |  |  |  |  |  |
-| 138 | hvrtc.curve.Tms20 |  |  |  |  |  |
-| 138 | hvrtc.curve.V20 |  |  |  |  |  |
-| 138 | hvrtc.curve.CrvNam |  |  |  |  |  |
-| 138 | hvrtc.curve.ReadOnly |  |  |  |  |  |
+| 138 | hvrtc.ActCrv | RW | RW | RW | RW | RW |
+| 138 | hvrtc.ModEna | RW | RW | RW | RW | RW |
+| 138 | hvrtc.WinTms | RW | RW | RW | RW | RW |
+| 138 | hvrtc.RvrtTms | RW | RW | RW | RW | RW |
+| 138 | hvrtc.RmpTms | RW | RW | RW | RW | RW |
+| 138 | hvrtc.NCrv | R | R | R | R | R |
+| 138 | hvrtc.NPt | R | R | R | R | R |
+| 138 | hvrtc.Tms_SF | R | R | R | R | R |
+| 138 | hvrtc.V_SF | R | R | R | R | R |
+| 138 | hvrtc.Pad | R | R | R | R | R |
+| 138 | hvrtc.curve.ActPt | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms1 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V1 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms2 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V2 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms3 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V3 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms4 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V4 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms5 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V5 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms6 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V6 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms7 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V7 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms8 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V8 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms9 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V9 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms10 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V10 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms11 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V11 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms12 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V12 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms13 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V13 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms14 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V14 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms15 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V15 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms16 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V16 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms17 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V17 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms18 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V18 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms19 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V19 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.Tms20 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.V20 | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.CrvNam | RW | RW | RW | RW | RW |
+| 138 | hvrtc.curve.ReadOnly | R | R | R | R | R |

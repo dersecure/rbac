@@ -1,4 +1,4 @@
-# RBAC Reference for Model 103
+# RBAC Reference for Model 103 (Inverter (Three Phase))
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|

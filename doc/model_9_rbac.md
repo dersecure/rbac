@@ -1,98 +1,98 @@
-# RBAC Reference for Model 9
+# RBAC Reference for Model 9 (Set Operator Security Certificate)
 
 | Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 9 | model_9.ID | R | R | R | R | R |
 | 9 | model_9.L | R | R | R | R | R |
-| 9 | model_9.CertUID |  |  |  |  |  |
-| 9 | model_9.CertRole |  |  |  |  |  |
-| 9 | model_9.Fmt |  |  |  |  |  |
-| 9 | model_9.Typ |  |  |  |  |  |
-| 9 | model_9.TotLn |  |  |  |  |  |
-| 9 | model_9.FrgLn |  |  |  |  |  |
-| 9 | model_9.Frg1 |  |  |  |  |  |
-| 9 | model_9.Frg2 |  |  |  |  |  |
-| 9 | model_9.Frg3 |  |  |  |  |  |
-| 9 | model_9.Frg4 |  |  |  |  |  |
-| 9 | model_9.Frg5 |  |  |  |  |  |
-| 9 | model_9.Frg6 |  |  |  |  |  |
-| 9 | model_9.Frg7 |  |  |  |  |  |
-| 9 | model_9.Frg8 |  |  |  |  |  |
-| 9 | model_9.Frg9 |  |  |  |  |  |
-| 9 | model_9.Frg10 |  |  |  |  |  |
-| 9 | model_9.Frg11 |  |  |  |  |  |
-| 9 | model_9.Frg12 |  |  |  |  |  |
-| 9 | model_9.Frg13 |  |  |  |  |  |
-| 9 | model_9.Frg14 |  |  |  |  |  |
-| 9 | model_9.Frg15 |  |  |  |  |  |
-| 9 | model_9.Frg16 |  |  |  |  |  |
-| 9 | model_9.Frg17 |  |  |  |  |  |
-| 9 | model_9.Frg18 |  |  |  |  |  |
-| 9 | model_9.Frg19 |  |  |  |  |  |
-| 9 | model_9.Frg20 |  |  |  |  |  |
-| 9 | model_9.Frg21 |  |  |  |  |  |
-| 9 | model_9.Frg22 |  |  |  |  |  |
-| 9 | model_9.Frg23 |  |  |  |  |  |
-| 9 | model_9.Frg24 |  |  |  |  |  |
-| 9 | model_9.Frg25 |  |  |  |  |  |
-| 9 | model_9.Frg26 |  |  |  |  |  |
-| 9 | model_9.Frg27 |  |  |  |  |  |
-| 9 | model_9.Frg28 |  |  |  |  |  |
-| 9 | model_9.Frg29 |  |  |  |  |  |
-| 9 | model_9.Frg30 |  |  |  |  |  |
-| 9 | model_9.Frg31 |  |  |  |  |  |
-| 9 | model_9.Frg32 |  |  |  |  |  |
-| 9 | model_9.Frg33 |  |  |  |  |  |
-| 9 | model_9.Frg34 |  |  |  |  |  |
-| 9 | model_9.Frg35 |  |  |  |  |  |
-| 9 | model_9.Frg36 |  |  |  |  |  |
-| 9 | model_9.Frg37 |  |  |  |  |  |
-| 9 | model_9.Frg38 |  |  |  |  |  |
-| 9 | model_9.Frg39 |  |  |  |  |  |
-| 9 | model_9.Frg40 |  |  |  |  |  |
-| 9 | model_9.Frg41 |  |  |  |  |  |
-| 9 | model_9.Frg42 |  |  |  |  |  |
-| 9 | model_9.Frg43 |  |  |  |  |  |
-| 9 | model_9.Frg44 |  |  |  |  |  |
-| 9 | model_9.Frg45 |  |  |  |  |  |
-| 9 | model_9.Frg46 |  |  |  |  |  |
-| 9 | model_9.Frg47 |  |  |  |  |  |
-| 9 | model_9.Frg48 |  |  |  |  |  |
-| 9 | model_9.Frg49 |  |  |  |  |  |
-| 9 | model_9.Frg50 |  |  |  |  |  |
-| 9 | model_9.Frg51 |  |  |  |  |  |
-| 9 | model_9.Frg52 |  |  |  |  |  |
-| 9 | model_9.Frg53 |  |  |  |  |  |
-| 9 | model_9.Frg54 |  |  |  |  |  |
-| 9 | model_9.Frg55 |  |  |  |  |  |
-| 9 | model_9.Frg56 |  |  |  |  |  |
-| 9 | model_9.Frg57 |  |  |  |  |  |
-| 9 | model_9.Frg58 |  |  |  |  |  |
-| 9 | model_9.Frg59 |  |  |  |  |  |
-| 9 | model_9.Frg60 |  |  |  |  |  |
-| 9 | model_9.Frg61 |  |  |  |  |  |
-| 9 | model_9.Frg62 |  |  |  |  |  |
-| 9 | model_9.Frg63 |  |  |  |  |  |
-| 9 | model_9.Frg64 |  |  |  |  |  |
-| 9 | model_9.Frg65 |  |  |  |  |  |
-| 9 | model_9.Frg66 |  |  |  |  |  |
-| 9 | model_9.Frg67 |  |  |  |  |  |
-| 9 | model_9.Frg68 |  |  |  |  |  |
-| 9 | model_9.Frg69 |  |  |  |  |  |
-| 9 | model_9.Frg70 |  |  |  |  |  |
-| 9 | model_9.Frg71 |  |  |  |  |  |
-| 9 | model_9.Frg72 |  |  |  |  |  |
-| 9 | model_9.Frg73 |  |  |  |  |  |
-| 9 | model_9.Frg74 |  |  |  |  |  |
-| 9 | model_9.Frg75 |  |  |  |  |  |
-| 9 | model_9.Frg78 |  |  |  |  |  |
-| 9 | model_9.Frg79 |  |  |  |  |  |
-| 9 | model_9.Frg80 |  |  |  |  |  |
-| 9 | model_9.Ts |  |  |  |  |  |
-| 9 | model_9.Ms |  |  |  |  |  |
-| 9 | model_9.Seq |  |  |  |  |  |
-| 9 | model_9.UID |  |  |  |  |  |
-| 9 | model_9.Role |  |  |  |  |  |
-| 9 | model_9.Alg |  |  |  |  |  |
-| 9 | model_9.N |  |  |  |  |  |
-| 9 | model_9.repeating.Cert |  |  |  |  |  |
+| 9 | model_9.CertUID | RW | RW | RW | RW | RW |
+| 9 | model_9.CertRole | RW | RW | RW | RW | RW |
+| 9 | model_9.Fmt | RW | RW | RW | RW | RW |
+| 9 | model_9.Typ | RW | RW | RW | RW | RW |
+| 9 | model_9.TotLn | RW | RW | RW | RW | RW |
+| 9 | model_9.FrgLn | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg1 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg2 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg3 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg4 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg5 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg6 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg7 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg8 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg9 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg10 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg11 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg12 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg13 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg14 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg15 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg16 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg17 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg18 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg19 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg20 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg21 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg22 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg23 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg24 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg25 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg26 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg27 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg28 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg29 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg30 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg31 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg32 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg33 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg34 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg35 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg36 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg37 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg38 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg39 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg40 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg41 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg42 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg43 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg44 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg45 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg46 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg47 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg48 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg49 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg50 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg51 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg52 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg53 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg54 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg55 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg56 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg57 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg58 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg59 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg60 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg61 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg62 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg63 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg64 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg65 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg66 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg67 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg68 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg69 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg70 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg71 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg72 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg73 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg74 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg75 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg78 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg79 | RW | RW | RW | RW | RW |
+| 9 | model_9.Frg80 | RW | RW | RW | RW | RW |
+| 9 | model_9.Ts | RW | RW | RW | RW | RW |
+| 9 | model_9.Ms | RW | RW | RW | RW | RW |
+| 9 | model_9.Seq | RW | RW | RW | RW | RW |
+| 9 | model_9.UID | RW | RW | RW | RW | RW |
+| 9 | model_9.Role | RW | RW | RW | RW | RW |
+| 9 | model_9.Alg | RW | RW | RW | RW | RW |
+| 9 | model_9.N | RW | RW | RW | RW | RW |
+| 9 | model_9.repeating.Cert | RW | RW | RW | RW | RW |

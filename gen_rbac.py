@@ -15,11 +15,23 @@ import json
 import glob
 import subprocess
 import re
-import natsort
-
+from model_names import model_names
+from point_rules import POINT_LEVEL_RULES
 
 ROLES = ['DEROwnerSunSpec', 'DERInstallerSunSpec', 'DERVendorSunSpec', 'ServiceProviderSunSpec', 'GridOperatorSunSpec']
-MEASUREMENT_MODELS = [101, 102, 103, 111, 112, 113, 701]
+MEASUREMENT_MODELS = [101, 102, 103, 111, 112, 113, 701, 714]
+NAMEPLATE_DATA_MODELS = [1, 120, 702]
+PROTECTION_MODELS = [707, 708, 709, 710]
+PROTECTION_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec']
+
+GRID_SUPPORT_CONTROL_MODELS = [704, 705, 706, 711, 712, 713]
+GRID_SUPPORT_CONTROL_WRITE_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec', 'ServiceProviderSunSpec']
+GRID_SUPPORT_CONTROL_READ_ROLES = [
+    'DERInstallerSunSpec',
+    'DERVendorSunSpec',
+    'ServiceProviderSunSpec',
+    'GridOperatorSunSpec',
+]
 
 
 def update_submodule():
@@ -83,33 +95,74 @@ def replace_points(obj, model_id):
     :param obj: (dict) The json sunspec model object
     :param model_id: (int) The model ID
     """
-    if isinstance(obj, dict):
-        new_obj = {}
-        for k, v in obj.items():
-            if k == "points" and isinstance(v, list):
-                new_points = []
-                for item in v:
-                    filtered = filter_point(item)
 
-                    # If the point is "L" or "ID", give it all read roles for SunSpec discovery
-                    if isinstance(filtered, dict) and filtered.get("name") in ("L", "ID"):
-                        filtered["read_roles"] = ROLES.copy()
+    def get_fq_name(parent_path, pt_name):
+        return ".".join(parent_path + [pt_name])
 
-                    # If the model in MEASUREMENT_MODELS, allow read access to all roles
-                    if model_id in MEASUREMENT_MODELS:
-                        filtered["read_roles"] = ROLES.copy()
+    def _replace(obj, parent_path=None):
+        if parent_path is None:
+            parent_path = []
+        if isinstance(obj, dict):
+            new_obj = {}
+            group_name = obj.get("name") if obj.get("type") == "group" and "name" in obj else None
+            if group_name:
+                parent_path = parent_path + [group_name]
+            for k, v in obj.items():
+                if k == "points" and isinstance(v, list):
+                    new_points = []
+                    for pt in v:
+                        filtered = filter_point(pt)
+                        pt_name = pt.get("name") if isinstance(pt, dict) else None
+                        fq_name = get_fq_name(parent_path, pt_name) if pt_name else None
 
-                    new_points.append(filtered)
-                new_obj[k] = new_points
-            elif isinstance(v, (dict, list)):
-                new_obj[k] = replace_points(v, model_id)
-            else:
-                new_obj[k] = v
-        return new_obj
-    elif isinstance(obj, list):
-        return [replace_points(item, model_id) for item in obj]
-    else:
-        return obj
+                        # This is a starting place for model and point-level rules
+                        access = pt.get("access") if isinstance(pt, dict) else None
+                        if access == "RW":
+                            filtered["read_roles"] = ROLES.copy()
+                            filtered["write_roles"] = ROLES.copy()
+                        else:
+                            filtered["read_roles"] = ROLES.copy()
+                            filtered["write_roles"] = []
+
+                        # If the model in MEASUREMENT_MODELS or NAMEPLATE_DATA_MODELS, allow read access to all roles
+                        if model_id in MEASUREMENT_MODELS or model_id in NAMEPLATE_DATA_MODELS:
+                            filtered["read_roles"] = ROLES.copy()
+
+                        if model_id in PROTECTION_MODELS:
+                            filtered["read_roles"] = PROTECTION_ROLES.copy()
+                            filtered["write_roles"] = PROTECTION_ROLES.copy() if access == "RW" else []
+
+                        if model_id in GRID_SUPPORT_CONTROL_MODELS:
+                            filtered["read_roles"] = GRID_SUPPORT_CONTROL_READ_ROLES.copy()
+                            filtered["write_roles"] = GRID_SUPPORT_CONTROL_WRITE_ROLES.copy() if access == "RW" else []
+
+                        # Override with POINT_LEVEL_RULES if present
+                        if (
+                            model_id is not None
+                            and model_id in POINT_LEVEL_RULES
+                            and fq_name in POINT_LEVEL_RULES[model_id]
+                        ):
+                            rule = POINT_LEVEL_RULES[model_id][fq_name]
+                            filtered["read_roles"] = rule.get("read", filtered["read_roles"])
+                            filtered["write_roles"] = rule.get("write", filtered["write_roles"]) if access == "RW" else []
+
+                        # Finally, if the point is "L" or "ID", allow read for all roles for SunSpec discovery
+                        if isinstance(filtered, dict) and filtered.get("name") in ("L", "ID"):
+                            filtered["read_roles"] = ROLES.copy()
+
+                        new_points.append(filtered)
+                    new_obj[k] = new_points
+                elif isinstance(v, (dict, list)):
+                    new_obj[k] = _replace(v, parent_path)
+                else:
+                    new_obj[k] = v
+            return new_obj
+        elif isinstance(obj, list):
+            return [_replace(item, parent_path) for item in obj]
+        else:
+            return obj
+
+    return _replace(obj)
 
 
 def filter_point(item):
@@ -171,12 +224,16 @@ def generate_roles_to_rights():
                 continue
 
             # Write entry in the index table
+            model_name_str = model_names.get(model_id, 'Unknown') if isinstance(model_id, int) else 'Unknown'
             model_md_filename = f"model_{model_id}_rbac.md"
-            f.write(f"| {model_id} | [RBAC Roles-to-Rights Model {model_id} Table](/doc/{model_md_filename}) |\n")
+            f.write(
+                f"| {model_id} | [RBAC Roles-to-Rights Model {model_id} ({model_name_str}) Table](/doc/{model_md_filename}) |\n"
+            )
 
             # Write the individual model markdown file
             with open(os.path.join("doc", model_md_filename), "w") as model_md:
-                model_md.write(f"# RBAC Reference for Model {model_id}\n\n")
+
+                model_md.write(f"# RBAC Reference for Model {model_id} ({model_name_str})\n\n")
                 model_md.write(
                     "| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |\n"
                 )
@@ -204,13 +261,16 @@ def generate_roles_to_rights():
 
 
 def find_roles(obj):
-    def collect_point_roles(obj, parent_path=None, result=None):
+    """
+    Find the roles associated with each point in the given object.
+    """
+
+    def collect_point_roles(obj, parent_path=None, result=None, model_id=None):
         if result is None:
             result = {}
         if parent_path is None:
             parent_path = []
         if isinstance(obj, dict):
-            # If this dict is a group with a name, add it to the path
             group_name = obj.get("name") if obj.get("type") == "group" and "name" in obj else None
             if group_name:
                 parent_path = parent_path + [group_name]
@@ -224,13 +284,20 @@ def find_roles(obj):
                             write_roles = pt.get("write_roles", []) if isinstance(pt, dict) else []
                             result[fq_name] = {"read": list(read_roles), "write": list(write_roles)}
                 elif isinstance(v, (dict, list)):
-                    collect_point_roles(v, parent_path, result)
+                    collect_point_roles(v, parent_path, result, model_id)
         elif isinstance(obj, list):
             for item in obj:
-                collect_point_roles(item, parent_path, result)
+                collect_point_roles(item, parent_path, result, model_id)
         return result
 
-    return collect_point_roles(obj)
+    # Try to extract model_id from the top-level object
+    model_id = None
+    if isinstance(obj, dict):
+        if "id" in obj and isinstance(obj["id"], int):
+            model_id = obj["id"]
+        elif "group" in obj and isinstance(obj["group"], dict) and "id" in obj["group"]:
+            model_id = obj["group"]["id"]
+    return collect_point_roles(obj, model_id=model_id)
 
 
 if __name__ == "__main__":

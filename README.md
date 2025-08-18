@@ -24,6 +24,8 @@ SunSpec has defined the following roles with these general permissions:
 * DERInstallerSunSpec - Read/write access to the grid support functions. 
 * DERVendorSunSpec - Read access to measurement data for monitoring and 
 prognostics. Other rights can be granted if they assume a different role. 
+For instance, if the DER vendor is relaying control information from a grid 
+operator, they should update their role to be `GridOperatorSunSpec`.
 * ServiceProviderSunSpec - Read access to measurement data. Write access to 
 commanded and autonomous functions.  No access to protection functions. 
 * GridOperatorSunSpec - Full read/write access to all SunSpec points. 
@@ -59,7 +61,10 @@ in [roles_to_rights.md](roles_to_rights.md).
 
 ## References
 
-* [Modbus.org, MODBUS/TCP Security: Protocol Specification, MB-TCP-Security-v36_2021-07-30](https://www.modbus.org/docs/MB-TCP-Security-v36_2021-07-30.pdf)
-* [International Electrotechnical Commission, IEC 62351-8:2020 Power systems management and associated information exchange - Data and communications security - Part 8: Role-based access control for power system management](https://webstore.iec.ch/en/publication/61822)
+* [Modbus.org, MODBUS/TCP Security: Protocol Specification, MB-TCP-Security-
+v36_2021-07-30](https://www.modbus.org/docs/MB-TCP-Security-v36_2021-07-30.pdf)
+* [International Electrotechnical Commission, IEC 62351-8:2020 Power systems 
+management and associated information exchange - Data and communications security - 
+Part 8: Role-based access control for power system management](https://webstore.iec.ch/en/publication/61822)
 * [J. Johnson, Recommendations for Distributed Energy Resource Access Control, Sandia Report
 SAND2021-0977, January 2021.](https://www.osti.gov/servlets/purl/1765273)
