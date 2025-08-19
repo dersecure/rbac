@@ -16,15 +16,36 @@ import glob
 import subprocess
 import re
 from model_names import model_names
-from point_rules import POINT_LEVEL_RULES
+from point_rules import POINT_LEVEL_RULES, SETTINGS_READ_ROLES, SETTINGS_WRITE_ROLES
 
 ROLES = ['DEROwnerSunSpec', 'DERInstallerSunSpec', 'DERVendorSunSpec', 'ServiceProviderSunSpec', 'GridOperatorSunSpec']
-MEASUREMENT_MODELS = [101, 102, 103, 111, 112, 113, 701, 714]
+
+SECURITY_MODELS = [2, 3, 4, 5, 6, 7, 8, 9]
+SEC_ROLES = ['DERInstallerSunSpec', 'DERVendorSunSpec']  # Configured during commissioning; rarely updated
+
+COMM_MODELS = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+COMM_ROLES = ROLES  # All users can read this data
+COMM_WRITE_ROLES = ['DERInstallerSunSpec']  # If modifying this information, the user needs a commissioning role
+
+# fmt: off
+MEASUREMENT_MODELS = [
+    101, 102, 103, 111, 112, 113, 122, 124, 125, 126, 127, 128, 129, 130, 
+    131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 
+    160, 201, 202, 203, 204, 211, 212, 213, 214, 220, 302, 303, 304, 306,
+    307, 308, 401, 402, 403, 404, 501, 502, 601, 701, 713, 714, 802, 803, 
+    804, 805, 806, 807, 808, 
+]
+# fmt: on
+GPS_MODELS = [305]
+GPS_ROLES = ['ServiceProviderSunSpec', 'GridOperatorSunSpec']  # Read only
+
 NAMEPLATE_DATA_MODELS = [1, 120, 702]
+SETTINGS_MODELS = [121, 145]  # Model 702 is handled by the point-level rules
+
 PROTECTION_MODELS = [707, 708, 709, 710]
 PROTECTION_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec']
 
-GRID_SUPPORT_CONTROL_MODELS = [704, 705, 706, 711, 712, 713]
+GRID_SUPPORT_CONTROL_MODELS = [123, 703, 704, 705, 706, 711, 712]
 GRID_SUPPORT_CONTROL_WRITE_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec', 'ServiceProviderSunSpec']
 GRID_SUPPORT_CONTROL_READ_ROLES = [
     'DERInstallerSunSpec',
@@ -124,9 +145,31 @@ def replace_points(obj, model_id):
                             filtered["read_roles"] = ROLES.copy()
                             filtered["write_roles"] = []
 
-                        # If the model in MEASUREMENT_MODELS or NAMEPLATE_DATA_MODELS, allow read access to all roles
-                        if model_id in MEASUREMENT_MODELS or model_id in NAMEPLATE_DATA_MODELS:
+                        # If the model in SECURITY_MODELS, allow read access to all roles
+                        if model_id in SECURITY_MODELS:
+                            filtered["read_roles"] = SEC_ROLES.copy()
+                            filtered["write_roles"] = SEC_ROLES if access == "RW" else []
+
+                        # If the model in COMM_MODELS, allow read access to all roles
+                        if model_id in COMM_MODELS:
+                            filtered["read_roles"] = COMM_ROLES.copy()
+                            filtered["write_roles"] = COMM_ROLES.copy() if access == "RW" else []
+
+                        # If the model in MEASUREMENT_MODELS, allow read access to all roles
+                        if model_id in MEASUREMENT_MODELS:
                             filtered["read_roles"] = ROLES.copy()
+
+                        if model_id in GPS_MODELS:
+                            filtered["read_roles"] = GPS_ROLES.copy()
+                            filtered["write_roles"] = GPS_ROLES.copy() if access == "RW" else []
+
+                        # If the model in MEASUREMENT_MODELS, allow read access to all roles
+                        if model_id in NAMEPLATE_DATA_MODELS:
+                            filtered["read_roles"] = ROLES.copy()
+
+                        if model_id in SETTINGS_MODELS:
+                            filtered["read_roles"] = SETTINGS_READ_ROLES.copy()
+                            filtered["write_roles"] = SETTINGS_WRITE_ROLES.copy() if access == "RW" else []
 
                         if model_id in PROTECTION_MODELS:
                             filtered["read_roles"] = PROTECTION_ROLES.copy()
@@ -144,7 +187,9 @@ def replace_points(obj, model_id):
                         ):
                             rule = POINT_LEVEL_RULES[model_id][fq_name]
                             filtered["read_roles"] = rule.get("read", filtered["read_roles"])
-                            filtered["write_roles"] = rule.get("write", filtered["write_roles"]) if access == "RW" else []
+                            filtered["write_roles"] = (
+                                rule.get("write", filtered["write_roles"]) if access == "RW" else []
+                            )
 
                         # Finally, if the point is "L" or "ID", allow read for all roles for SunSpec discovery
                         if isinstance(filtered, dict) and filtered.get("name") in ("L", "ID"):

@@ -10,18 +10,12 @@
                         "desc": "Digital Signature",
                         "name": "DS",
                         "read_roles": [
-                            "DEROwnerSunSpec",
                             "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "DERVendorSunSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
                             "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "DERVendorSunSpec"
                         ]
                     }
                 ],
@@ -59,1522 +53,988 @@
                 "desc": "Number of (offset, value) pairs being written",
                 "name": "X",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Starting offset for write operation",
                 "name": "Off",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Value to write to control register at offset",
                 "name": "Val1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val2",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val3",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val4",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val5",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val6",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val7",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val8",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val9",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val10",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val11",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val12",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val13",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val14",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val15",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val16",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val17",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val18",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val19",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val20",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val21",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val22",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val23",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val24",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val25",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val26",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val27",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val28",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val29",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val30",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val31",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val32",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val33",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val34",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val35",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val36",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val37",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val38",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val39",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val40",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val41",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val42",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val43",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val44",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val45",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val46",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val47",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val48",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val49",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val50",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val51",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val52",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val53",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val54",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val55",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val56",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val57",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val58",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val59",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val60",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val61",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val62",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val63",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val64",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val65",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val66",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val67",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val68",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val69",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val70",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val71",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val72",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val73",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val74",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val75",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val76",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val77",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val78",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val79",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Val80",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Timestamp value is the number of seconds since January 1, 2000",
                 "name": "Ts",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Millisecond counter 0-999",
                 "name": "Ms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Sequence number of request",
                 "name": "Seq",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Signing key used 0-5",
                 "name": "Role",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "name": "Rsrvd",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Algorithm used to compute the digital signature",
                 "name": "Alg",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             },
             {
                 "desc": "Number of registers comprising the digital signature.",
                 "name": "N",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             }
         ],

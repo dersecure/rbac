@@ -32,151 +32,126 @@
                 "desc": "Permit enter service.",
                 "name": "ES",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service voltage high threshold as percent of normal voltage.",
                 "name": "ESVHi",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service voltage low threshold as percent of normal voltage.",
                 "name": "ESVLo",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service frequency high threshold.",
                 "name": "ESHzHi",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service frequency low threshold.",
                 "name": "ESHzLo",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service delay time in seconds.",
                 "name": "ESDlyTms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service random delay in seconds.",
                 "name": "ESRndTms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service ramp time in seconds.",
                 "name": "ESRmpTms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "GridOperatorSunSpec",
+                    "ServiceProviderSunSpec"
                 ]
             },
             {
                 "desc": "Enter service delay time remaining in seconds.",
                 "name": "ESDlyRemTms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -188,7 +163,6 @@
                 "desc": "Voltage percentage scale factor.",
                 "name": "V_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -200,7 +174,6 @@
                 "desc": "Frequency scale factor.",
                 "name": "Hz_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",

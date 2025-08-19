@@ -32,16 +32,13 @@
                 "desc": "Ramp up rate as a percentage of max current.",
                 "name": "NomRmpUpRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -50,16 +47,13 @@
                 "desc": "Ramp down rate as a percentage of max current.",
                 "name": "NomRmpDnRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -68,16 +62,13 @@
                 "desc": "Emergency ramp up rate as a percentage of max current.",
                 "name": "EmgRmpUpRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -86,16 +77,13 @@
                 "desc": "Emergency ramp down rate as a percentage of max current.",
                 "name": "EmgRmpDnRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -104,16 +92,13 @@
                 "desc": "Connect ramp up rate as a percentage of max current.",
                 "name": "ConnRmpUpRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -122,16 +107,13 @@
                 "desc": "Connect ramp down rate as a percentage of max current.",
                 "name": "ConnRmpDnRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -140,16 +122,13 @@
                 "desc": "Ramp rate specified in percent of max current.",
                 "name": "AGra",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -158,7 +137,6 @@
                 "desc": "Ramp Rate Scale Factor",
                 "name": "Rmp_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",

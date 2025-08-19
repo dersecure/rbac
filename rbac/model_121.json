@@ -32,16 +32,13 @@
                 "desc": "Setting for maximum power output. Default to WRtg.",
                 "name": "WMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -50,16 +47,13 @@
                 "desc": "Voltage at the PCC.",
                 "name": "VRef",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -68,16 +62,13 @@
                 "desc": "Offset  from PCC to inverter.",
                 "name": "VRefOfs",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -86,16 +77,13 @@
                 "desc": "Setpoint for maximum voltage.",
                 "name": "VMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -104,16 +92,13 @@
                 "desc": "Setpoint for minimum voltage.",
                 "name": "VMin",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -122,16 +107,13 @@
                 "desc": "Setpoint for maximum apparent power. Default to VARtg.",
                 "name": "VAMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -140,16 +122,13 @@
                 "desc": "Setting for maximum reactive power in quadrant 1. Default to VArRtgQ1.",
                 "name": "VArMaxQ1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -158,16 +137,13 @@
                 "desc": "Setting for maximum reactive power in quadrant 2. Default to VArRtgQ2.",
                 "name": "VArMaxQ2",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -176,16 +152,13 @@
                 "desc": "Setting for maximum reactive power in quadrant 3. Default to VArRtgQ3.",
                 "name": "VArMaxQ3",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -194,16 +167,13 @@
                 "desc": "Setting for maximum reactive power in quadrant 4. Default to VArRtgQ4.",
                 "name": "VArMaxQ4",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -212,16 +182,13 @@
                 "desc": "Default ramp rate of change of active power due to command or internal action.",
                 "name": "WGra",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -230,16 +197,13 @@
                 "desc": "Setpoint for minimum power factor value in quadrant 1. Default to PFRtgQ1.",
                 "name": "PFMinQ1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -248,16 +212,13 @@
                 "desc": "Setpoint for minimum power factor value in quadrant 2. Default to PFRtgQ2.",
                 "name": "PFMinQ2",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -266,16 +227,13 @@
                 "desc": "Setpoint for minimum power factor value in quadrant 3. Default to PFRtgQ3.",
                 "name": "PFMinQ3",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -284,16 +242,13 @@
                 "desc": "Setpoint for minimum power factor value in quadrant 4. Default to PFRtgQ4.",
                 "name": "PFMinQ4",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -302,16 +257,13 @@
                 "desc": "VAR action on change between charging and discharging: 1=switch 2=maintain VAR characterization.",
                 "name": "VArAct",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -320,16 +272,13 @@
                 "desc": "Calculation method for total apparent power. 1=vector 2=arithmetic.",
                 "name": "ClcTotVA",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -338,16 +287,13 @@
                 "desc": "Setpoint for maximum ramp rate as percentage of nominal maximum ramp rate. This setting will limit the rate that watts delivery to the grid can increase or decrease in response to intermittent PV generation.",
                 "name": "MaxRmpRte",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -356,16 +302,13 @@
                 "desc": "Setpoint for nominal frequency at the ECP.",
                 "name": "ECPNomHz",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -374,16 +317,13 @@
                 "desc": "Identity of connected phase for single phase inverters. A=1 B=2 C=3.",
                 "name": "ConnPh",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ]
@@ -392,7 +332,6 @@
                 "desc": "Scale factor for real power.",
                 "name": "WMax_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -404,7 +343,6 @@
                 "desc": "Scale factor for voltage at the PCC.",
                 "name": "VRef_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -416,7 +354,6 @@
                 "desc": "Scale factor for offset voltage.",
                 "name": "VRefOfs_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -428,7 +365,6 @@
                 "desc": "Scale factor for min/max voltages.",
                 "name": "VMinMax_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -440,7 +376,6 @@
                 "desc": "Scale factor for apparent power.",
                 "name": "VAMax_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -452,7 +387,6 @@
                 "desc": "Scale factor for reactive power.",
                 "name": "VArMax_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -464,7 +398,6 @@
                 "desc": "Scale factor for default ramp rate.",
                 "name": "WGra_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -476,7 +409,6 @@
                 "desc": "Scale factor for minimum power factor.",
                 "name": "PFMin_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -488,7 +420,6 @@
                 "desc": "Scale factor for maximum ramp percentage.",
                 "name": "MaxRmpRte_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
@@ -500,7 +431,6 @@
                 "desc": "Scale factor for nominal frequency.",
                 "name": "ECPNomHz_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
                     "DERVendorSunSpec",
                     "ServiceProviderSunSpec",

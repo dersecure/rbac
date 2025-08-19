@@ -32,9 +32,6 @@
                 "desc": "UTC 24 hour time stamp to millisecond hhmmss.sssZ format",
                 "name": "Tm",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
@@ -44,9 +41,6 @@
                 "desc": "UTC Date string YYYYMMDD format",
                 "name": "Date",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
@@ -56,9 +50,6 @@
                 "desc": "Location string (40 chars max)",
                 "name": "Loc",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
@@ -68,9 +59,6 @@
                 "desc": "Latitude with seven degrees of precision",
                 "name": "Lat",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
@@ -80,9 +68,6 @@
                 "desc": "Longitude with seven degrees of precision",
                 "name": "Long",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],
@@ -92,9 +77,6 @@
                 "desc": "Altitude measurement in meters",
                 "name": "Alt",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
                     "ServiceProviderSunSpec",
                     "GridOperatorSunSpec"
                 ],

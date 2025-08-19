@@ -4,9 +4,9 @@
 |-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
 | 305 | location.ID | R | R | R | R | R |
 | 305 | location.L | R | R | R | R | R |
-| 305 | location.Tm | R | R | R | R | R |
-| 305 | location.Date | R | R | R | R | R |
-| 305 | location.Loc | R | R | R | R | R |
-| 305 | location.Lat | R | R | R | R | R |
-| 305 | location.Long | R | R | R | R | R |
-| 305 | location.Alt | R | R | R | R | R |
+| 305 | location.Tm |  |  |  | R | R |
+| 305 | location.Date |  |  |  | R | R |
+| 305 | location.Loc |  |  |  | R | R |
+| 305 | location.Lat |  |  |  | R | R |
+| 305 | location.Long |  |  |  | R | R |
+| 305 | location.Alt |  |  |  | R | R |

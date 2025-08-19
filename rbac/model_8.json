@@ -10,11 +10,8 @@
                         "desc": "X.509 Certificate of the device",
                         "name": "Cert",
                         "read_roles": [
-                            "DEROwnerSunSpec",
                             "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "DERVendorSunSpec"
                         ],
                         "write_roles": []
                     }
@@ -53,11 +50,8 @@
                 "desc": "X.509 format of the certificate. DER or PEM.",
                 "name": "Fmt",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -65,11 +59,8 @@
                 "desc": "Number of registers to follow for the certificate",
                 "name": "N",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             }

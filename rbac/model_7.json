@@ -10,18 +10,12 @@
                         "desc": "Digital Signature",
                         "name": "DS",
                         "read_roles": [
-                            "DEROwnerSunSpec",
                             "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "DERVendorSunSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
                             "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "DERVendorSunSpec"
                         ]
                     }
                 ],
@@ -59,11 +53,8 @@
                 "desc": "Sequence number from the request",
                 "name": "RqSeq",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -71,11 +62,8 @@
                 "desc": "Status of last write operation",
                 "name": "Sts",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -83,11 +71,8 @@
                 "desc": "Timestamp value is the number of seconds since January 1, 2000",
                 "name": "Ts",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -95,11 +80,8 @@
                 "desc": "Millisecond counter 0-999",
                 "name": "Ms",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -107,11 +89,8 @@
                 "desc": "Sequence number of response",
                 "name": "Seq",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -119,22 +98,16 @@
                 "desc": "Bitmask alarm code",
                 "name": "Alm",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
             {
                 "name": "Rsrvd",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -142,11 +115,8 @@
                 "desc": "Algorithm used to compute the digital signature",
                 "name": "Alg",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": []
             },
@@ -154,18 +124,12 @@
                 "desc": "Number of registers comprising the digital signature.",
                 "name": "N",
                 "read_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
                     "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "DERVendorSunSpec"
                 ]
             }
         ],
