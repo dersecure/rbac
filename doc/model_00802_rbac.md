@@ -11,8 +11,8 @@
 | 802 | battery.DisChaRte | R | R | R | R |
 | 802 | battery.SoCMax | R | R | R | R |
 | 802 | battery.SoCMin | R | R | R | R |
-| 802 | battery.SocRsvMax | RW | RW | RW | RW |
-| 802 | battery.SoCRsvMin | RW | RW | RW | RW |
+| 802 | battery.SocRsvMax | R | R | R | R |
+| 802 | battery.SoCRsvMin | R | R | R | R |
 | 802 | battery.SoC | R | R | R | R |
 | 802 | battery.DoD | R | R | R | R |
 | 802 | battery.SoH | R | R | R | R |
@@ -20,8 +20,8 @@
 | 802 | battery.ChaSt | R | R | R | R |
 | 802 | battery.LocRemCtl | R | R | R | R |
 | 802 | battery.Hb | R | R | R | R |
-| 802 | battery.CtrlHb | RW | RW | RW | RW |
-| 802 | battery.AlmRst | RW | RW | RW | RW |
+| 802 | battery.CtrlHb | R | R | R | R |
+| 802 | battery.AlmRst | R | R | R | R |
 | 802 | battery.Typ | R | R | R | R |
 | 802 | battery.State | R | R | R | R |
 | 802 | battery.StateVnd | R | R | R | R |
@@ -46,8 +46,8 @@
 | 802 | battery.W | R | R | R | R |
 | 802 | battery.ReqInvState | R | R | R | R |
 | 802 | battery.ReqW | R | R | R | R |
-| 802 | battery.SetOp | RW | RW | RW | RW |
-| 802 | battery.SetInvState | RW | RW | RW | RW |
+| 802 | battery.SetOp | R | R | R | R |
+| 802 | battery.SetInvState | R | R | R | R |
 | 802 | battery.AHRtg_SF | R | R | R | R |
 | 802 | battery.WHRtg_SF | R | R | R | R |
 | 802 | battery.WChaDisChaMax_SF | R | R | R | R |

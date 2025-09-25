@@ -42,7 +42,7 @@ MEASUREMENT_MODELS = [
 ]
 # fmt: on
 MEASUREMENT_READ_ROLES = ROLES.copy()
-MEASUREMENT_WRITE_ROLES = ROLES.copy()
+MEASUREMENT_WRITE_ROLES = []  # No write access to measurement models
 
 GPS_MODELS = [305]
 GPS_READ_ROLES = ROLES.copy()
@@ -178,7 +178,7 @@ def replace_points(obj, model_id):
                         access = pt.get("access") if isinstance(pt, dict) else None
                         if access == "RW":
                             filtered["read_roles"] = ROLES.copy()
-                            filtered["write_roles"] = ROLES.copy()
+                            filtered["write_roles"] = [ROLE_SUPER_ADMIN]
                         else:
                             filtered["read_roles"] = ROLES.copy()
                             filtered["write_roles"] = []

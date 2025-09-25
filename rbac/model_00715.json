@@ -58,9 +58,6 @@
                     "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ]
             },
@@ -74,9 +71,6 @@
                     "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ]
             },
@@ -90,9 +84,6 @@
                     "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ]
             }

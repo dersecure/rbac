@@ -79,12 +79,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Vendor Module Control",
@@ -95,12 +90,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Module Control Value",
@@ -111,12 +101,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Time in seconds since 2000 epoch",

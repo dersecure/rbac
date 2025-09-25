@@ -15,12 +15,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 1 duration.",
@@ -31,12 +26,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 1 frequency.",
@@ -47,12 +37,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 2 duration.",
@@ -63,12 +48,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 2 frequency.",
@@ -79,12 +59,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 3 duration.",
@@ -95,12 +70,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 3 frequency.",
@@ -111,12 +81,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 4 duration.",
@@ -127,12 +92,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 4 frequency.",
@@ -143,12 +103,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 5 duration.",
@@ -159,12 +114,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 5 frequency.",
@@ -175,12 +125,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 6 duration.",
@@ -191,12 +136,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 6 frequency.",
@@ -207,12 +147,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 7 duration.",
@@ -223,12 +158,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 7 frequency.",
@@ -239,12 +169,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 8 duration.",
@@ -255,12 +180,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 8 frequency.",
@@ -271,12 +191,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 9 duration.",
@@ -287,12 +202,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 9 frequency.",
@@ -303,12 +213,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 10 duration.",
@@ -319,12 +224,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 10 frequency.",
@@ -335,12 +235,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 11 duration.",
@@ -351,12 +246,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 11 frequency.",
@@ -367,12 +257,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 12 duration.",
@@ -383,12 +268,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 12 frequency.",
@@ -399,12 +279,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 13 duration.",
@@ -415,12 +290,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 13 frequency.",
@@ -431,12 +301,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 14 duration.",
@@ -447,12 +312,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 14 frequency.",
@@ -463,12 +323,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 15 duration.",
@@ -479,12 +334,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 15 frequency.",
@@ -495,12 +345,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 16 duration.",
@@ -511,12 +356,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 16 frequency.",
@@ -527,12 +367,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 17 duration.",
@@ -543,12 +378,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 17 frequency.",
@@ -559,12 +389,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 18 duration.",
@@ -575,12 +400,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 18 frequency.",
@@ -591,12 +411,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 19 duration.",
@@ -607,12 +422,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 19 frequency.",
@@ -623,12 +433,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 20 duration.",
@@ -639,12 +444,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Point 20 frequency.",
@@ -655,12 +455,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Optional description for curve.",
@@ -671,12 +466,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Enumerated value indicates if curve is read-only or can be modified.",
@@ -727,12 +517,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "LHzRT control mode. Enable active curve.  Bitfield value.",
@@ -743,12 +528,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Time window for LFRT change.",
@@ -759,12 +539,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Timeout period for LFRT curve selection.",
@@ -775,12 +550,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Ramp time for moving from current mode to new mode.",
@@ -791,12 +561,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Number of curves supported (recommend 4).",

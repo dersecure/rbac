@@ -8,9 +8,9 @@
 | 501 | solar_module_float.StatVend | R | R | R | R |
 | 501 | solar_module_float.Evt | R | R | R | R |
 | 501 | solar_module_float.EvtVend | R | R | R | R |
-| 501 | solar_module_float.Ctl | RW | RW | RW | RW |
-| 501 | solar_module_float.CtlVend | RW | RW | RW | RW |
-| 501 | solar_module_float.CtlVal | RW | RW | RW | RW |
+| 501 | solar_module_float.Ctl | R | R | R | R |
+| 501 | solar_module_float.CtlVend | R | R | R | R |
+| 501 | solar_module_float.CtlVal | R | R | R | R |
 | 501 | solar_module_float.Tms | R | R | R | R |
 | 501 | solar_module_float.OutA | R | R | R | R |
 | 501 | solar_module_float.OutV | R | R | R | R |

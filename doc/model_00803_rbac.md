@@ -52,7 +52,7 @@
 | 803 | lithium_ion_bank.string.StrEvt2 | R | R | R | R |
 | 803 | lithium_ion_bank.string.StrEvtVnd1 | R | R | R | R |
 | 803 | lithium_ion_bank.string.StrEvtVnd2 | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrSetEna | RW | RW | RW | RW |
-| 803 | lithium_ion_bank.string.StrSetCon | RW | RW | RW | RW |
+| 803 | lithium_ion_bank.string.StrSetEna | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrSetCon | R | R | R | R |
 | 803 | lithium_ion_bank.string.Pad1 | R | R | R | R |
 | 803 | lithium_ion_bank.string.Pad2 | R | R | R | R |

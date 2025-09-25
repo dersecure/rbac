@@ -197,12 +197,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Connects and disconnects the module.",
@@ -213,12 +208,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Reason why the module is currently disabled.",

@@ -255,12 +255,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Connects and disconnects the string.",
@@ -271,12 +266,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Pad register.",

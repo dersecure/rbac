@@ -35,12 +35,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "The gradient used to increase capacitive dynamic current. A value of 0 indicates no additional reactive current support.",
@@ -51,12 +46,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "The gradient used to increase inductive dynamic current.  A value of 0 indicates no additional reactive current support.",
@@ -67,12 +57,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Activate dynamic reactive current model",
@@ -83,12 +68,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "The time window used to calculate the moving average voltage.",
@@ -99,12 +79,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "The lower delta voltage limit for which negative voltage deviations less than this value no dynamic vars are produced.",
@@ -115,12 +90,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "The upper delta voltage limit for which positive voltage deviations less than this value no dynamic current produced.",
@@ -131,12 +101,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Block zone voltage which defines a lower voltage boundary below which no dynamic current is produced.",
@@ -147,12 +112,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Hysteresis voltage used with BlkZnV.",
@@ -163,12 +123,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Block zone time the time before which reactive current support remains active regardless of how low the voltage drops.",
@@ -179,12 +134,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Hold time during which reactive current support continues after the average voltage has entered the dead zone.",
@@ -195,12 +145,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Scale factor for the gradients.",

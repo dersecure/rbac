@@ -70,12 +70,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Manual override target position of azimuth in degrees from true north towards east.  Unimplemented for single axis azimuth tracker type",
@@ -86,12 +81,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Control register. Normal operation is automatic.  Operator can override the position by setting the ElCtl, AzCtl and enabling Manual operation. Entering calibration mode will revert to automatic operation after calibration is complete.",
@@ -102,12 +92,7 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": [
-                            "ReadOnlySunSpec",
-                            "GridServiceSunSpec",
-                            "NetworkAdministratorSunSpec",
-                            "SuperAdministratorSpec"
-                        ]
+                        "write_roles": []
                     },
                     {
                         "desc": "Tracker alarm conditions",
@@ -213,12 +198,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Global manual override target position of azimuth in degrees from true north towards east.  Unimplemented for single axis azimuth tracker type",
@@ -229,12 +209,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Global Control register operates on all trackers. Normal operation is automatic.  Operator can override the position by setting the ElCtl, AzCtl and enabling Manual operation. Entering calibration mode will revert to automatic operation after calibration is complete.",
@@ -245,12 +220,7 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": [
-                    "ReadOnlySunSpec",
-                    "GridServiceSunSpec",
-                    "NetworkAdministratorSunSpec",
-                    "SuperAdministratorSpec"
-                ]
+                "write_roles": []
             },
             {
                 "desc": "Global tracker alarm conditions",

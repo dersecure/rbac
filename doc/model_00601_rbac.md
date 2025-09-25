@@ -9,9 +9,9 @@
 | 601 | tracker_controller.DtLoc | R | R | R | R |
 | 601 | tracker_controller.TmLoc | R | R | R | R |
 | 601 | tracker_controller.Day | R | R | R | R |
-| 601 | tracker_controller.GlblElCtl | RW | RW | RW | RW |
-| 601 | tracker_controller.GlblAzCtl | RW | RW | RW | RW |
-| 601 | tracker_controller.GlblCtl | RW | RW | RW | RW |
+| 601 | tracker_controller.GlblElCtl | R | R | R | R |
+| 601 | tracker_controller.GlblAzCtl | R | R | R | R |
+| 601 | tracker_controller.GlblCtl | R | R | R | R |
 | 601 | tracker_controller.GlblAlm | R | R | R | R |
 | 601 | tracker_controller.Dgr_SF | R | R | R | R |
 | 601 | tracker_controller.N | R | R | R | R |
@@ -20,7 +20,7 @@
 | 601 | tracker_controller.tracker.AzTrgt | R | R | R | R |
 | 601 | tracker_controller.tracker.ElPos | R | R | R | R |
 | 601 | tracker_controller.tracker.AzPos | R | R | R | R |
-| 601 | tracker_controller.tracker.ElCtl | RW | RW | RW | RW |
-| 601 | tracker_controller.tracker.AzCtl | RW | RW | RW | RW |
-| 601 | tracker_controller.tracker.Ctl | RW | RW | RW | RW |
+| 601 | tracker_controller.tracker.ElCtl | R | R | R | R |
+| 601 | tracker_controller.tracker.AzCtl | R | R | R | R |
+| 601 | tracker_controller.tracker.Ctl | R | R | R | R |
 | 601 | tracker_controller.tracker.Alm | R | R | R | R |
