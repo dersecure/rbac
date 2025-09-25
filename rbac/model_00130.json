@@ -15,7 +15,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 must disconnect duration.",
@@ -26,7 +29,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 must disconnect voltage.",
@@ -37,7 +43,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 must disconnect duration.",
@@ -48,7 +57,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 must disconnect voltage.",
@@ -59,7 +71,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 must disconnect duration.",
@@ -70,7 +85,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 must disconnect voltage.",
@@ -81,7 +99,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 must disconnect duration.",
@@ -92,7 +113,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 must disconnect voltage.",
@@ -103,7 +127,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 must disconnect duration.",
@@ -114,7 +141,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 must disconnect voltage.",
@@ -125,7 +155,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 must disconnect duration.",
@@ -136,7 +169,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 must disconnect voltage.",
@@ -147,7 +183,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 must disconnect duration.",
@@ -158,7 +197,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 must disconnect voltage.",
@@ -169,7 +211,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 must disconnect duration.",
@@ -180,7 +225,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 must disconnect voltage.",
@@ -191,7 +239,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 must disconnect duration.",
@@ -202,7 +253,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 must disconnect voltage.",
@@ -213,7 +267,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 must disconnect duration.",
@@ -224,7 +281,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 must disconnect voltage.",
@@ -235,7 +295,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 must disconnect duration.",
@@ -246,7 +309,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 must disconnect voltage.",
@@ -257,7 +323,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 must disconnect duration.",
@@ -268,7 +337,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 must disconnect voltage.",
@@ -279,7 +351,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 must disconnect duration.",
@@ -290,7 +365,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 must disconnect voltage.",
@@ -301,7 +379,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 must disconnect duration.",
@@ -312,7 +393,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 must disconnect voltage.",
@@ -323,7 +407,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 must disconnect duration.",
@@ -334,7 +421,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 must disconnect voltage.",
@@ -345,7 +435,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 must disconnect duration.",
@@ -356,7 +449,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 must disconnect voltage.",
@@ -367,7 +463,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 must disconnect duration.",
@@ -378,7 +477,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 must disconnect voltage.",
@@ -389,7 +491,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 must disconnect duration.",
@@ -400,7 +505,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 must disconnect voltage.",
@@ -411,7 +519,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 must disconnect duration.",
@@ -422,7 +533,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 must disconnect voltage.",
@@ -433,7 +547,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 must disconnect duration.",
@@ -444,7 +561,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 must disconnect voltage.",
@@ -455,7 +575,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Optional description for curve.",
@@ -466,7 +589,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Enumerated value indicates if curve is read-only or can be modified.",
@@ -517,7 +643,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "HVRT control mode. Enable active curve.  Bitfield value.",
@@ -528,7 +657,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Time window for HVRT change.",
@@ -539,7 +671,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Timeout period for HVRT curve selection.",
@@ -550,7 +685,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Ramp time for moving from current mode to new mode.",
@@ -561,7 +699,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Number of curves supported (recommend 4).",

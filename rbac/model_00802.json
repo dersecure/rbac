@@ -111,7 +111,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Setpoint for minimum reserve for storage as a percentage of the nominal maximum storage.",
@@ -122,7 +125,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "State of charge, expressed as a percentage.",
@@ -210,7 +216,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Used to reset any latched alarms.  1 = Reset.",
@@ -221,7 +230,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Type of battery. Enumeration.",
@@ -496,7 +508,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Set the current state of the inverter.",
@@ -507,7 +522,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Scale factor for charge capacity.",

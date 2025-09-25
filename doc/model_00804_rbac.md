@@ -31,8 +31,8 @@
 | 804 | lithium_ion_string.Evt2 | R | R | R | R |
 | 804 | lithium_ion_string.EvtVnd1 | R | R | R | R |
 | 804 | lithium_ion_string.EvtVnd2 | R | R | R | R |
-| 804 | lithium_ion_string.SetEna | R | R | R | R |
-| 804 | lithium_ion_string.SetCon | R | R | R | R |
+| 804 | lithium_ion_string.SetEna | R | RW | R | RW |
+| 804 | lithium_ion_string.SetCon | R | RW | R | RW |
 | 804 | lithium_ion_string.SoC_SF | R | R | R | R |
 | 804 | lithium_ion_string.SoH_SF | R | R | R | R |
 | 804 | lithium_ion_string.DoD_SF | R | R | R | R |

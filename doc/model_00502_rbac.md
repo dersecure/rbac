@@ -12,9 +12,9 @@
 | 502 | solar_module.StatVend | R | R | R | R |
 | 502 | solar_module.Evt | R | R | R | R |
 | 502 | solar_module.EvtVend | R | R | R | R |
-| 502 | solar_module.Ctl | R | R | R | R |
-| 502 | solar_module.CtlVend | R | R | R | R |
-| 502 | solar_module.CtlVal | R | R | R | R |
+| 502 | solar_module.Ctl | R | RW | R | RW |
+| 502 | solar_module.CtlVend | R | RW | R | RW |
+| 502 | solar_module.CtlVal | R | RW | R | RW |
 | 502 | solar_module.Tms | R | R | R | R |
 | 502 | solar_module.OutA | R | R | R | R |
 | 502 | solar_module.OutV | R | R | R | R |

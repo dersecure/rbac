@@ -35,7 +35,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Meaning of the pricing signal. When a Price schedule is used, type must match the schedule range variable description.",
@@ -46,7 +49,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Utility/ESP specific pricing signal. Content depends on pricing signal type. When H/M/L type is specified. Low=0; Med=1; High=2.",
@@ -57,7 +63,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Time window for charge/discharge pricing change.",
@@ -68,7 +77,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Timeout period for charge/discharge pricing change.",
@@ -79,7 +91,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Ramp time for moving from current charge or discharge level to new level.",
@@ -90,7 +105,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Pricing signal scale factor.",

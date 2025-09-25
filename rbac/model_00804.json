@@ -515,7 +515,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Connects and disconnects the string.",
@@ -526,7 +529,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Scale factor for string state of charge.",

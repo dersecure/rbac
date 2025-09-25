@@ -51,6 +51,6 @@
 | 807 | flow_battery_string.module.ModEvt1 | R | R | R | R |
 | 807 | flow_battery_string.module.ModEvt2 | R | R | R | R |
 | 807 | flow_battery_string.module.ModConFail | R | R | R | R |
-| 807 | flow_battery_string.module.ModSetEna | R | R | R | R |
-| 807 | flow_battery_string.module.ModSetCon | R | R | R | R |
+| 807 | flow_battery_string.module.ModSetEna | R | RW | R | RW |
+| 807 | flow_battery_string.module.ModSetCon | R | RW | R | RW |
 | 807 | flow_battery_string.module.ModDisRsn | R | R | R | R |

@@ -197,7 +197,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Connects and disconnects the module.",
@@ -208,7 +211,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Reason why the module is currently disabled.",

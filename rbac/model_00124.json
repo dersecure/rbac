@@ -35,7 +35,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Setpoint for maximum charging rate. Default is MaxChaRte.",
@@ -46,7 +49,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Setpoint for maximum discharge rate. Default is MaxDisChaRte.",
@@ -57,7 +63,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Activate hold/discharge/charge storage control mode. Bitfield value.",
@@ -68,7 +77,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Setpoint for maximum charging VA.",
@@ -79,7 +91,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Setpoint for minimum reserve for storage as a percentage of the nominal maximum storage.",
@@ -90,7 +105,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Currently available energy as a percent of the capacity rating.",
@@ -145,7 +163,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Percent of max charging rate.",
@@ -156,7 +177,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Time window for charge/discharge rate change.",
@@ -167,7 +191,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Timeout period for charge/discharge rate.",
@@ -178,7 +205,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Ramp time for moving from current setpoint to new setpoint.",
@@ -189,7 +219,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "name": "ChaGriSet",
@@ -199,7 +232,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Scale factor for maximum charge.",

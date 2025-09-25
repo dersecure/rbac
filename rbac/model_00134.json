@@ -15,7 +15,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 Hertz.",
@@ -26,7 +29,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 1 Watts.",
@@ -37,7 +43,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 Hertz.",
@@ -48,7 +57,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 2 Watts.",
@@ -59,7 +71,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 Hertz.",
@@ -70,7 +85,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 3 Watts.",
@@ -81,7 +99,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 Hertz.",
@@ -92,7 +113,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 4 Watts.",
@@ -103,7 +127,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 Hertz.",
@@ -114,7 +141,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 5 Watts.",
@@ -125,7 +155,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 Hertz.",
@@ -136,7 +169,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 6 Watts.",
@@ -147,7 +183,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 Hertz.",
@@ -158,7 +197,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 7 Watts.",
@@ -169,7 +211,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 Hertz.",
@@ -180,7 +225,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 8 Watts.",
@@ -191,7 +239,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 Hertz.",
@@ -202,7 +253,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 9 Watts.",
@@ -213,7 +267,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 Hertz.",
@@ -224,7 +281,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 10 Watts.",
@@ -235,7 +295,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 Hertz.",
@@ -246,7 +309,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 11 Watts.",
@@ -257,7 +323,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 Hertz.",
@@ -268,7 +337,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 12 Watts.",
@@ -279,7 +351,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 Hertz.",
@@ -290,7 +365,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 13 Watts.",
@@ -301,7 +379,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 Hertz.",
@@ -312,7 +393,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 14 Watts.",
@@ -323,7 +407,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 Hertz.",
@@ -334,7 +421,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 15 Watts.",
@@ -345,7 +435,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 Hertz.",
@@ -356,7 +449,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 16 Watts.",
@@ -367,7 +463,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 Hertz.",
@@ -378,7 +477,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 17 Watts.",
@@ -389,7 +491,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 Hertz.",
@@ -400,7 +505,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 18 Watts.",
@@ -411,7 +519,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 Hertz.",
@@ -422,7 +533,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 19 Watts.",
@@ -433,7 +547,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 Hertz.",
@@ -444,7 +561,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Point 20 Watts.",
@@ -455,7 +575,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Optional description for curve. (Max 16 chars)",
@@ -466,7 +589,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "The time of the PT1 in seconds (time to accomplish a change of 95%).",
@@ -477,7 +603,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "The maximum rate at which the power value may be reduced in response to changes in the frequency value.",
@@ -488,7 +617,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "The maximum rate at which the power value may be increased in response to changes in the frequency value.",
@@ -499,7 +631,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "The maximum rate at which the power may be increased after releasing the frozen value of snap shot function. ",
@@ -510,7 +645,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "1=enable snapshot/capture mode",
@@ -521,7 +659,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Reference active power (default = WMax).",
@@ -532,7 +673,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Frequency deviation from nominal frequency at the time of the snapshot to start constraining power output.",
@@ -543,7 +687,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Frequency deviation from nominal frequency at which to release the power output.",
@@ -554,7 +701,10 @@
                             "NetworkAdministratorSunSpec",
                             "SuperAdministratorSpec"
                         ],
-                        "write_roles": []
+                        "write_roles": [
+                            "GridServiceSunSpec",
+                            "SuperAdministratorSpec"
+                        ]
                     },
                     {
                         "desc": "Enumerated value indicates if curve is read-only or can be modified.",
@@ -605,7 +755,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Is curve-based Frequency-Watt control active.",
@@ -616,7 +769,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Time window for freq-watt change.",
@@ -627,7 +783,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Timeout period for freq-watt curve selection.",
@@ -638,7 +797,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Ramp time for moving from current mode to new mode.",
@@ -649,7 +811,10 @@
                     "NetworkAdministratorSunSpec",
                     "SuperAdministratorSpec"
                 ],
-                "write_roles": []
+                "write_roles": [
+                    "GridServiceSunSpec",
+                    "SuperAdministratorSpec"
+                ]
             },
             {
                 "desc": "Number of curves supported (recommend min. 4).",
