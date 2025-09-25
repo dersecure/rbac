@@ -135,7 +135,12 @@ def generate_rbac():
 
         rbac = replace_points(model, model_id)
 
-        output_file = os.path.join("rbac", os.path.basename(json_file))
+        # Use 5-digit zero-padded model_id in the output filename
+        output_file = (
+            os.path.join("rbac", f"model_{model_id:05d}.json")
+            if model_id is not None
+            else os.path.join("rbac", os.path.basename(json_file))
+        )
         with open(output_file, "w") as f:
             json.dump(rbac, f, indent=4)
         print(f"Generated RBAC for {os.path.basename(json_file)}")
@@ -273,6 +278,14 @@ def generate_roles_to_rights():
         f.write("| Model | RBAC Reference |\n")
         f.write("|-------|----------------|\n")
 
+        # clear out the doc directory
+        doc_dir = "doc"
+        if not os.path.exists(doc_dir):
+            os.makedirs(doc_dir)
+        else:
+            for file in glob.glob(os.path.join(doc_dir, "*.md")):
+                os.remove(file)
+
         # Generate individual model markdown files and index entries
         for json_file in sorted(
             glob.glob("rbac/*.json"),
@@ -307,7 +320,7 @@ def generate_roles_to_rights():
 
             # Write entry in the index table
             model_name_str = model_names.get(model_id, 'Unknown') if isinstance(model_id, int) else 'Unknown'
-            model_md_filename = f"model_{model_id}_rbac.md"
+            model_md_filename = f"model_{model_id:05d}_rbac.md"
             f.write(
                 f"| {model_id} | [RBAC Roles-to-Rights Model {model_id} ({model_name_str}) Table](/doc/{model_md_filename}) |\n"
             )
