@@ -10,8 +10,10 @@
                         "desc": "X.509 Certificate of the device",
                         "name": "Cert",
                         "read_roles": [
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     }
@@ -26,11 +28,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -38,11 +39,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -50,8 +50,10 @@
                 "desc": "X.509 format of the certificate. DER or PEM.",
                 "name": "Fmt",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -59,8 +61,10 @@
                 "desc": "Number of registers to follow for the certificate",
                 "name": "N",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

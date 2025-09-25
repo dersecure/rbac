@@ -10,11 +10,10 @@
                         "desc": "Global Horizontal Irradiance",
                         "name": "GHI",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -22,11 +21,10 @@
                         "desc": "Plane-of-Array Irradiance",
                         "name": "POAI",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -34,11 +32,10 @@
                         "desc": "Diffuse Irradiance",
                         "name": "DFI",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -46,11 +43,10 @@
                         "desc": "Direct Normal Irradiance",
                         "name": "DNI",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -58,11 +54,10 @@
                         "desc": "Other Irradiance",
                         "name": "OTI",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     }
@@ -77,11 +72,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -89,11 +83,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

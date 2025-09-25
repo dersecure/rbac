@@ -1,67 +1,67 @@
 # RBAC Reference for Model 134 (Freq-Watt Crv)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 134 | freq_watt.ID | R | R | R | R | R |
-| 134 | freq_watt.L | R | R | R | R | R |
-| 134 | freq_watt.ActCrv | RW | RW | RW | RW | RW |
-| 134 | freq_watt.ModEna | RW | RW | RW | RW | RW |
-| 134 | freq_watt.WinTms | RW | RW | RW | RW | RW |
-| 134 | freq_watt.RvrtTms | RW | RW | RW | RW | RW |
-| 134 | freq_watt.RmpTms | RW | RW | RW | RW | RW |
-| 134 | freq_watt.NCrv | R | R | R | R | R |
-| 134 | freq_watt.NPt | R | R | R | R | R |
-| 134 | freq_watt.Hz_SF | R | R | R | R | R |
-| 134 | freq_watt.W_SF | R | R | R | R | R |
-| 134 | freq_watt.RmpIncDec_SF | R | R | R | R | R |
-| 134 | freq_watt.curve.ActPt | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz1 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W1 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz2 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W2 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz3 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W3 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz4 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W4 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz5 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W5 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz6 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W6 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz7 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W7 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz8 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W8 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz9 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W9 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz10 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W10 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz11 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W11 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz12 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W12 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz13 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W13 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz14 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W14 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz15 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W15 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz16 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W16 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz17 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W17 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz18 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W18 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz19 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W19 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.Hz20 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.W20 | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.CrvNam | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.RmpPT1Tms | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.RmpDecTmm | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.RmpIncTmm | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.RmpRsUp | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.SnptW | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.WRef | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.WRefStrHz | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.WRefStopHz | RW | RW | RW | RW | RW |
-| 134 | freq_watt.curve.ReadOnly | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 134 | freq_watt.ID | R | R | R | R |
+| 134 | freq_watt.L | R | R | R | R |
+| 134 | freq_watt.ActCrv | RW | RW | RW | RW |
+| 134 | freq_watt.ModEna | RW | RW | RW | RW |
+| 134 | freq_watt.WinTms | RW | RW | RW | RW |
+| 134 | freq_watt.RvrtTms | RW | RW | RW | RW |
+| 134 | freq_watt.RmpTms | RW | RW | RW | RW |
+| 134 | freq_watt.NCrv | R | R | R | R |
+| 134 | freq_watt.NPt | R | R | R | R |
+| 134 | freq_watt.Hz_SF | R | R | R | R |
+| 134 | freq_watt.W_SF | R | R | R | R |
+| 134 | freq_watt.RmpIncDec_SF | R | R | R | R |
+| 134 | freq_watt.curve.ActPt | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz1 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W1 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz2 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W2 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz3 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W3 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz4 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W4 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz5 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W5 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz6 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W6 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz7 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W7 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz8 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W8 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz9 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W9 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz10 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W10 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz11 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W11 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz12 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W12 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz13 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W13 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz14 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W14 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz15 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W15 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz16 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W16 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz17 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W17 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz18 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W18 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz19 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W19 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.Hz20 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.W20 | RW | RW | RW | RW |
+| 134 | freq_watt.curve.CrvNam | RW | RW | RW | RW |
+| 134 | freq_watt.curve.RmpPT1Tms | RW | RW | RW | RW |
+| 134 | freq_watt.curve.RmpDecTmm | RW | RW | RW | RW |
+| 134 | freq_watt.curve.RmpIncTmm | RW | RW | RW | RW |
+| 134 | freq_watt.curve.RmpRsUp | RW | RW | RW | RW |
+| 134 | freq_watt.curve.SnptW | RW | RW | RW | RW |
+| 134 | freq_watt.curve.WRef | RW | RW | RW | RW |
+| 134 | freq_watt.curve.WRefStrHz | RW | RW | RW | RW |
+| 134 | freq_watt.curve.WRefStopHz | RW | RW | RW | RW |
+| 134 | freq_watt.curve.ReadOnly | R | R | R | R |

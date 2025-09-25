@@ -1,63 +1,63 @@
 # RBAC Reference for Model 126 (Static Volt-VAR)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 126 | volt_var.ID | R | R | R | R | R |
-| 126 | volt_var.L | R | R | R | R | R |
-| 126 | volt_var.ActCrv | RW | RW | RW | RW | RW |
-| 126 | volt_var.ModEna | RW | RW | RW | RW | RW |
-| 126 | volt_var.WinTms | RW | RW | RW | RW | RW |
-| 126 | volt_var.RvrtTms | RW | RW | RW | RW | RW |
-| 126 | volt_var.RmpTms | RW | RW | RW | RW | RW |
-| 126 | volt_var.NCrv | R | R | R | R | R |
-| 126 | volt_var.NPt | R | R | R | R | R |
-| 126 | volt_var.V_SF | R | R | R | R | R |
-| 126 | volt_var.DeptRef_SF | R | R | R | R | R |
-| 126 | volt_var.RmpIncDec_SF | R | R | R | R | R |
-| 126 | volt_var.curve.ActPt | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.DeptRef | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V1 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr1 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V2 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr2 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V3 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr3 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V4 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr4 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V5 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr5 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V6 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr6 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V7 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr7 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V8 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr8 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V9 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr9 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V10 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr10 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V11 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr11 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V12 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr12 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V13 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr13 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V14 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr14 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V15 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr15 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V16 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr16 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V17 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr17 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V18 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr18 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V19 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr19 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.V20 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.VAr20 | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.CrvNam | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.RmpTms | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.RmpDecTmm | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.RmpIncTmm | RW | RW | RW | RW | RW |
-| 126 | volt_var.curve.ReadOnly | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 126 | volt_var.ID | R | R | R | R |
+| 126 | volt_var.L | R | R | R | R |
+| 126 | volt_var.ActCrv | RW | RW | RW | RW |
+| 126 | volt_var.ModEna | RW | RW | RW | RW |
+| 126 | volt_var.WinTms | RW | RW | RW | RW |
+| 126 | volt_var.RvrtTms | RW | RW | RW | RW |
+| 126 | volt_var.RmpTms | RW | RW | RW | RW |
+| 126 | volt_var.NCrv | R | R | R | R |
+| 126 | volt_var.NPt | R | R | R | R |
+| 126 | volt_var.V_SF | R | R | R | R |
+| 126 | volt_var.DeptRef_SF | R | R | R | R |
+| 126 | volt_var.RmpIncDec_SF | R | R | R | R |
+| 126 | volt_var.curve.ActPt | RW | RW | RW | RW |
+| 126 | volt_var.curve.DeptRef | RW | RW | RW | RW |
+| 126 | volt_var.curve.V1 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr1 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V2 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr2 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V3 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr3 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V4 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr4 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V5 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr5 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V6 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr6 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V7 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr7 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V8 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr8 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V9 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr9 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V10 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr10 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V11 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr11 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V12 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr12 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V13 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr13 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V14 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr14 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V15 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr15 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V16 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr16 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V17 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr17 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V18 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr18 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V19 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr19 | RW | RW | RW | RW |
+| 126 | volt_var.curve.V20 | RW | RW | RW | RW |
+| 126 | volt_var.curve.VAr20 | RW | RW | RW | RW |
+| 126 | volt_var.curve.CrvNam | RW | RW | RW | RW |
+| 126 | volt_var.curve.RmpTms | RW | RW | RW | RW |
+| 126 | volt_var.curve.RmpDecTmm | RW | RW | RW | RW |
+| 126 | volt_var.curve.RmpIncTmm | RW | RW | RW | RW |
+| 126 | volt_var.curve.ReadOnly | R | R | R | R |

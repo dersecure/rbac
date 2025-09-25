@@ -1,61 +1,61 @@
 # RBAC Reference for Model 804 (Lithium-Ion String Model)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 804 | lithium_ion_string.ID | R | R | R | R | R |
-| 804 | lithium_ion_string.L | R | R | R | R | R |
-| 804 | lithium_ion_string.Idx | R | R | R | R | R |
-| 804 | lithium_ion_string.NMod | R | R | R | R | R |
-| 804 | lithium_ion_string.St | R | R | R | R | R |
-| 804 | lithium_ion_string.ConFail | R | R | R | R | R |
-| 804 | lithium_ion_string.NCellBal | R | R | R | R | R |
-| 804 | lithium_ion_string.SoC | R | R | R | R | R |
-| 804 | lithium_ion_string.DoD | R | R | R | R | R |
-| 804 | lithium_ion_string.NCyc | R | R | R | R | R |
-| 804 | lithium_ion_string.SoH | R | R | R | R | R |
-| 804 | lithium_ion_string.A | R | R | R | R | R |
-| 804 | lithium_ion_string.V | R | R | R | R | R |
-| 804 | lithium_ion_string.CellVMax | R | R | R | R | R |
-| 804 | lithium_ion_string.CellVMaxMod | R | R | R | R | R |
-| 804 | lithium_ion_string.CellVMin | R | R | R | R | R |
-| 804 | lithium_ion_string.CellVMinMod | R | R | R | R | R |
-| 804 | lithium_ion_string.CellVAvg | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmpMax | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmpMaxMod | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmpMin | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmpMinMod | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmpAvg | R | R | R | R | R |
-| 804 | lithium_ion_string.Pad1 | R | R | R | R | R |
-| 804 | lithium_ion_string.ConSt | R | R | R | R | R |
-| 804 | lithium_ion_string.Evt1 | R | R | R | R | R |
-| 804 | lithium_ion_string.Evt2 | R | R | R | R | R |
-| 804 | lithium_ion_string.EvtVnd1 | R | R | R | R | R |
-| 804 | lithium_ion_string.EvtVnd2 | R | R | R | R | R |
-| 804 | lithium_ion_string.SetEna | RW | RW | RW | RW | RW |
-| 804 | lithium_ion_string.SetCon | RW | RW | RW | RW | RW |
-| 804 | lithium_ion_string.SoC_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.SoH_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.DoD_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.A_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.V_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.CellV_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.ModTmp_SF | R | R | R | R | R |
-| 804 | lithium_ion_string.Pad2 | R | R | R | R | R |
-| 804 | lithium_ion_string.Pad3 | R | R | R | R | R |
-| 804 | lithium_ion_string.Pad4 | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModNCell | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModSoC | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModSoH | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMax | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMaxCell | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMin | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMinCell | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVAvg | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMax | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMaxCell | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMin | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMinCell | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpAvg | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.Pad5 | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.Pad6 | R | R | R | R | R |
-| 804 | lithium_ion_string.lithium_ion_string_module.Pad7 | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 804 | lithium_ion_string.ID | R | R | R | R |
+| 804 | lithium_ion_string.L | R | R | R | R |
+| 804 | lithium_ion_string.Idx | R | R | R | R |
+| 804 | lithium_ion_string.NMod | R | R | R | R |
+| 804 | lithium_ion_string.St | R | R | R | R |
+| 804 | lithium_ion_string.ConFail | R | R | R | R |
+| 804 | lithium_ion_string.NCellBal | R | R | R | R |
+| 804 | lithium_ion_string.SoC | R | R | R | R |
+| 804 | lithium_ion_string.DoD | R | R | R | R |
+| 804 | lithium_ion_string.NCyc | R | R | R | R |
+| 804 | lithium_ion_string.SoH | R | R | R | R |
+| 804 | lithium_ion_string.A | R | R | R | R |
+| 804 | lithium_ion_string.V | R | R | R | R |
+| 804 | lithium_ion_string.CellVMax | R | R | R | R |
+| 804 | lithium_ion_string.CellVMaxMod | R | R | R | R |
+| 804 | lithium_ion_string.CellVMin | R | R | R | R |
+| 804 | lithium_ion_string.CellVMinMod | R | R | R | R |
+| 804 | lithium_ion_string.CellVAvg | R | R | R | R |
+| 804 | lithium_ion_string.ModTmpMax | R | R | R | R |
+| 804 | lithium_ion_string.ModTmpMaxMod | R | R | R | R |
+| 804 | lithium_ion_string.ModTmpMin | R | R | R | R |
+| 804 | lithium_ion_string.ModTmpMinMod | R | R | R | R |
+| 804 | lithium_ion_string.ModTmpAvg | R | R | R | R |
+| 804 | lithium_ion_string.Pad1 | R | R | R | R |
+| 804 | lithium_ion_string.ConSt | R | R | R | R |
+| 804 | lithium_ion_string.Evt1 | R | R | R | R |
+| 804 | lithium_ion_string.Evt2 | R | R | R | R |
+| 804 | lithium_ion_string.EvtVnd1 | R | R | R | R |
+| 804 | lithium_ion_string.EvtVnd2 | R | R | R | R |
+| 804 | lithium_ion_string.SetEna | RW | RW | RW | RW |
+| 804 | lithium_ion_string.SetCon | RW | RW | RW | RW |
+| 804 | lithium_ion_string.SoC_SF | R | R | R | R |
+| 804 | lithium_ion_string.SoH_SF | R | R | R | R |
+| 804 | lithium_ion_string.DoD_SF | R | R | R | R |
+| 804 | lithium_ion_string.A_SF | R | R | R | R |
+| 804 | lithium_ion_string.V_SF | R | R | R | R |
+| 804 | lithium_ion_string.CellV_SF | R | R | R | R |
+| 804 | lithium_ion_string.ModTmp_SF | R | R | R | R |
+| 804 | lithium_ion_string.Pad2 | R | R | R | R |
+| 804 | lithium_ion_string.Pad3 | R | R | R | R |
+| 804 | lithium_ion_string.Pad4 | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModNCell | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModSoC | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModSoH | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMax | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMaxCell | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMin | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVMinCell | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellVAvg | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMax | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMaxCell | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMin | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpMinCell | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.ModCellTmpAvg | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.Pad5 | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.Pad6 | R | R | R | R |
+| 804 | lithium_ion_string.lithium_ion_string_module.Pad7 | R | R | R | R |

@@ -10,11 +10,10 @@
                         "desc": "Descriptive name for this tracker unit",
                         "name": "Id",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -22,11 +21,10 @@
                         "desc": "Auto target elevation in degrees from horizontal.  Unimplemented for single axis azimuth tracker type",
                         "name": "ElTrgt",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -34,11 +32,10 @@
                         "desc": "Auto target azimuth  in degrees from true north towards east.  Unimplemented for single axis horizontal tracker type",
                         "name": "AzTrgt",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -46,11 +43,10 @@
                         "desc": "Actual elevation position  in degrees from horizontal.  Unimplemented for single axis azimuth tracker type",
                         "name": "ElPos",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -58,11 +54,10 @@
                         "desc": "Actual azimuth position  in degrees from true north towards east.  Unimplemented for single axis horizontal tracker type",
                         "name": "AzPos",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -70,65 +65,58 @@
                         "desc": "Manual override target position of elevation in degrees from horizontal.  Unimplemented for single axis azimuth tracker type",
                         "name": "ElCtl",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ]
                     },
                     {
                         "desc": "Manual override target position of azimuth in degrees from true north towards east.  Unimplemented for single axis azimuth tracker type",
                         "name": "AzCtl",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ]
                     },
                     {
                         "desc": "Control register. Normal operation is automatic.  Operator can override the position by setting the ElCtl, AzCtl and enabling Manual operation. Entering calibration mode will revert to automatic operation after calibration is complete.",
                         "name": "Ctl",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ]
                     },
                     {
                         "desc": "Tracker alarm conditions",
                         "name": "Alm",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     }
@@ -143,11 +131,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -155,11 +142,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -167,11 +153,10 @@
                 "desc": "Descriptive name for this control unit",
                 "name": "Nam",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -179,11 +164,10 @@
                 "desc": "Type of tracker",
                 "name": "Typ",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -191,11 +175,10 @@
                 "desc": "Local date in YYYYMMDD format",
                 "name": "DtLoc",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -203,11 +186,10 @@
                 "desc": "24 hour local time stamp to second",
                 "name": "TmLoc",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -215,11 +197,10 @@
                 "desc": "Number of the day in the year (1-366)",
                 "name": "Day",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -227,65 +208,58 @@
                 "desc": "Global manual override target position of elevation in degrees from horizontal.  Unimplemented for single axis azimuth tracker type",
                 "name": "GlblElCtl",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Global manual override target position of azimuth in degrees from true north towards east.  Unimplemented for single axis azimuth tracker type",
                 "name": "GlblAzCtl",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Global Control register operates on all trackers. Normal operation is automatic.  Operator can override the position by setting the ElCtl, AzCtl and enabling Manual operation. Entering calibration mode will revert to automatic operation after calibration is complete.",
                 "name": "GlblCtl",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Global tracker alarm conditions",
                 "name": "GlblAlm",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -293,11 +267,10 @@
                 "desc": "Scale Factor for targets and position measurements in degrees",
                 "name": "Dgr_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -305,11 +278,10 @@
                 "desc": "Number of trackers being controlled.  Size of repeating block.",
                 "name": "N",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

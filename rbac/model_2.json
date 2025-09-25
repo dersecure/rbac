@@ -8,11 +8,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -20,11 +19,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -32,8 +30,10 @@
                 "desc": "Aggregated model id",
                 "name": "AID",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -41,8 +41,10 @@
                 "desc": "Number of aggregated models",
                 "name": "N",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -50,8 +52,10 @@
                 "desc": "Update Number.  Incrementing number each time the mapping is changed.  If the number is not changed from the last reading the direct access to a specific offset will result in reading the same logical model as before.  Otherwise the entire model must be read to refresh the changes",
                 "name": "UN",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -59,8 +63,10 @@
                 "desc": "Enumerated status code",
                 "name": "St",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -68,8 +74,10 @@
                 "desc": "Vendor specific status code",
                 "name": "StVnd",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -77,8 +85,10 @@
                 "desc": "Bitmask event code",
                 "name": "Evt",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -86,8 +96,10 @@
                 "desc": "Vendor specific event code",
                 "name": "EvtVnd",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -95,8 +107,10 @@
                 "desc": "Control register for all aggregated devices",
                 "name": "Ctl",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -104,8 +118,10 @@
                 "desc": "Vendor control register for all aggregated devices",
                 "name": "CtlVnd",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -113,8 +129,10 @@
                 "desc": "Numerical value used as a parameter to the control",
                 "name": "CtlVl",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

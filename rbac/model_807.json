@@ -9,11 +9,10 @@
                         "desc": "Index of the module within the string.",
                         "name": "ModIdx",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -21,11 +20,10 @@
                         "desc": "Number of stacks in this module.",
                         "name": "ModNStk",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -33,11 +31,10 @@
                         "desc": "Current status of the module.",
                         "name": "ModSt",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -45,11 +42,10 @@
                         "desc": "State of charge for this module.",
                         "name": "ModSoC",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -57,11 +53,10 @@
                         "desc": "Open circuit voltage for this module.",
                         "name": "ModOCV",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -69,11 +64,10 @@
                         "desc": "External voltage fo this module.",
                         "name": "ModV",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -81,11 +75,10 @@
                         "desc": "Maximum voltage for all cells in this module.",
                         "name": "ModCellVMax",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -93,11 +86,10 @@
                         "desc": "Cell with the maximum cell voltage.",
                         "name": "ModCellVMaxCell",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -105,11 +97,10 @@
                         "desc": "Minimum voltage for all cells in this module.",
                         "name": "ModCellVMin",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -117,11 +108,10 @@
                         "desc": "Cell with the minimum cell voltage.",
                         "name": "ModCellVMinCell",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -129,44 +119,40 @@
                         "desc": "Average voltage for all cells in this module.",
                         "name": "ModCellVAvg",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
                     {
                         "name": "ModAnoTmp",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
                     {
                         "name": "ModCatTmp",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
                     {
                         "name": "ModConSt",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -174,11 +160,10 @@
                         "desc": "Alarms, warnings and status values.  Bit flags.",
                         "name": "ModEvt1",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -186,22 +171,20 @@
                         "desc": "Alarms, warnings and status values.  Bit flags.",
                         "name": "ModEvt2",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
                     {
                         "name": "ModConFail",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     },
@@ -209,47 +192,42 @@
                         "desc": "Enables and disables the module.",
                         "name": "ModSetEna",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ]
                     },
                     {
                         "desc": "Connects and disconnects the module.",
                         "name": "ModSetCon",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ]
                     },
                     {
                         "desc": "Reason why the module is currently disabled.",
                         "name": "ModDisRsn",
                         "read_roles": [
-                            "DEROwnerSunSpec",
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec",
-                            "ServiceProviderSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     }
@@ -264,11 +242,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -276,11 +253,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -288,11 +264,10 @@
                 "desc": "Index of the string within the bank.",
                 "name": "Idx",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -300,11 +275,10 @@
                 "desc": "Number of modules in this string.",
                 "name": "NMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -312,11 +286,10 @@
                 "desc": "Number of electrically connected modules in this string.",
                 "name": "NModCon",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -324,11 +297,10 @@
                 "desc": "Maximum voltage for all modules in the string.",
                 "name": "ModVMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -336,11 +308,10 @@
                 "desc": "Module with the maximum voltage.",
                 "name": "ModVMaxMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -348,11 +319,10 @@
                 "desc": "Minimum voltage for all modules in the string.",
                 "name": "ModVMin",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -360,11 +330,10 @@
                 "desc": "Module with the minimum voltage.",
                 "name": "ModVMinMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -372,11 +341,10 @@
                 "desc": "Average voltage for all modules in the string.",
                 "name": "ModVAvg",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -384,11 +352,10 @@
                 "desc": "Maximum voltage for all cells in the string.",
                 "name": "CellVMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -396,11 +363,10 @@
                 "desc": "Module containing the cell with the maximum voltage.",
                 "name": "CellVMaxMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -408,11 +374,10 @@
                 "desc": "Stack containing the cell with the maximum voltage.",
                 "name": "CellVMaxStk",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -420,11 +385,10 @@
                 "desc": "Minimum voltage for all cells in the string.",
                 "name": "CellVMin",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -432,11 +396,10 @@
                 "desc": "Module containing the cell with the minimum voltage.",
                 "name": "CellVMinMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -444,11 +407,10 @@
                 "desc": "Stack containing the cell with the minimum voltage.",
                 "name": "CellVMinStk",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -456,11 +418,10 @@
                 "desc": "Average voltage for all cells in the string.",
                 "name": "CellVAvg",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -468,11 +429,10 @@
                 "desc": "Maximum electrolyte temperature for all modules in the string.",
                 "name": "TmpMax",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -480,11 +440,10 @@
                 "desc": "Module with the maximum temperature.",
                 "name": "TmpMaxMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -492,11 +451,10 @@
                 "desc": "Minimum electrolyte temperature for all modules in the string.",
                 "name": "TmpMin",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -504,11 +462,10 @@
                 "desc": "Module with the minimum temperature.",
                 "name": "TmpMinMod",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -516,11 +473,10 @@
                 "desc": "Average electrolyte temperature for all modules in the string.",
                 "name": "TmpAvg",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -528,11 +484,10 @@
                 "desc": "Alarms, warnings and status values.  Bit flags.",
                 "name": "Evt1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -540,11 +495,10 @@
                 "desc": "Alarms, warnings and status values.  Bit flags.",
                 "name": "Evt2",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -552,11 +506,10 @@
                 "desc": "Vendor defined events.",
                 "name": "EvtVnd1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -564,22 +517,20 @@
                 "desc": "Vendor defined events.",
                 "name": "EvtVnd2",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
             {
                 "name": "ModV_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -587,11 +538,10 @@
                 "desc": "Scale factor for voltage.",
                 "name": "CellV_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -599,11 +549,10 @@
                 "desc": "Scale factor for temperature.",
                 "name": "Tmp_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -611,11 +560,10 @@
                 "desc": "Scale factor for state of charge.",
                 "name": "SoC_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -623,11 +571,10 @@
                 "desc": "Scale factor for open circuit voltage.",
                 "name": "OCV_SF",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -635,11 +582,10 @@
                 "desc": "Pad register.",
                 "name": "Pad1",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

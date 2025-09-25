@@ -1,39 +1,39 @@
 # RBAC Reference for Model 220 (Secure AC Meter Selected Readings)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 220 | ac_meter_secure.ID | R | R | R | R | R |
-| 220 | ac_meter_secure.L | R | R | R | R | R |
-| 220 | ac_meter_secure.A | R | R | R | R | R |
-| 220 | ac_meter_secure.A_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.PhV | R | R | R | R | R |
-| 220 | ac_meter_secure.V_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.Hz | R | R | R | R | R |
-| 220 | ac_meter_secure.Hz_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.W | R | R | R | R | R |
-| 220 | ac_meter_secure.W_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.VA | R | R | R | R | R |
-| 220 | ac_meter_secure.VA_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.VAR | R | R | R | R | R |
-| 220 | ac_meter_secure.VAR_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.PF | R | R | R | R | R |
-| 220 | ac_meter_secure.PF_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.TotWhExp | R | R | R | R | R |
-| 220 | ac_meter_secure.TotWhImp | R | R | R | R | R |
-| 220 | ac_meter_secure.TotWh_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVAhExp | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVAhImp | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVAh_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVArhImpQ1 | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVArhImpQ2 | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVArhExpQ3 | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVArhExpQ4 | R | R | R | R | R |
-| 220 | ac_meter_secure.TotVArh_SF | R | R | R | R | R |
-| 220 | ac_meter_secure.Evt | R | R | R | R | R |
-| 220 | ac_meter_secure.Rsrvd | R | R | R | R | R |
-| 220 | ac_meter_secure.Ts | R | R | R | R | R |
-| 220 | ac_meter_secure.Ms | R | R | R | R | R |
-| 220 | ac_meter_secure.Seq | R | R | R | R | R |
-| 220 | ac_meter_secure.Alg | R | R | R | R | R |
-| 220 | ac_meter_secure.N | R | R | R | R | R |
-| 220 | ac_meter_secure.repeating.DS | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 220 | ac_meter_secure.ID | R | R | R | R |
+| 220 | ac_meter_secure.L | R | R | R | R |
+| 220 | ac_meter_secure.A | R | R | R | R |
+| 220 | ac_meter_secure.A_SF | R | R | R | R |
+| 220 | ac_meter_secure.PhV | R | R | R | R |
+| 220 | ac_meter_secure.V_SF | R | R | R | R |
+| 220 | ac_meter_secure.Hz | R | R | R | R |
+| 220 | ac_meter_secure.Hz_SF | R | R | R | R |
+| 220 | ac_meter_secure.W | R | R | R | R |
+| 220 | ac_meter_secure.W_SF | R | R | R | R |
+| 220 | ac_meter_secure.VA | R | R | R | R |
+| 220 | ac_meter_secure.VA_SF | R | R | R | R |
+| 220 | ac_meter_secure.VAR | R | R | R | R |
+| 220 | ac_meter_secure.VAR_SF | R | R | R | R |
+| 220 | ac_meter_secure.PF | R | R | R | R |
+| 220 | ac_meter_secure.PF_SF | R | R | R | R |
+| 220 | ac_meter_secure.TotWhExp | R | R | R | R |
+| 220 | ac_meter_secure.TotWhImp | R | R | R | R |
+| 220 | ac_meter_secure.TotWh_SF | R | R | R | R |
+| 220 | ac_meter_secure.TotVAhExp | R | R | R | R |
+| 220 | ac_meter_secure.TotVAhImp | R | R | R | R |
+| 220 | ac_meter_secure.TotVAh_SF | R | R | R | R |
+| 220 | ac_meter_secure.TotVArhImpQ1 | R | R | R | R |
+| 220 | ac_meter_secure.TotVArhImpQ2 | R | R | R | R |
+| 220 | ac_meter_secure.TotVArhExpQ3 | R | R | R | R |
+| 220 | ac_meter_secure.TotVArhExpQ4 | R | R | R | R |
+| 220 | ac_meter_secure.TotVArh_SF | R | R | R | R |
+| 220 | ac_meter_secure.Evt | R | R | R | R |
+| 220 | ac_meter_secure.Rsrvd | R | R | R | R |
+| 220 | ac_meter_secure.Ts | R | R | R | R |
+| 220 | ac_meter_secure.Ms | R | R | R | R |
+| 220 | ac_meter_secure.Seq | R | R | R | R |
+| 220 | ac_meter_secure.Alg | R | R | R | R |
+| 220 | ac_meter_secure.N | R | R | R | R |
+| 220 | ac_meter_secure.repeating.DS | R | R | R | R |

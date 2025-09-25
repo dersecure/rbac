@@ -1,62 +1,62 @@
 # RBAC Reference for Model 802 (Battery Base Model)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 802 | battery.ID | R | R | R | R | R |
-| 802 | battery.L | R | R | R | R | R |
-| 802 | battery.AHRtg | R | R | R | R | R |
-| 802 | battery.WHRtg | R | R | R | R | R |
-| 802 | battery.WChaRteMax | R | R | R | R | R |
-| 802 | battery.WDisChaRteMax | R | R | R | R | R |
-| 802 | battery.DisChaRte | R | R | R | R | R |
-| 802 | battery.SoCMax | R | R | R | R | R |
-| 802 | battery.SoCMin | R | R | R | R | R |
-| 802 | battery.SocRsvMax | RW | RW | RW | RW | RW |
-| 802 | battery.SoCRsvMin | RW | RW | RW | RW | RW |
-| 802 | battery.SoC | R | R | R | R | R |
-| 802 | battery.DoD | R | R | R | R | R |
-| 802 | battery.SoH | R | R | R | R | R |
-| 802 | battery.NCyc | R | R | R | R | R |
-| 802 | battery.ChaSt | R | R | R | R | R |
-| 802 | battery.LocRemCtl | R | R | R | R | R |
-| 802 | battery.Hb | R | R | R | R | R |
-| 802 | battery.CtrlHb | RW | RW | RW | RW | RW |
-| 802 | battery.AlmRst | RW | RW | RW | RW | RW |
-| 802 | battery.Typ | R | R | R | R | R |
-| 802 | battery.State | R | R | R | R | R |
-| 802 | battery.StateVnd | R | R | R | R | R |
-| 802 | battery.WarrDt | R | R | R | R | R |
-| 802 | battery.Evt1 | R | R | R | R | R |
-| 802 | battery.Evt2 | R | R | R | R | R |
-| 802 | battery.EvtVnd1 | R | R | R | R | R |
-| 802 | battery.EvtVnd2 | R | R | R | R | R |
-| 802 | battery.V | R | R | R | R | R |
-| 802 | battery.VMax | R | R | R | R | R |
-| 802 | battery.VMin | R | R | R | R | R |
-| 802 | battery.CellVMax | R | R | R | R | R |
-| 802 | battery.CellVMaxStr | R | R | R | R | R |
-| 802 | battery.CellVMaxMod | R | R | R | R | R |
-| 802 | battery.CellVMin | R | R | R | R | R |
-| 802 | battery.CellVMinStr | R | R | R | R | R |
-| 802 | battery.CellVMinMod | R | R | R | R | R |
-| 802 | battery.CellVAvg | R | R | R | R | R |
-| 802 | battery.A | R | R | R | R | R |
-| 802 | battery.AChaMax | R | R | R | R | R |
-| 802 | battery.ADisChaMax | R | R | R | R | R |
-| 802 | battery.W | R | R | R | R | R |
-| 802 | battery.ReqInvState | R | R | R | R | R |
-| 802 | battery.ReqW | R | R | R | R | R |
-| 802 | battery.SetOp | RW | RW | RW | RW | RW |
-| 802 | battery.SetInvState | RW | RW | RW | RW | RW |
-| 802 | battery.AHRtg_SF | R | R | R | R | R |
-| 802 | battery.WHRtg_SF | R | R | R | R | R |
-| 802 | battery.WChaDisChaMax_SF | R | R | R | R | R |
-| 802 | battery.DisChaRte_SF | R | R | R | R | R |
-| 802 | battery.SoC_SF | R | R | R | R | R |
-| 802 | battery.DoD_SF | R | R | R | R | R |
-| 802 | battery.SoH_SF | R | R | R | R | R |
-| 802 | battery.V_SF | R | R | R | R | R |
-| 802 | battery.CellV_SF | R | R | R | R | R |
-| 802 | battery.A_SF | R | R | R | R | R |
-| 802 | battery.AMax_SF | R | R | R | R | R |
-| 802 | battery.W_SF | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 802 | battery.ID | R | R | R | R |
+| 802 | battery.L | R | R | R | R |
+| 802 | battery.AHRtg | R | R | R | R |
+| 802 | battery.WHRtg | R | R | R | R |
+| 802 | battery.WChaRteMax | R | R | R | R |
+| 802 | battery.WDisChaRteMax | R | R | R | R |
+| 802 | battery.DisChaRte | R | R | R | R |
+| 802 | battery.SoCMax | R | R | R | R |
+| 802 | battery.SoCMin | R | R | R | R |
+| 802 | battery.SocRsvMax | RW | RW | RW | RW |
+| 802 | battery.SoCRsvMin | RW | RW | RW | RW |
+| 802 | battery.SoC | R | R | R | R |
+| 802 | battery.DoD | R | R | R | R |
+| 802 | battery.SoH | R | R | R | R |
+| 802 | battery.NCyc | R | R | R | R |
+| 802 | battery.ChaSt | R | R | R | R |
+| 802 | battery.LocRemCtl | R | R | R | R |
+| 802 | battery.Hb | R | R | R | R |
+| 802 | battery.CtrlHb | RW | RW | RW | RW |
+| 802 | battery.AlmRst | RW | RW | RW | RW |
+| 802 | battery.Typ | R | R | R | R |
+| 802 | battery.State | R | R | R | R |
+| 802 | battery.StateVnd | R | R | R | R |
+| 802 | battery.WarrDt | R | R | R | R |
+| 802 | battery.Evt1 | R | R | R | R |
+| 802 | battery.Evt2 | R | R | R | R |
+| 802 | battery.EvtVnd1 | R | R | R | R |
+| 802 | battery.EvtVnd2 | R | R | R | R |
+| 802 | battery.V | R | R | R | R |
+| 802 | battery.VMax | R | R | R | R |
+| 802 | battery.VMin | R | R | R | R |
+| 802 | battery.CellVMax | R | R | R | R |
+| 802 | battery.CellVMaxStr | R | R | R | R |
+| 802 | battery.CellVMaxMod | R | R | R | R |
+| 802 | battery.CellVMin | R | R | R | R |
+| 802 | battery.CellVMinStr | R | R | R | R |
+| 802 | battery.CellVMinMod | R | R | R | R |
+| 802 | battery.CellVAvg | R | R | R | R |
+| 802 | battery.A | R | R | R | R |
+| 802 | battery.AChaMax | R | R | R | R |
+| 802 | battery.ADisChaMax | R | R | R | R |
+| 802 | battery.W | R | R | R | R |
+| 802 | battery.ReqInvState | R | R | R | R |
+| 802 | battery.ReqW | R | R | R | R |
+| 802 | battery.SetOp | RW | RW | RW | RW |
+| 802 | battery.SetInvState | RW | RW | RW | RW |
+| 802 | battery.AHRtg_SF | R | R | R | R |
+| 802 | battery.WHRtg_SF | R | R | R | R |
+| 802 | battery.WChaDisChaMax_SF | R | R | R | R |
+| 802 | battery.DisChaRte_SF | R | R | R | R |
+| 802 | battery.SoC_SF | R | R | R | R |
+| 802 | battery.DoD_SF | R | R | R | R |
+| 802 | battery.SoH_SF | R | R | R | R |
+| 802 | battery.V_SF | R | R | R | R |
+| 802 | battery.CellV_SF | R | R | R | R |
+| 802 | battery.A_SF | R | R | R | R |
+| 802 | battery.AMax_SF | R | R | R | R |
+| 802 | battery.W_SF | R | R | R | R |

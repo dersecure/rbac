@@ -25,24 +25,26 @@
                                         "desc": "Curve frequency point.",
                                         "name": "Hz",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     }
                                 ],
@@ -56,12 +58,13 @@
                                 "desc": "Number of active points in must trip curve.",
                                 "name": "ActPt",
                                 "read_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "ReadOnlySunSpec",
+                                    "GridServiceSunSpec",
+                                    "NetworkAdministratorSunSpec",
+                                    "SuperAdministratorSpec"
                                 ],
                                 "write_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "SuperAdministratorSpec"
                                 ]
                             }
                         ],
@@ -80,24 +83,26 @@
                                         "desc": "Curve frequency point.",
                                         "name": "Hz",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     }
                                 ],
@@ -111,12 +116,13 @@
                                 "desc": "Number of active points in may trip curve.",
                                 "name": "ActPt",
                                 "read_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "ReadOnlySunSpec",
+                                    "GridServiceSunSpec",
+                                    "NetworkAdministratorSunSpec",
+                                    "SuperAdministratorSpec"
                                 ],
                                 "write_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "SuperAdministratorSpec"
                                 ]
                             }
                         ],
@@ -135,24 +141,26 @@
                                         "desc": "Curve frequency point.",
                                         "name": "Hz",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     },
                                     {
                                         "desc": "Curve time point in seconds.",
                                         "name": "Tms",
                                         "read_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "ReadOnlySunSpec",
+                                            "GridServiceSunSpec",
+                                            "NetworkAdministratorSunSpec",
+                                            "SuperAdministratorSpec"
                                         ],
                                         "write_roles": [
-                                            "DERInstallerSunSpec",
-                                            "GridOperatorSunSpec"
+                                            "SuperAdministratorSpec"
                                         ]
                                     }
                                 ],
@@ -166,12 +174,13 @@
                                 "desc": "Number of active points in the momentary cessation curve.",
                                 "name": "ActPt",
                                 "read_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "ReadOnlySunSpec",
+                                    "GridServiceSunSpec",
+                                    "NetworkAdministratorSunSpec",
+                                    "SuperAdministratorSpec"
                                 ],
                                 "write_roles": [
-                                    "DERInstallerSunSpec",
-                                    "GridOperatorSunSpec"
+                                    "SuperAdministratorSpec"
                                 ]
                             }
                         ],
@@ -185,8 +194,10 @@
                         "desc": "Curve read-write access.",
                         "name": "ReadOnly",
                         "read_roles": [
-                            "DERInstallerSunSpec",
-                            "GridOperatorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": []
                     }
@@ -201,11 +212,10 @@
                 "desc": "DER high frequency trip model ID.",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -213,11 +223,10 @@
                 "desc": "DER high frequency trip model length.",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -225,32 +234,36 @@
                 "desc": "DER high frequency trip control enable.",
                 "name": "Ena",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Index of curve points to adopt. First curve index is 1.",
                 "name": "AdptCrvReq",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Result of last adopt curve operation.",
                 "name": "AdptCrvRslt",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -258,8 +271,10 @@
                 "desc": "Number of curve points supported.",
                 "name": "NPt",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -267,8 +282,10 @@
                 "desc": "Number of stored curves supported.",
                 "name": "NCrvSet",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -276,8 +293,10 @@
                 "desc": "Scale factor for curve frequency points.",
                 "name": "Hz_SF",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -285,8 +304,10 @@
                 "desc": "Scale factor for curve time points.",
                 "name": "Tms_SF",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             }

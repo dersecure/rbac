@@ -1,68 +1,68 @@
 # RBAC Reference for Model 213 (wye-connect three phase (abcn) meter)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 213 | ac_meter_abcn_float.ID | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.L | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.A | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.AphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.AphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.AphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PhV | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PhVphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PhVphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PhVphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PPV | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PPVphAB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PPVphBC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PPVphCA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.Hz | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.W | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.WphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.WphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.WphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VAphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VAphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VAphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VAR | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VARphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VARphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.VARphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PF | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PFphA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PFphB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.PFphC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhExp | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhExpPhA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhExpPhB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhExpPhC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhImp | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhImpPhA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhImpPhB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotWhImpPhC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhExp | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhExpPhA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhExpPhB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhExpPhC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhImp | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhImpPhA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhImpPhB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVAhImpPhC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ1 | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ1phA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ1phB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ1phC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ2 | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ2phA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ2phB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhImpQ2phC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ3 | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ3phA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ3phB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ3phC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ4 | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ4phA | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ4phB | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.TotVArhExpQ4phC | R | R | R | R | R |
-| 213 | ac_meter_abcn_float.Evt | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 213 | ac_meter_abcn_float.ID | R | R | R | R |
+| 213 | ac_meter_abcn_float.L | R | R | R | R |
+| 213 | ac_meter_abcn_float.A | R | R | R | R |
+| 213 | ac_meter_abcn_float.AphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.AphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.AphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.PhV | R | R | R | R |
+| 213 | ac_meter_abcn_float.PhVphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.PhVphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.PhVphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.PPV | R | R | R | R |
+| 213 | ac_meter_abcn_float.PPVphAB | R | R | R | R |
+| 213 | ac_meter_abcn_float.PPVphBC | R | R | R | R |
+| 213 | ac_meter_abcn_float.PPVphCA | R | R | R | R |
+| 213 | ac_meter_abcn_float.Hz | R | R | R | R |
+| 213 | ac_meter_abcn_float.W | R | R | R | R |
+| 213 | ac_meter_abcn_float.WphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.WphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.WphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.VA | R | R | R | R |
+| 213 | ac_meter_abcn_float.VAphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.VAphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.VAphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.VAR | R | R | R | R |
+| 213 | ac_meter_abcn_float.VARphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.VARphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.VARphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.PF | R | R | R | R |
+| 213 | ac_meter_abcn_float.PFphA | R | R | R | R |
+| 213 | ac_meter_abcn_float.PFphB | R | R | R | R |
+| 213 | ac_meter_abcn_float.PFphC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhExp | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhExpPhA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhExpPhB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhExpPhC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhImp | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhImpPhA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhImpPhB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotWhImpPhC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhExp | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhExpPhA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhExpPhB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhExpPhC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhImp | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhImpPhA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhImpPhB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVAhImpPhC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ1 | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ1phA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ1phB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ1phC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ2 | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ2phA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ2phB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhImpQ2phC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ3 | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ3phA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ3phB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ3phC | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ4 | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ4phA | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ4phB | R | R | R | R |
+| 213 | ac_meter_abcn_float.TotVArhExpQ4phC | R | R | R | R |
+| 213 | ac_meter_abcn_float.Evt | R | R | R | R |

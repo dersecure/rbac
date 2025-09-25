@@ -1,59 +1,59 @@
 # RBAC Reference for Model 140 (HVRTX)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 140 | hvrtx.ID | R | R | R | R | R |
-| 140 | hvrtx.L | R | R | R | R | R |
-| 140 | hvrtx.ActCrv | RW | RW | RW | RW | RW |
-| 140 | hvrtx.ModEna | RW | RW | RW | RW | RW |
-| 140 | hvrtx.WinTms | RW | RW | RW | RW | RW |
-| 140 | hvrtx.RvrtTms | RW | RW | RW | RW | RW |
-| 140 | hvrtx.RmpTms | RW | RW | RW | RW | RW |
-| 140 | hvrtx.NCrv | R | R | R | R | R |
-| 140 | hvrtx.NPt | R | R | R | R | R |
-| 140 | hvrtx.Tms_SF | R | R | R | R | R |
-| 140 | hvrtx.V_SF | R | R | R | R | R |
-| 140 | hvrtx.CrvType | R | R | R | R | R |
-| 140 | hvrtx.curve.ActPt | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms1 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V1 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms2 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V2 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms3 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V3 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms4 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V4 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms5 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V5 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms6 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V6 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms7 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V7 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms8 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V8 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms9 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V9 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms10 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V10 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms11 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V11 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms12 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V12 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms13 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V13 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms14 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V14 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms15 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V15 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms16 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V16 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms17 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V17 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms18 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V18 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms19 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V19 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.Tms20 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.V20 | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.CrvNam | RW | RW | RW | RW | RW |
-| 140 | hvrtx.curve.ReadOnly | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 140 | hvrtx.ID | R | R | R | R |
+| 140 | hvrtx.L | R | R | R | R |
+| 140 | hvrtx.ActCrv | RW | RW | RW | RW |
+| 140 | hvrtx.ModEna | RW | RW | RW | RW |
+| 140 | hvrtx.WinTms | RW | RW | RW | RW |
+| 140 | hvrtx.RvrtTms | RW | RW | RW | RW |
+| 140 | hvrtx.RmpTms | RW | RW | RW | RW |
+| 140 | hvrtx.NCrv | R | R | R | R |
+| 140 | hvrtx.NPt | R | R | R | R |
+| 140 | hvrtx.Tms_SF | R | R | R | R |
+| 140 | hvrtx.V_SF | R | R | R | R |
+| 140 | hvrtx.CrvType | R | R | R | R |
+| 140 | hvrtx.curve.ActPt | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms1 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V1 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms2 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V2 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms3 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V3 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms4 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V4 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms5 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V5 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms6 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V6 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms7 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V7 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms8 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V8 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms9 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V9 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms10 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V10 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms11 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V11 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms12 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V12 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms13 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V13 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms14 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V14 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms15 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V15 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms16 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V16 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms17 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V17 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms18 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V18 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms19 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V19 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.Tms20 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.V20 | RW | RW | RW | RW |
+| 140 | hvrtx.curve.CrvNam | RW | RW | RW | RW |
+| 140 | hvrtx.curve.ReadOnly | R | R | R | R |

@@ -1,59 +1,59 @@
 # RBAC Reference for Model 137 (LVRTC)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 137 | lvrtc.ID | R | R | R | R | R |
-| 137 | lvrtc.L | R | R | R | R | R |
-| 137 | lvrtc.ActCrv | RW | RW | RW | RW | RW |
-| 137 | lvrtc.ModEna | RW | RW | RW | RW | RW |
-| 137 | lvrtc.WinTms | RW | RW | RW | RW | RW |
-| 137 | lvrtc.RvrtTms | RW | RW | RW | RW | RW |
-| 137 | lvrtc.RmpTms | RW | RW | RW | RW | RW |
-| 137 | lvrtc.NCrv | R | R | R | R | R |
-| 137 | lvrtc.NPt | R | R | R | R | R |
-| 137 | lvrtc.Tms_SF | R | R | R | R | R |
-| 137 | lvrtc.V_SF | R | R | R | R | R |
-| 137 | lvrtc.Pad | R | R | R | R | R |
-| 137 | lvrtc.curve.ActPt | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms1 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V1 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms2 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V2 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms3 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V3 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms4 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V4 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms5 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V5 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms6 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V6 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms7 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V7 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms8 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V8 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms9 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V9 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms10 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V10 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms11 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V11 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms12 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V12 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms13 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V13 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms14 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V14 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms15 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V15 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms16 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V16 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms17 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V17 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms18 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V18 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms19 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V19 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.Tms20 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.V20 | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.CrvNam | RW | RW | RW | RW | RW |
-| 137 | lvrtc.curve.ReadOnly | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 137 | lvrtc.ID | R | R | R | R |
+| 137 | lvrtc.L | R | R | R | R |
+| 137 | lvrtc.ActCrv | RW | RW | RW | RW |
+| 137 | lvrtc.ModEna | RW | RW | RW | RW |
+| 137 | lvrtc.WinTms | RW | RW | RW | RW |
+| 137 | lvrtc.RvrtTms | RW | RW | RW | RW |
+| 137 | lvrtc.RmpTms | RW | RW | RW | RW |
+| 137 | lvrtc.NCrv | R | R | R | R |
+| 137 | lvrtc.NPt | R | R | R | R |
+| 137 | lvrtc.Tms_SF | R | R | R | R |
+| 137 | lvrtc.V_SF | R | R | R | R |
+| 137 | lvrtc.Pad | R | R | R | R |
+| 137 | lvrtc.curve.ActPt | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms1 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V1 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms2 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V2 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms3 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V3 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms4 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V4 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms5 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V5 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms6 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V6 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms7 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V7 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms8 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V8 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms9 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V9 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms10 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V10 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms11 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V11 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms12 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V12 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms13 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V13 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms14 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V14 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms15 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V15 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms16 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V16 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms17 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V17 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms18 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V18 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms19 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V19 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.Tms20 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.V20 | RW | RW | RW | RW |
+| 137 | lvrtc.curve.CrvNam | RW | RW | RW | RW |
+| 137 | lvrtc.curve.ReadOnly | R | R | R | R |

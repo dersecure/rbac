@@ -9,12 +9,13 @@
                     {
                         "name": "Cert",
                         "read_roles": [
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec"
+                            "ReadOnlySunSpec",
+                            "GridServiceSunSpec",
+                            "NetworkAdministratorSunSpec",
+                            "SuperAdministratorSpec"
                         ],
                         "write_roles": [
-                            "DERInstallerSunSpec",
-                            "DERVendorSunSpec"
+                            "SuperAdministratorSpec"
                         ]
                     }
                 ],
@@ -28,11 +29,10 @@
                 "desc": "Model identifier",
                 "name": "ID",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -40,11 +40,10 @@
                 "desc": "Model length",
                 "name": "L",
                 "read_roles": [
-                    "DEROwnerSunSpec",
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec",
-                    "ServiceProviderSunSpec",
-                    "GridOperatorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": []
             },
@@ -52,1016 +51,1107 @@
                 "desc": "User ID for this certificate",
                 "name": "CertUID",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Role for this certificate",
                 "name": "CertRole",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Format of this certificate",
                 "name": "Fmt",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Type of this certificate",
                 "name": "Typ",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Total Length of the Certificate",
                 "name": "TotLn",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Length of this fragment",
                 "name": "FrgLn",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "First word of this fragment",
                 "name": "Frg1",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg2",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg3",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg4",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg5",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg6",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg7",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg8",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg9",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg10",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg11",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg12",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg13",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg14",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg15",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg16",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg17",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg18",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg19",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg20",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg21",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg22",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg23",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg24",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg25",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg26",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg27",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg28",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg29",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg30",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg31",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg32",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg33",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg34",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg35",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg36",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg37",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg38",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg39",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg40",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg41",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg42",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg43",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg44",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg45",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg46",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg47",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg48",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg49",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg50",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg51",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg52",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg53",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg54",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg55",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg56",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg57",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg58",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg59",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg60",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg61",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg62",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg63",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg64",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg65",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg66",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg67",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg68",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg69",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg70",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg71",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg72",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg73",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg74",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg75",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg78",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "name": "Frg79",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Last word of this fragment",
                 "name": "Frg80",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Timestamp value is the number of seconds since January 1, 2000",
                 "name": "Ts",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Millisecond counter 0-999",
                 "name": "Ms",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Sequence number of request",
                 "name": "Seq",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "User ID for the request signature",
                 "name": "UID",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Signing key used 0-5",
                 "name": "Role",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Algorithm used to compute the digital signature",
                 "name": "Alg",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             },
             {
                 "desc": "Number of registers to follow for the certificate",
                 "name": "N",
                 "read_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "ReadOnlySunSpec",
+                    "GridServiceSunSpec",
+                    "NetworkAdministratorSunSpec",
+                    "SuperAdministratorSpec"
                 ],
                 "write_roles": [
-                    "DERInstallerSunSpec",
-                    "DERVendorSunSpec"
+                    "SuperAdministratorSpec"
                 ]
             }
         ],

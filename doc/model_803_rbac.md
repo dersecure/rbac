@@ -1,58 +1,58 @@
 # RBAC Reference for Model 803 (Lithium-Ion Battery Bank Model)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 803 | lithium_ion_bank.ID | R | R | R | R | R |
-| 803 | lithium_ion_bank.L | R | R | R | R | R |
-| 803 | lithium_ion_bank.NStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.NStrCon | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMax | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMaxStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMaxMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMin | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMinStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpMinMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmpAvg | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrVMax | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrVMaxStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrVMin | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrVMinStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrVAvg | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrAMax | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrAMaxStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrAMin | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrAMinStr | R | R | R | R | R |
-| 803 | lithium_ion_bank.StrAAvg | R | R | R | R | R |
-| 803 | lithium_ion_bank.NCellBal | R | R | R | R | R |
-| 803 | lithium_ion_bank.CellV_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.ModTmp_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.A_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.SoH_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.SoC_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.V_SF | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrNMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrSt | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrConFail | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrSoC | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrSoH | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrA | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrCellVMax | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrCellVMaxMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrCellVMin | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrCellVMinMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrCellVAvg | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrModTmpMax | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrModTmpMaxMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrModTmpMin | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrModTmpMinMod | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrModTmpAvg | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrDisRsn | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrConSt | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrEvt1 | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrEvt2 | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrEvtVnd1 | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrEvtVnd2 | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.StrSetEna | RW | RW | RW | RW | RW |
-| 803 | lithium_ion_bank.string.StrSetCon | RW | RW | RW | RW | RW |
-| 803 | lithium_ion_bank.string.Pad1 | R | R | R | R | R |
-| 803 | lithium_ion_bank.string.Pad2 | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 803 | lithium_ion_bank.ID | R | R | R | R |
+| 803 | lithium_ion_bank.L | R | R | R | R |
+| 803 | lithium_ion_bank.NStr | R | R | R | R |
+| 803 | lithium_ion_bank.NStrCon | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMax | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMaxStr | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMaxMod | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMin | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMinStr | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpMinMod | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmpAvg | R | R | R | R |
+| 803 | lithium_ion_bank.StrVMax | R | R | R | R |
+| 803 | lithium_ion_bank.StrVMaxStr | R | R | R | R |
+| 803 | lithium_ion_bank.StrVMin | R | R | R | R |
+| 803 | lithium_ion_bank.StrVMinStr | R | R | R | R |
+| 803 | lithium_ion_bank.StrVAvg | R | R | R | R |
+| 803 | lithium_ion_bank.StrAMax | R | R | R | R |
+| 803 | lithium_ion_bank.StrAMaxStr | R | R | R | R |
+| 803 | lithium_ion_bank.StrAMin | R | R | R | R |
+| 803 | lithium_ion_bank.StrAMinStr | R | R | R | R |
+| 803 | lithium_ion_bank.StrAAvg | R | R | R | R |
+| 803 | lithium_ion_bank.NCellBal | R | R | R | R |
+| 803 | lithium_ion_bank.CellV_SF | R | R | R | R |
+| 803 | lithium_ion_bank.ModTmp_SF | R | R | R | R |
+| 803 | lithium_ion_bank.A_SF | R | R | R | R |
+| 803 | lithium_ion_bank.SoH_SF | R | R | R | R |
+| 803 | lithium_ion_bank.SoC_SF | R | R | R | R |
+| 803 | lithium_ion_bank.V_SF | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrNMod | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrSt | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrConFail | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrSoC | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrSoH | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrA | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrCellVMax | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrCellVMaxMod | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrCellVMin | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrCellVMinMod | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrCellVAvg | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrModTmpMax | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrModTmpMaxMod | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrModTmpMin | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrModTmpMinMod | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrModTmpAvg | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrDisRsn | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrConSt | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrEvt1 | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrEvt2 | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrEvtVnd1 | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrEvtVnd2 | R | R | R | R |
+| 803 | lithium_ion_bank.string.StrSetEna | RW | RW | RW | RW |
+| 803 | lithium_ion_bank.string.StrSetCon | RW | RW | RW | RW |
+| 803 | lithium_ion_bank.string.Pad1 | R | R | R | R |
+| 803 | lithium_ion_bank.string.Pad2 | R | R | R | R |

@@ -1,59 +1,59 @@
 # RBAC Reference for Model 136 (HFRT)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 136 | hfrt.ID | R | R | R | R | R |
-| 136 | hfrt.L | R | R | R | R | R |
-| 136 | hfrt.ActCrv | RW | RW | RW | RW | RW |
-| 136 | hfrt.ModEna | RW | RW | RW | RW | RW |
-| 136 | hfrt.WinTms | RW | RW | RW | RW | RW |
-| 136 | hfrt.RvrtTms | RW | RW | RW | RW | RW |
-| 136 | hfrt.RmpTms | RW | RW | RW | RW | RW |
-| 136 | hfrt.NCrv | R | R | R | R | R |
-| 136 | hfrt.NPt | R | R | R | R | R |
-| 136 | hfrt.Tms_SF | R | R | R | R | R |
-| 136 | hfrt.Hz_SF | R | R | R | R | R |
-| 136 | hfrt.Pad | R | R | R | R | R |
-| 136 | hfrt.curve.ActPt | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms1 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz1 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms2 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz2 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms3 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz3 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms4 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz4 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms5 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz5 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms6 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz6 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms7 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz7 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms8 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz8 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms9 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz9 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms10 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz10 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms11 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz11 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms12 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz12 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms13 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz13 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms14 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz14 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms15 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz15 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms16 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz16 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms17 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz17 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms18 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz18 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms19 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz19 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Tms20 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.Hz20 | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.CrvNam | RW | RW | RW | RW | RW |
-| 136 | hfrt.curve.ReadOnly | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 136 | hfrt.ID | R | R | R | R |
+| 136 | hfrt.L | R | R | R | R |
+| 136 | hfrt.ActCrv | RW | RW | RW | RW |
+| 136 | hfrt.ModEna | RW | RW | RW | RW |
+| 136 | hfrt.WinTms | RW | RW | RW | RW |
+| 136 | hfrt.RvrtTms | RW | RW | RW | RW |
+| 136 | hfrt.RmpTms | RW | RW | RW | RW |
+| 136 | hfrt.NCrv | R | R | R | R |
+| 136 | hfrt.NPt | R | R | R | R |
+| 136 | hfrt.Tms_SF | R | R | R | R |
+| 136 | hfrt.Hz_SF | R | R | R | R |
+| 136 | hfrt.Pad | R | R | R | R |
+| 136 | hfrt.curve.ActPt | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms1 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz1 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms2 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz2 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms3 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz3 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms4 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz4 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms5 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz5 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms6 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz6 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms7 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz7 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms8 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz8 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms9 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz9 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms10 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz10 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms11 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz11 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms12 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz12 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms13 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz13 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms14 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz14 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms15 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz15 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms16 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz16 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms17 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz17 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms18 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz18 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms19 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz19 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Tms20 | RW | RW | RW | RW |
+| 136 | hfrt.curve.Hz20 | RW | RW | RW | RW |
+| 136 | hfrt.curve.CrvNam | RW | RW | RW | RW |
+| 136 | hfrt.curve.ReadOnly | R | R | R | R |

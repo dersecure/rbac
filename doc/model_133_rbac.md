@@ -1,43 +1,43 @@
 # RBAC Reference for Model 133 (Basic Scheduling)
 
-| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |
-|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|
-| 133 | schedule.ID | R | R | R | R | R |
-| 133 | schedule.L | R | R | R | R | R |
-| 133 | schedule.ActSchd | RW | RW | RW | RW | RW |
-| 133 | schedule.ModEna | RW | RW | RW | RW | RW |
-| 133 | schedule.NSchd | R | R | R | R | R |
-| 133 | schedule.NPts | R | R | R | R | R |
-| 133 | schedule.Pad | R | R | R | R | R |
-| 133 | schedule.repeating.ActPts | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.StrTms | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.RepPer | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.IntvTyp | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.XTyp | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X_SF | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.YTyp | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y_SF | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X1 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y1 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X2 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y2 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X3 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y3 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X4 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y4 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X5 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y5 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X6 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y6 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X7 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y7 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X8 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y8 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X9 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y9 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.X10 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Y10 | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.Nam | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.WinTms | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.RmpTms | RW | RW | RW | RW | RW |
-| 133 | schedule.repeating.ActIndx | R | R | R | R | R |
+| Model | Point | ReadOnlySunSpec | GridServiceSunSpec | NetworkAdministratorSunSpec | SuperAdministratorSpec | 
+|-------|-------|------------------|---------------------|------------------|--------------------|
+| 133 | schedule.ID | R | R | R | R |
+| 133 | schedule.L | R | R | R | R |
+| 133 | schedule.ActSchd | RW | RW | RW | RW |
+| 133 | schedule.ModEna | RW | RW | RW | RW |
+| 133 | schedule.NSchd | R | R | R | R |
+| 133 | schedule.NPts | R | R | R | R |
+| 133 | schedule.Pad | R | R | R | R |
+| 133 | schedule.repeating.ActPts | RW | RW | RW | RW |
+| 133 | schedule.repeating.StrTms | RW | RW | RW | RW |
+| 133 | schedule.repeating.RepPer | RW | RW | RW | RW |
+| 133 | schedule.repeating.IntvTyp | RW | RW | RW | RW |
+| 133 | schedule.repeating.XTyp | RW | RW | RW | RW |
+| 133 | schedule.repeating.X_SF | RW | RW | RW | RW |
+| 133 | schedule.repeating.YTyp | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y_SF | RW | RW | RW | RW |
+| 133 | schedule.repeating.X1 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y1 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X2 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y2 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X3 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y3 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X4 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y4 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X5 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y5 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X6 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y6 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X7 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y7 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X8 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y8 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X9 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y9 | RW | RW | RW | RW |
+| 133 | schedule.repeating.X10 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Y10 | RW | RW | RW | RW |
+| 133 | schedule.repeating.Nam | RW | RW | RW | RW |
+| 133 | schedule.repeating.WinTms | RW | RW | RW | RW |
+| 133 | schedule.repeating.RmpTms | RW | RW | RW | RW |
+| 133 | schedule.repeating.ActIndx | R | R | R | R |

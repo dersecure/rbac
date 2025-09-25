@@ -16,16 +16,21 @@ import glob
 import subprocess
 import re
 from model_names import model_names
-from point_rules import POINT_LEVEL_RULES, SETTINGS_READ_ROLES, SETTINGS_WRITE_ROLES
 
-ROLES = ['DEROwnerSunSpec', 'DERInstallerSunSpec', 'DERVendorSunSpec', 'ServiceProviderSunSpec', 'GridOperatorSunSpec']
+ROLE_READONLY = 'ReadOnlySunSpec'
+ROLE_GRID_SERVICE = 'GridServiceSunSpec'
+ROLE_NET_ADMIN = 'NetworkAdministratorSunSpec'
+ROLE_SUPER_ADMIN = 'SuperAdministratorSpec'
+ROLES = [ROLE_READONLY, ROLE_GRID_SERVICE, ROLE_NET_ADMIN, ROLE_SUPER_ADMIN]
 
 SECURITY_MODELS = [2, 3, 4, 5, 6, 7, 8, 9]
-SEC_ROLES = ['DERInstallerSunSpec', 'DERVendorSunSpec']  # Configured during commissioning; rarely updated
+SECURITY_READ_ROLES = ROLES.copy()
+SECURITY_WRITE_ROLES = [ROLE_SUPER_ADMIN]  # Configured during commissioning; rarely updated
 
-COMM_MODELS = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-COMM_ROLES = ROLES  # All users can read this data
-COMM_WRITE_ROLES = ['DERInstallerSunSpec']  # If modifying this information, the user needs a commissioning role
+# Common model Modbus Unit ID is a communication point
+COMM_MODELS = [1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+COMM_READ_ROLES = ROLES.copy()  # All users can read this data
+COMM_WRITE_ROLES = [ROLE_NET_ADMIN, ROLE_SUPER_ADMIN]
 
 # fmt: off
 MEASUREMENT_MODELS = [
@@ -36,23 +41,51 @@ MEASUREMENT_MODELS = [
     804, 805, 806, 807, 808, 
 ]
 # fmt: on
-GPS_MODELS = [305]
-GPS_ROLES = ['ServiceProviderSunSpec', 'GridOperatorSunSpec']  # Read only
+MEASUREMENT_READ_ROLES = ROLES.copy()
+MEASUREMENT_WRITE_ROLES = ROLES.copy()
 
-NAMEPLATE_DATA_MODELS = [1, 120, 702]
-SETTINGS_MODELS = [121, 145]  # Model 702 is handled by the point-level rules
+GPS_MODELS = [305]
+GPS_READ_ROLES = ROLES.copy()
+GPS_WRITE_ROLES = [ROLE_GRID_SERVICE, ROLE_NET_ADMIN, ROLE_SUPER_ADMIN]  # Read only points?
+
+NAMEPLATE_DATA_MODELS = [120]
+NAMEPLATE_READ_ROLES = ROLES.copy()
+NAMEPLATE_WRITE_ROLES = [ROLE_GRID_SERVICE, ROLE_SUPER_ADMIN]
+
+SETTINGS_MODELS = [121, 145, 702]  # Model 702 is handled by the point-level rules
+SETTINGS_READ_ROLES = ROLES.copy()
+SETTINGS_WRITE_ROLES = [ROLE_GRID_SERVICE, ROLE_SUPER_ADMIN]
 
 PROTECTION_MODELS = [707, 708, 709, 710]
-PROTECTION_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec']
+PROTECTION_READ_ROLES = ROLES.copy()
+PROTECTION_WRITE_ROLES = [ROLE_SUPER_ADMIN]
 
 GRID_SUPPORT_CONTROL_MODELS = [123, 703, 704, 705, 706, 711, 712]
-GRID_SUPPORT_CONTROL_WRITE_ROLES = ['DERInstallerSunSpec', 'GridOperatorSunSpec', 'ServiceProviderSunSpec']
-GRID_SUPPORT_CONTROL_READ_ROLES = [
-    'DERInstallerSunSpec',
-    'DERVendorSunSpec',
-    'ServiceProviderSunSpec',
-    'GridOperatorSunSpec',
-]
+GRID_SUPPORT_CONTROL_READ_ROLES = ROLES.copy()
+GRID_SUPPORT_CONTROL_WRITE_ROLES = [ROLE_GRID_SERVICE, ROLE_SUPER_ADMIN]
+
+POINT_LEVEL_RULES = {
+    702: {  # 702 Settings
+        'DERCapacity.WMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WMaxOvrExt': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WOvrExtPF': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WMaxUndExt': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WUndExtPF': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VAMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VarMaxInj': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VarMaxAbs': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WChaRteMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.WDisChaRteMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VAChaRteMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VADisChaRteMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.VNom': {'read': SETTINGS_READ_ROLES, 'write': PROTECTION_WRITE_ROLES},
+        'DERCapacity.VMax': {'read': SETTINGS_READ_ROLES, 'write': PROTECTION_WRITE_ROLES},
+        'DERCapacity.VMin': {'read': SETTINGS_READ_ROLES, 'write': PROTECTION_WRITE_ROLES},
+        'DERCapacity.AMax': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.PFOvrExt': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+        'DERCapacity.PFUndExt': {'read': SETTINGS_READ_ROLES, 'write': SETTINGS_WRITE_ROLES},
+    }
+}
 
 
 def update_submodule():
@@ -145,36 +178,42 @@ def replace_points(obj, model_id):
                             filtered["read_roles"] = ROLES.copy()
                             filtered["write_roles"] = []
 
-                        # If the model in SECURITY_MODELS, allow read access to all roles
+                        # Security models
                         if model_id in SECURITY_MODELS:
-                            filtered["read_roles"] = SEC_ROLES.copy()
-                            filtered["write_roles"] = SEC_ROLES if access == "RW" else []
+                            filtered["read_roles"] = SECURITY_READ_ROLES.copy()
+                            filtered["write_roles"] = SECURITY_WRITE_ROLES.copy() if access == "RW" else []
 
-                        # If the model in COMM_MODELS, allow read access to all roles
+                        # Communication models
                         if model_id in COMM_MODELS:
-                            filtered["read_roles"] = COMM_ROLES.copy()
-                            filtered["write_roles"] = COMM_ROLES.copy() if access == "RW" else []
+                            filtered["read_roles"] = COMM_READ_ROLES.copy()
+                            filtered["write_roles"] = COMM_WRITE_ROLES.copy() if access == "RW" else []
 
-                        # If the model in MEASUREMENT_MODELS, allow read access to all roles
+                        # Measurement models
                         if model_id in MEASUREMENT_MODELS:
-                            filtered["read_roles"] = ROLES.copy()
+                            filtered["read_roles"] = MEASUREMENT_READ_ROLES.copy()
+                            filtered["write_roles"] = MEASUREMENT_WRITE_ROLES.copy() if access == "RW" else []
 
+                        # GPS models
                         if model_id in GPS_MODELS:
-                            filtered["read_roles"] = GPS_ROLES.copy()
-                            filtered["write_roles"] = GPS_ROLES.copy() if access == "RW" else []
+                            filtered["read_roles"] = GPS_READ_ROLES.copy()
+                            filtered["write_roles"] = GPS_WRITE_ROLES.copy() if access == "RW" else []
 
-                        # If the model in MEASUREMENT_MODELS, allow read access to all roles
+                        # Nameplate data models
                         if model_id in NAMEPLATE_DATA_MODELS:
-                            filtered["read_roles"] = ROLES.copy()
+                            filtered["read_roles"] = NAMEPLATE_READ_ROLES.copy()
+                            filtered["write_roles"] = NAMEPLATE_WRITE_ROLES.copy() if access == "RW" else []
 
+                        # Settings models
                         if model_id in SETTINGS_MODELS:
                             filtered["read_roles"] = SETTINGS_READ_ROLES.copy()
                             filtered["write_roles"] = SETTINGS_WRITE_ROLES.copy() if access == "RW" else []
 
+                        # Protection models
                         if model_id in PROTECTION_MODELS:
-                            filtered["read_roles"] = PROTECTION_ROLES.copy()
-                            filtered["write_roles"] = PROTECTION_ROLES.copy() if access == "RW" else []
+                            filtered["read_roles"] = PROTECTION_READ_ROLES.copy()
+                            filtered["write_roles"] = PROTECTION_WRITE_ROLES.copy() if access == "RW" else []
 
+                        # Grid support control models
                         if model_id in GRID_SUPPORT_CONTROL_MODELS:
                             filtered["read_roles"] = GRID_SUPPORT_CONTROL_READ_ROLES.copy()
                             filtered["write_roles"] = GRID_SUPPORT_CONTROL_WRITE_ROLES.copy() if access == "RW" else []
@@ -187,9 +226,7 @@ def replace_points(obj, model_id):
                         ):
                             rule = POINT_LEVEL_RULES[model_id][fq_name]
                             filtered["read_roles"] = rule.get("read", filtered["read_roles"])
-                            filtered["write_roles"] = (
-                                rule.get("write", filtered["write_roles"]) if access == "RW" else []
-                            )
+                            filtered["write_roles"] = rule.get("write", filtered["write_roles"])
 
                         # Finally, if the point is "L" or "ID", allow read for all roles for SunSpec discovery
                         if isinstance(filtered, dict) and filtered.get("name") in ("L", "ID"):
@@ -280,10 +317,10 @@ def generate_roles_to_rights():
 
                 model_md.write(f"# RBAC Reference for Model {model_id} ({model_name_str})\n\n")
                 model_md.write(
-                    "| Model | Point | DEROwnerSunSpec | DERInstallerSunSpec | DERVendorSunSpec | ServiceProviderSunSpec | GridOperatorSunSpec |\n"
+                    f"| Model | Point | {ROLE_READONLY} | {ROLE_GRID_SERVICE} | {ROLE_NET_ADMIN} | {ROLE_SUPER_ADMIN} | \n"
                 )
                 model_md.write(
-                    "|-------|-------|------------------|---------------------|------------------|------------------------|---------------------|\n"
+                    "|-------|-------|------------------|---------------------|------------------|--------------------|\n"
                 )
 
                 for pt_name, pt in point_roles.items():
@@ -297,11 +334,10 @@ def generate_roles_to_rights():
                             role_values[role] += "W"
                     model_md.write(
                         f"| {model_id} | {pt_name} | "
-                        f"{role_values.get('DEROwnerSunSpec', '')} | "
-                        f"{role_values.get('DERInstallerSunSpec', '')} | "
-                        f"{role_values.get('DERVendorSunSpec', '')} | "
-                        f"{role_values.get('ServiceProviderSunSpec', '')} | "
-                        f"{role_values.get('GridOperatorSunSpec', '')} |\n"
+                        f"{role_values.get(ROLE_READONLY, '')} | "
+                        f"{role_values.get(ROLE_GRID_SERVICE, '')} | "
+                        f"{role_values.get(ROLE_NET_ADMIN, '')} | "
+                        f"{role_values.get(ROLE_SUPER_ADMIN, '')} |\n"
                     )
 
 
